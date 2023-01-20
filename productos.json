@@ -1,0 +1,9 @@
+{
+  "productos":[
+    {"nombre":"Azucar","codigo":1432, "Precio":45
+  },
+  {
+    "nombre":"Arroz", "codigo":7485, "Precio":49
+  }
+]
+}
