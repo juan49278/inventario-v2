@@ -34,42 +34,49 @@ addEventListener('DOMContentLoaded', async ()=>{
   search.addEventListener('keyup', function (event){
     if(event.code == 'Enter'){
       filter()
-      $("#button").click()
+      $("button").click()
     }
   })
   
   function filter(){
+    listGroup.innerHTML = ""
     let productos = data.productos
-    for(let i=0; i < productos.length; i ++){
-      let code = data.productos[i].codigo
-      if(code == parseInt(search.value)){
+    let cantidad = document.querySelector("input#quantity")
+    for(let producto of productos){
+      if(parseInt(search.value) == producto.codigo){
         showModal()
-      }
-      if (code == parseInt(search.value)){
-        listGroup.innerHTML = `
-        No se encontro el producto
+          findResults.innerHTML += `
+        <li class="list-group-item">${producto.nombre} -- Codigo de barra: ${producto.codigo} Cantidad: ${cantidad.innerHTML}</li>
         `
+        }
       }
     }
-  }
   
   function showModal(){
     document.getElementById("listGroup").innerHTML = `
+    <form>
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ver Producto</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          Ingresar cantidad
+          <input type="number" id="quantity" class="form-control mt-2 mb-2">
+          Ingresar precio
+          <input type="number" id="price" class="form-control mt-2 mb-2">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
         </div>
       </div>
     </div>
-  </div>`
+  </div>
+  </form>`
+  }
+  function save(){
+    let cantidad = document.querySelector("input#quantity").value
+    let precio = document.querySelector("input#price")
   }
