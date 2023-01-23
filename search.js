@@ -53,3 +53,4 @@ function filter() {
 function save(){
   precio = price.value
   cantidad = quantity.value
+}
