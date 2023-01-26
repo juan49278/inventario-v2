@@ -1,410 +1,239 @@
 {
-  "productos": [
+  "productos" :[
+    { "nombre" : " Azúcar " , "codigo" : 1432 , "Precio" : 45
+  },
+  {
+    "nombre" : " Arroz " , "codigo" : 7485 , "Precio" : 49
+  },
+  {
+    "nombre": "Arroz Saman 1kg", "codigo": 7730115040105 ,"Precio":66},
     {
-      "nombre": " Azúcar ",
-      "codigo": 1432,
-      "Precio": 45
+      "nombre": "Arroz Parboiled 1kg", "codigo": 7730115030106, "Precio":68
     },
     {
-      "nombre": " Arroz ",
-      "codigo": 7485,
-      "Precio": 49
+      "nombre": "Margarina Adorita 500g", "codigo":7891152507805, "Precio":105
     },
     {
-      "nombre": "Arroz Saman 1kg",
-      "codigo": 7730115040105,
-      "Precio": 66
+      "nombre": "Margarina Adorita 250g", "codigo": 7891152507799, "Precio":58
     },
     {
-      "nombre": "Arroz Parboiled 1kg",
-      "codigo": 7730115030106,
-      "Precio": 68
+      "nombre": "Salsa para helado", "codigo":7730124805511,"codigo1":7730124807508, "Precio":156
     },
     {
-      "nombre": "Margarina Adorita 500g",
-      "codigo": 7891152507805,
-      "Precio": 105
+      "nombre": "Miel Los Nietitos 250g", "codigo":7730124031507, "Precio":121
     },
     {
-      "nombre": "Margarina Adorita 250g",
-      "codigo": 7891152507799,
-      "Precio": 58
+      "nombre": "Miel Los Nietitos 700g", "codigo": 7730124000176, "Precio": 279
     },
     {
-      "nombre": "Salsa para helado",
-      "codigo": 7730124805511,
-      "codigo1": 7730124807508,
-      "Precio": 156
+      "nombre": "Dulce membrillo Los Nietitos 400g", "codigo": 7730124020501, "Precio":71
     },
     {
-      "nombre": "Miel Los Nietitos 250g",
-      "codigo": 7730124031507,
-      "Precio": 121
+      "nombre": "Batata con chocolate Los Nietitos", "codigo":7730124255019, "Precio": 75
     },
     {
-      "nombre": "Miel Los Nietitos 700g",
-      "codigo": 7730124000176,
-      "Precio": 279
+      "nombre": "Dulce membrillo Los Nietitos 450g 0%", "codigo":7730124572406, "Precio": 114
     },
     {
-      "nombre": "Dulce membrillo Los Nietitos 400g",
-      "codigo": 7730124020501,
-      "Precio": 71
+      "nombre": "Batata Los Nietitos 250g 0%", "codigo": 7730124000169, "Precio":75
     },
     {
-      "nombre": "Batata con chocolate Los Nietitos",
-      "codigo": 7730124255019,
-      "Precio": 75
+      "nombre":"Dulce membrillo Los Nietitos 250g 0%", "codigo":7730124571508, "Precio": 77
     },
     {
-      "nombre": "Dulce membrillo Los Nietitos 450g 0%",
-      "codigo": 7730124572406,
-      "Precio": 114
+      "nombre": "Dulce de Leche Los Nietitos 0% Pote", "codigo":7730124572505, "Precio": 213
     },
     {
-      "nombre": "Batata Los Nietitos 250g 0%",
-      "codigo": 7730124000169,
-      "Precio": 75
+      "nombre": "Dulce de Leche Los Nietitos 0% frasco", "codigo": 7730124000671, "Precio": 210
     },
     {
-      "nombre": "Dulce membrillo Los Nietitos 250g 0%",
-      "codigo": 7730124571508,
-      "Precio": 77
+      "nombre": "Dulce de leche Creme chocolate", "codigo": 7730124001746, "Precio": 136
     },
     {
-      "nombre": "Dulce de Leche Los Nietitos 0% Pote",
-      "codigo": 7730124572505,
-      "Precio": 213
+      "nombre": "Dulce de leche Los Nietitos 250g", "codigo": 7730124382517, "Precio" : 73
     },
     {
-      "nombre": "Dulce de Leche Los Nietitos 0% frasco",
-      "codigo": 7730124000671,
-      "Precio": 210
+      "nombre": "Dulce de leche Los Nietitos 500g", "codigo": 7730124383002, "Precio" :127
     },
     {
-      "nombre": "Dulce de leche Creme chocolate",
-      "codigo": 7730124001746,
-      "Precio": 136
+      "nombre": "Dulce de leche Los Nietitos 1kg","codigo": 7730124384009 ,"Precio": 210
     },
     {
-      "nombre": "Dulce de leche Los Nietitos 250g",
-      "codigo": 7730124382517,
-      "Precio": 73
+      "nombre": "Jugos Big C", "codigo" : 7730920130565,"codigo1":7730920130558,"codigo2":7730920130862,"codigo3":7730920130589, "codigo4":7730920130596, "Precio":70
     },
     {
-      "nombre": "Dulce de leche Los Nietitos 500g",
-      "codigo": 7730124383002,
-      "Precio": 127
+      "nombre": "Mermelada Los Nietitos 500g Durazno", "codigo": 7730124010304, "Precio": 116
     },
     {
-      "nombre": "Dulce de leche Los Nietitos 1kg",
-      "codigo": 7730124384009,
-      "Precio": 210
+      "nombre": "Mermelada Los Nietitos 500g Arandano", "codigo":7730124153001, "Precio": 134
     },
     {
-      "nombre": "Jugos Big C",
-      "codigo": 7730920130565,
-      "codigo1": 7730920130558,
-      "codigo2": 7730920130862,
-      "codigo3": 7730920130589,
-      "codigo4": 7730920130596,
-      "Precio": 70
+      "nombre": "Mermelada Los Nietitos 500g Zapallo", "codigo":7730124011301,"Precio":106
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Durazno",
-      "codigo": 7730124010304,
-      "Precio": 116
+      "nombre":"Mermelada Los Nietitos 500g Ciruela","codigo":7730124014302, "Precio":113
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Arandano",
-      "codigo": 7730124153001,
-      "Precio": 134
+      "nombre":"Mermelada Los Nietitos 500g Higo", "codigo":7730124012308,"Precio":116
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Zapallo",
-      "codigo": 7730124011301,
-      "Precio": 106
+      "nombre": "Mermelada Los Nietitos 500g Tres frutos", "codigo":7730124000275, "Precio":148
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Ciruela",
-      "codigo": 7730124014302,
-      "Precio": 113
+      "nombre":"Mermelada Los Nietitos 500g Frutilla", "codigo":7730124016306, "Precio":140
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Higo",
-      "codigo": 7730124012308,
-      "Precio": 116
+      "nombre": "Mermelada Los Nietitos 400g 0% Durazno", "codigo":773012400602 ,"Precio":134
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Tres frutos",
-      "codigo": 7730124000275,
-      "Precio": 148
+      "nombre": "Mermelada Los Nietitos 400g 0% Ciruela", "codigo":7730124002903, "Precio": 126
     },
     {
-      "nombre": "Mermelada Los Nietitos 500g Frutilla",
-      "codigo": 7730124016306,
-      "Precio": 140
+      "nombre": "Mermelada Los Nietitos 400g 0% Higo", "codigo":7730124000589, "Precio": 133
     },
     {
-      "nombre": "Mermelada Los Nietitos 400g 0% Durazno",
-      "codigo": 773012400602,
-      "Precio": 134
+      "nombre": "Mermelada Los Nietitos 400g 0% Zapallo", "codigo":7730124002828, "Precio": 120
     },
     {
-      "nombre": "Mermelada Los Nietitos 400g 0% Ciruela",
-      "codigo": 7730124002903,
-      "Precio": 126
+      "nombre": "Mermelada Los Nietitos 400g 0% Tres frutos", "codigo": 7730124002507, "Precio": 163
     },
     {
-      "nombre": "Mermelada Los Nietitos 400g 0% Higo",
-      "codigo": 7730124000589,
-      "Precio": 133
+      "nombre": "Mermelada Los Nietitos 250g Durazno", "codigo": 7730124010205, "Precio": 66
     },
     {
-      "nombre": "Mermelada Los Nietitos 400g 0% Zapallo",
-      "codigo": 7730124002828,
-      "Precio": 120
+      "nombre": "Mermelada Los Nietitos 250g Frutilla", "codigo": 7730124016207, "Precio": 79
     },
     {
-      "nombre": "Mermelada Los Nietitos 400g 0% Tres frutos",
-      "codigo": 7730124002507,
-      "Precio": 163
+      "nombre":"Mermelada Los Nietitos 250g Tomate", "codigo": 7730124019208, "Precio": 81
     },
     {
-      "nombre": "Mermelada Los Nietitos 250g Durazno",
-      "codigo": 7730124010205,
-      "Precio": 66
+      "nombre": "Mermelada Los Nietitos 250g Higo", "codigo": 7730124012209, "Precio":66
     },
     {
-      "nombre": "Mermelada Los Nietitos 250g Frutilla",
-      "codigo": 7730124016207,
-      "Precio": 79
+      "nombre":"Mermelada Los Nietitos 250g Zapallo", "codigo": 7730124011202, "Precio": 62
     },
     {
-      "nombre": "Mermelada Los Nietitos 250g Tomate",
-      "codigo": 7730124019208,
-      "Precio": 81
+      "nombre": "Mermelada Los Nietitos 340g 0% Arandano", "codigo": 7730124002149, "Precio":170
     },
     {
-      "nombre": "Mermelada Los Nietitos 250g Higo",
-      "codigo": 7730124012209,
-      "Precio": 66
+      "nombre": "Mermelada Los Nietitos 340g 0% Naranja", "codigo": 7730124002118, "Precio": 137
     },
     {
-      "nombre": "Mermelada Los Nietitos 250g Zapallo",
-      "codigo": 7730124011202,
-      "Precio": 62
+      "nombre": "Mermelada Los Nietitos 340g 0% Higo", "codigo": 7730124002101, "Precio": 142
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Arandano",
-      "codigo": 7730124002149,
-      "Precio": 170
+      "nombre": "Mermelada Los Nietitos 340g 0% Ciruela", "codigo": 7730124002156, "Precio": 142
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Naranja",
-      "codigo": 7730124002118,
-      "Precio": 137
+      "nombre": "Mermelada Los Nietitos 340g 0% Tres frutos", "codigo": 7730124002132, "Precio": 167
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Higo",
-      "codigo": 7730124002101,
-      "Precio": 142
+      "nombre": "Mermelada Los Nietitos 340g 0% Naranja Maracuya", "codigo": 7730124002583, "Precio":167
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Ciruela",
-      "codigo": 7730124002156,
-      "Precio": 142
+      "nombre": "Mermelada Los Nietitos 340g 0% Frutilla", "codigo": 7730124002095, "Precio": 158
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Tres frutos",
-      "codigo": 7730124002132,
-      "Precio": 167
+      "nombre": "Mermelada Los Nietitos 340g 0% Durazno", "codigo": 7730124002088, "Precio": 146
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Naranja Maracuya",
-      "codigo": 7730124002583,
-      "Precio": 167
+      "nombre": "Mermelada Los Nietitos 340g 0% Durazno Mango", "codigo":7730124002576, "Precio": 168
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Frutilla",
-      "codigo": 7730124002095,
-      "Precio": 158
+      "nombre": "Sazon para el horno Maggi", "codigo": 7613034258618, "codigo1": 7613035202337, "codigo2": 7613035190467, "Precio": 88
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Durazno",
-      "codigo": 7730124002088,
-      "Precio": 146
+    "nombre": "Pure de papas Demas 1kg", "codigo": 7730914674136, "Precio": 269
     },
     {
-      "nombre": "Mermelada Los Nietitos 340g 0% Durazno Mango",
-      "codigo": 7730124002576,
-      "Precio": 168
+      "nombre": "Barbacoa Hellmans", "codigo": 7794000003583, "Precio": 139
     },
     {
-      "nombre": "Sazon para el horno Maggi",
-      "codigo": 7613034258618,
-      "codigo1": 7613035202337,
-      "codigo2": 7613035190467,
-      "Precio": 88
+      "nombre": "Ketchup Hellmans 250g", "codigo": 7794000006188, "Precio": 77
     },
     {
-      "nombre": "Pure de papas Demas 1kg",
-      "codigo": 7730914674136,
-      "Precio": 269
+      "nombre": "Salsa soja 500ml baja en sodio","codigo": 7896007800124, "Precio": 136
     },
     {
-      "nombre": "Barbacoa Hellmans",
-      "codigo": 7794000003583,
-      "Precio": 139
+      "nombre": "Salsa de ajo", "codigo": 7896007811311, "Precio": 76
     },
     {
-      "nombre": "Ketchup Hellmans 250g",
-      "codigo": 7794000006188,
-      "Precio": 77
+      "nombre": "Salsa picante Kenko", "codigo": 7896007811304, "Precio": 69
     },
     {
-      "nombre": "Salsa soja 500ml baja en sodio",
-      "codigo": 7896007800124,
-      "Precio": 136
+      "nombre": "Mostaza Oderich 1kg", "codigo": 7896041172782, "Precio": 109
     },
     {
-      "nombre": "Salsa de ajo",
-      "codigo": 7896007811311,
-      "Precio": 76
+      "nombre": "Mayonesa Hellmans 1kg", "codigo": 7794000006058, "Precio": 319
     },
     {
-      "nombre": "Salsa picante Kenko",
-      "codigo": 7896007811304,
-      "Precio": 69
-    },
-    {
-      "nombre": "Mostaza Oderich 1kg",
-      "codigo": 7896041172782,
-      "Precio": 109
-    },
+      "nombre": "Mayonesa Uruguay 1kg", "codigo": 7730132001417, "Precio": 175
+    }, 
     {
-      "nombre": "Mayonesa Hellmans 1kg",
-      "codigo": 7794000006058,
-      "Precio": 319
+      "nombre": "Oliva Basso 500ml", "codigo": 8004123002752, "Precio": 255
     },
     {
-      "nombre": "Mayonesa Uruguay 1kg",
-      "codigo": 7730132001417,
-      "Precio": 175
+      "nombre": "Oliva Basso 1l", "codigo": 80140139, "Precio": 465
     },
     {
-      "nombre": "Oliva Basso 500ml",
-      "codigo": 8004123002752,
-      "Precio": 255
+      "nombre": "Olivar del Virrey", "codigo": 7730997130017, "Precio": 479
     },
     {
-      "nombre": "Oliva Basso 1l",
-      "codigo": 80140139,
-      "Precio": 465
+      "nombre": "Vinagre Alcohol Cololo 750ml", "codigo": 7730213005853, "Precio": 42
     },
     {
-      "nombre": "Olivar del Virrey",
-      "codigo": 7730997130017,
-      "Precio": 479
+      "nombre": "Merengues Zagonel", "codigo": 7897207901017, "Precio": 66
     },
     {
-      "nombre": "Vinagre Alcohol Cololo 750ml",
-      "codigo": 7730213005853,
-      "Precio": 42
+      "nombre": "Chiquilin El Trigal", "codigo": 7730116120141, "Precio": 112
     },
     {
-      "nombre": "Merengues Zagonel",
-      "codigo": 7897207901017,
-      "Precio": 66
+      "nombre": "Coco y Miel El Trigal", "codigo": 7730116113136, "codigo1": 7730116111132, "Precio": 112
     },
     {
-      "nombre": "Chiquilin El Trigal",
-      "codigo": 7730116120141,
-      "Precio": 112
+      "nombre": "Galletas Solar", "codigo": 7730110221011, "Precio": 103
     },
     {
-      "nombre": "Coco y Miel El Trigal",
-      "codigo": 7730116113136,
-      "codigo1": 7730116111132,
-      "Precio": 112
+      "nombre": "Galletas Solar coco", "codigo": 7622300862251, "Precio": 105
     },
     {
-      "nombre": "Galletas Solar",
-      "codigo": 7730110221011,
-      "Precio": 103
+      "nombre": "Cric-crac Semillas", "codigo": 7730116287127, "Precio": 85
     },
     {
-      "nombre": "Galletas Solar coco",
-      "codigo": 7622300862251,
-      "Precio": 105
+      "nombre": "Uruguayitas El Trigal", "codigo": 7730116294125, "Precio": 135
     },
     {
-      "nombre": "Cric-crac Semillas",
-      "codigo": 7730116287127,
-      "Precio": 85
+      "nombre": "Finitas El Trigal", "codigo": 7730172275168, "codigo1": 7730172275113, "codigo2": 7730116281125, "codigo3": 7730116292121, "Precio": 135
     },
     {
-      "nombre": "Uruguayitas El Trigal",
-      "codigo": 7730116294125,
-      "Precio": 135
+      "nombre": "Galletas Tostex Colores", "codigo": 7798125810477, "Precio": 105
     },
     {
-      "nombre": "Finitas El Trigal",
-      "codigo": 7730172275168,
-      "codigo1": 7730172275113,
-      "codigo2": 7730116281125,
-      "codigo3": 7730116292121,
-      "Precio": 135
+      "nombre": "Galleta Tostex con chispas Mani", "codigo": 7798125810781, "Precio": 105
     },
     {
-      "nombre": "Galletas Tostex Colores",
-      "codigo": 7798125810477,
-      "Precio": 105
+      "nombre": "Galletas Tostex surtidas", "codigo": 7798125810705, "Precio": 105
     },
     {
-      "nombre": "Galleta Tostex con chispas Mani",
-      "codigo": 7798125810781,
-      "Precio": 105
+      "nombre": "Galletas Tostex Avena y pasas", "codigo": 7798125810590, "Precio": 115
     },
     {
-      "nombre": "Galletas Tostex surtidas",
-      "codigo": 7798125810705,
-      "Precio": 105
+      "nombre": "Galletas Tostex Avena y Naranja", "codigo": 7798125810576, "Precio": 115
     },
     {
-      "nombre": "Galletas Tostex Avena y pasas",
-      "codigo": 7798125810590,
-      "Precio": 115
+      "nombre": "Galletas Tostex Avena y Miel", "codigo": 7798125810774, "Precio": 115
     },
     {
-      "nombre": "Galletas Tostex Avena y Naranja",
-      "codigo": 7798125810576,
-      "Precio": 115
+      "nombre": "Galletas Tostex con chispas chocolate", "codigo": 7798125810583, "Precio": 115
     },
-    {
-      "nombre": "Galletas Tostex Avena y Miel",
-      "codigo": 7798125810774,
-      "Precio": 115
-    },
-    {
-      "nombre": "Galletas Tostex con chispas chocolate",
-      "codigo": 7798125810583,
-      "Precio": 115
+    { 
+      "nombre": "Galletitas Lulú", "codigo": 7730110000517, "codigo1": 7730110331932, "codigo2": 7730110332038, "codigo3": 7622300392024, "Precio": 64
     },
     {
-      "nombre": "Galletitas Lulú",
-      "codigo": 7730110000517,
-      "codigo1": 7730110331932,
-      "codigo2": 7730110332038,
-      "codigo3": 7622300392024,
-      "Precio": 64
+      "nombre": "Galletitas Oreo", "codigo": 7622201521967, "codigo1": 7622201806552, "codigo2": 7622201806682, "Precio": 87
     },
     {
-      "nombre": "Galletitas Oreo",
-      "codigo": 7622201521967,
-      "codigo1": 7622201806552,
-      "codigo2": 7622201806682,
-      "Precio": 87
+      "nombre": "Arroz Cheff 1kg", "codigo":7730114400016, "Precio":49
     }
-  ]
+]
 }
