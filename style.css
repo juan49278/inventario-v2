@@ -60,7 +60,7 @@ canvas.drawingBuffer {
 }
 
 body {
-  background-image: url('../frigo.png');
+  background-image: url('frigo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
