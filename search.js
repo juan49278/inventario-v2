@@ -1,7 +1,9 @@
 addEventListener('DOMContentLoaded', async () => {
+  showSpinner()
   let promise = await fetch('productos.json')
   let result = await promise.json()
   data = result
+  hideSpinner()
 })
 
 function show() {
@@ -32,7 +34,7 @@ search.addEventListener('input', () => {
 })
 
 search.addEventListener("keypress", function(e) {
-  if (e.code === 'Enter') {
+  if (e.code == 'Enter' || e.code == 13) {
     filter()
     document.getElementById("btnSearch").click();
     document.getElementById("btnSearch").onclick = filter();
@@ -40,6 +42,7 @@ search.addEventListener("keypress", function(e) {
 });
 
 function filter() {
+  showSpinner()
   let nombre = ""
   let productos = data.productos
   for (let producto of productos) {
@@ -47,6 +50,7 @@ function filter() {
     if (search.value == producto.codigo || search.value == producto.codigo1 || search.value == producto.codigo2 || search.value == producto.codigo3 || search.value == producto.codigo4) {
       exampleModalLabel.innerHTML = `Producto: ${nombre}`
       price.value = producto.Precio
+      hideSpinner()
     }
   }
 }
