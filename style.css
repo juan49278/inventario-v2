@@ -1,0 +1,71 @@
+#contenedor video{
+	max-width: 100%;
+	width: 100%;
+}
+#contenedor{
+	max-width: 100%;
+	position:relative;
+}
+canvas{
+	max-width: 100%;
+}
+canvas.drawingBuffer{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#table{
+  color: white;
+}
+#spinner {
+  width: 64px;
+  height: 64px;
+  border: 3px solid #f1010100;
+  border-radius: 50%;
+  border-left-color: #ff0000;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 1021;
+  animation: spin 0.9s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#animation{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  display: none;
+  box-sizing: border-box;
+  position:fixed;
+  left: 0%;
+  top: 0%;
+}
+body{
+  background-image: url('../frigo.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:top;
+  background-attachment:fixed;
+  color: black;
+}
+.container{
+  background-color: rgb(10, 16, 70);
+  opacity: 0.8;
+}
+
+#footer{
+  background-color: rgb(10, 16, 70);
+  opacity: 0.9;
+  position: static;
+}
