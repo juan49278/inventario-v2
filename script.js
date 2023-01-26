@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   Quagga.init({
     inputStream: {
       constraints: {
-        width: 320,
-        height: 480,
+        width: 1920,
+        height: 1080,
       },
       name: "Live",
       type: "LiveStream",
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     decoder: {
       readers: ["ean_reader"]
     }
-  }, function(err) {
+  }, function (err) {
     if (err) {
       console.log(err);
       return
@@ -62,7 +62,7 @@ function calculoBalance() {
   });
 
   document.querySelector(`span#result`).innerHTML = resultado;
-let mesShow = document.querySelector("input#mes").value
+  let mesShow = document.querySelector("input#mes").value
   mesVal.innerHTML = mesShow
 }
 let showSpinner = function () {
@@ -77,3 +77,12 @@ function guardarLocal() {
   let table = document.getElementById('table').innerHTML
   localStorage.setItem('table' + document.title, table)
 }
+function alert() {
+  Swal.fire({
+    title: 'Listo!',
+    text: 'Se empezó a descargar tu Excel',
+    icon: 'info'
+  })
+}
+
+const swal = require('sweetalert2')

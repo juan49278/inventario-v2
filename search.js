@@ -8,20 +8,20 @@ addEventListener('DOMContentLoaded', async () => {
 
 function show() {
   let toAppened = ""
-    toAppened = `<tr>
+  toAppened = `<tr>
             <th scope="row" class="small">${search.value}</th>
             <td class="col-span-2">${exampleModalLabel.innerHTML.split(":")[1]}</td>
-            <td class="col-span-2"><input type="number" placeholder="Cant." class="form-control cant col-8 col-md-3" aria-label="cant" value=${cantidad}><p class="cant d-none"></p>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value=${cantidad}><p class="cant d-none"></p>
             <td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" onchange="guardarLocal()"class="form-control precio col-10 col-md-3" aria-label="precio" value=${precio}><p class="precio d-none"></p>
             <td class="col-span-2"> $<span class="total"></span>
             </tr>`
-            document.getElementById('productos').innerHTML += toAppened
-  }
-  
+  document.getElementById('productos').innerHTML += toAppened
+}
+
 
 const search = document.querySelector('input#search')
 const button = document.getElementById('btnSearch')
-const list = document.querySelecto&&r('div#listGroup')
+const list = document.querySelecto && r('div#listGroup')
 let cantidad = document.querySelector("input#quantity")
 let precio = document.querySelector("input#price")
 
@@ -33,8 +33,8 @@ search.addEventListener('input', () => {
   }
 })
 
-search.addEventListener("keypress", function(e) {
-  if (e.code == 'Enter' || e.code == 13) {
+search.addEventListener("keypress", function (e) {
+  if (e.code == 'Enter' || e.code == 13 || e.which == 13) {
     filter()
     document.getElementById("btnSearch").click();
     document.getElementById("btnSearch").onclick = filter();
@@ -54,7 +54,10 @@ function filter() {
     }
   }
 }
-function save(){
+function save() {
   precio = price.value
   cantidad = quantity.value
+}
+function copy() {
+  search.value = document.querySelector('p#resultado').innerHTML
 }
