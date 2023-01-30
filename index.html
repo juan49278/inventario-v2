@@ -25,16 +25,17 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5 text-black" id="camscanLabel">Escanear con camara</h1>
+                <h1 class="modal-title fs-5 text-black" id="camscanLabel">Escaneá el código con la cámara</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <p id="resultado">Aquí aparecerá el código</p><button class="btn btn-danger" onclick="copy()">Pegar en
-                  buscador
-                </button>
+                <p id="resultado">Aquí aparecerá el código</p>
                 <div id="contenedor">
 
                 </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="copy()">Copiar en el buscador y cerrar</button>
               </div>
             </div>
           </div>
@@ -48,6 +49,9 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
+            <div id="agregarProducto">
+
+            </div>
             Ingresar cantidad
             <input type="number" id="quantity" class="form-control mt-2 mb-2" placeholder="Cantidad" value="" required>
             Ingresar precio
@@ -55,7 +59,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
-              onclick="save(), show(), calcular()">Guardar</button>
+              onclick="save(), show(), calcular(), findDuplicate()">Guardar</button>
           </div>
         </div>
       </div>
@@ -63,26 +67,27 @@
   </form>
       </div>
   <div class="container text-white">
-    <div class="row d-flex">
+    <div class="row d-flex justify-content-md-around">
        <h1 class="text-center text-white">Inventario</h1>
-      <div class="col-md-4 col-7">
+      <div class="col-md-4 col-6">
         <h4 class="mt-3">Buscar Artículo</h4>
         <input type="number" name="search" id="search" class="form-control col-3 mt-2"
           placeholder="Escaneá el código">
-        <button class="btn btn-info mt-3 disabled" id="btnSearch" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        <button class="btn btn-secondary mt-3 disabled" id="btnSearch" data-bs-toggle="modal" data-bs-target="#exampleModal"
           onclick="filter()">Buscar</button>
         <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#camscan">
-          Usar cámara
+          Escanear con cámara
         </button>
+        <button class="btn btn-dark d-none" id="btnError">No se encontro</button>
+          </div>
+          <div class="col-md-4 col-6">
+            <h4 class="mt-3">Selecciona fecha</h4>
+            <input type="date" name="mes" id="mes" class="form-control mb-3">
           </div>
         </div>
-        <div class="col-md-4 col-4">
-        <h4 class="mt-3">Selecciona fecha</h4>
-        <input type="date" name="mes" id="mes" class="form-control mb-3">
-      </div>
     </div>
   <div class="container">
-    <div class="row d-flex justify-content-between">
+    <div class="row">
       <div class="col">
         <div id="content">
           <ul class="nav nav-tabs mt-2" id="myTab" role="tablist">

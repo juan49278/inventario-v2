@@ -1,9 +1,9 @@
 {
   "productos" :[
-    { "nombre" : " Azúcar " , "codigo" : 1432 , "Precio" : 45
+    { "nombre" : "Azúcar" , "codigo" : 1432 , "Precio" : 45
   },
   {
-    "nombre" : " Arroz " , "codigo" : 7485 , "Precio" : 49
+    "nombre" : " Arroz" , "codigo" : 7485 , "Precio" : 49
   },
   {
     "nombre": "Arroz Saman 1kg", "codigo": 7730115040105 ,"Precio":66},
@@ -234,6 +234,135 @@
     },
     {
       "nombre": "Arroz Cheff 1kg", "codigo":7730114400016, "Precio":49
+    },
+    {
+      "nombre": "Galleta Cric-crac", "codigo": 7730116251111, "Precio": 175
+    },
+    {
+      "nombre": "Galleta My Bit cracker", "codigo":7896408444620 ,"Precio":119
+    },
+    {
+      "nombre":"Whisky Gregson 1l", "codigo":7730282000483, "Precio":469
+    },
+    {
+      "nombre":"Whisky Dunbar", "codigo":7730901310054, "Precio":499
+    },
+    {
+      "nombre":"Whisky Ballantimes", "codigo":5010106111925, "Precio":949
+    },
+    {
+      "nombre":"Whisky Sandy Mac", "codigo":5010408251589, "Precio":899
+    },
+    {
+      "nombre":"Whisky Something", "codigo":"080432402771" , "Precio":641
+    },
+    {
+      "nombre":"Whisky Jhonnie Red Label", "codigo":5000267013626, "Precio":1049
+    },
+    {
+      "nombre":"Whisky William Lawson", "codigo":5010752000345, "Precio":549
+    },
+    {
+      "nombre":"Arroz Aruba", "codigo":7730115170109, "Precio":39
+    },
+    {
+      "nombre":"Leche Parmalat", "codigo":7891097001024, "codigo1":7891097001048, "Precio":78
+    },
+    {
+      "nombre":"Leche Conaprole caja", "codigo":7730105021374, "codigo1":7730105021381, "Precio":61
+    },
+    {
+      "nombre":"Arroz Saman 500g", "codigo":7730115000239, "Precio":35
+    },
+    {
+      "nombre":"Fideos Adria", "codigo":7730103300488, "codigo1":7730103301072, "codigo2":7730103090488, "codigo3":7730103300242, "codigo4":7730103301102, "Precio":102
+    },
+    {
+      "nombre":"Semola Adria", "codigo":7730103000975, "Precio":40
+    },
+    {
+      "nombre":"Fideo Pomarola sopa", "codigo":7730956020199, "codigo1":7730956020175, "codigo2":7730956020205, "Precio":41
+    },
+    {
+      "nombre":"Galleta Salvado sin sal Famosa", "codigo":7730110311927, "Precio":165
+    },
+    {
+      "nombre":"Galleta Panina", "codigo":7730116242164, "Precio":123
+    },
+    {
+      "nombre":"Galleta Arroz Natural rice", "codigo":7730984010018, "codigo1":7730984010032, "Precio":67
+    },
+    {
+      "nombre":"Galleta Arroz Saman", "codigo":7730115717403, "codigo1":7730115717106, "Precio":71
+    },
+    {
+      "nombre":"Galleta Arroz Saman mini", "codigo":7730115000420, "codigo1":7730115000413, "Precio":83
+    },
+    {
+      "nombre":"Magic Toast", "codigo":7896003702309, "codigo1":7896003702415, "Precio":90
+    },
+    {
+      "nombre":"Galleta Mediodia El Trigal", "codigo":7730116248159, "Precio":89
+    },
+    {
+      "nombre":"Galleta Zeze Luna", "codigo":7896200024006, "Precio":86
+    },
+    {
+      "nombre":"Galleta Maria Mosmann 170g", "codigo":7896324289602, "Precio":33
+    },
+    {
+      "nombre":"Granadina 1l", "codigo":7730210000059, "Precio":0
+    },
+    {
+      "nombre":"Azúcar Aruba", "codigo":7730115000451, "Precio":54
+    },
+    {
+      "nombre":"Faisan 1l", "codigo":7730540000507, "codigo1":7730540000170, "codigo2":7730540001191, "codigo3":7730540000200, "codigo4":7730540000194, "Precio":0
+    },
+    {
+      "nombre":"Azúcar Puritas", "codigo":7730354004067, "Precio":44
+    },
+    {
+      "nombre":"Vodka + Jugo", "codigo":7730210000646, "Precio":459
+    },
+    {
+      "nombre":"Vodka Wiborova", "codigo":5900685006050, "Precio":0
+    },
+    {
+      "nombre":"Vodka Siberia petaca", "codigo":7730210000349, "Precio":0
+    },
+    {
+      "nombre":"Whisky White Horse", "codigo":5000265090056, "Precio":649
+    },
+    {
+      "nombre":"Whisky Monje", "codigo":5000281001739, "Precio":0
+    },
+    {
+      "nombre":"Martini", "codigo":7730302000622, "codigo1":7790950134834 ,"Precio":339
+    },
+    {
+      "nombre":"Fernet Branca", "codigo":7790290001193, "Precio":0
+    },
+    {
+      "nombre":"Whisky William Lawson petaca", "codigo":5010752004206, "Precio":0
+    },
+    {
+      "nombre":"Blenders petaca", "codigo":7792410010047, "Precio":0
+    },
+    {
+      "nombre":"Whisky 100 pipers", "codigo":"080432402856", "Precio":0
+    }, 
+    {
+      "nombre":"Petaca Criadores", "codigo":77906106, "Precio":0
+    }, 
+    {
+      "nombre":"Grappamiel vesubio 1l", "codigo":7730210000035, "Precio":279
+    }, 
+    {
+      "nombre":"Whisky Blenders 1l", "codigo":7730901310078, "Precio":0
+    },
+    {
+      "nombre":""
     }
 ]
 }
