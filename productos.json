@@ -711,7 +711,52 @@
       "nombre":"Jugos Rigby 1l", "codigo":7730493067039, "codigo1":7730493067053, "codigo2":7730493067015, "Precio":59
     },
     {
-      "nombre":""
+      "nombre":"Aceite Condesa", "codigo":7730132000434, "Precio":85
+    },
+    {
+      "nombre":"Galleta Hipopo", "codigo":7896286618779, "codigo1":7896286618748 ,"codigo2":7896286618366, "codigo3":7896286618373, "codigo4":7896286618397, "Precio":20
+    },
+    {
+      "nombre":"Papas Lays 400g", "codigo":7790310982853, "Precio":270
+    },
+    {
+      "nombre":"Doritos 250g", "codigo":7802000016820, "Precio":0
+    },
+    {
+      "nombre":"Papas Lays 250g", "codigo":7790310981191, "Precio":0
+    },
+    {
+      "nombre":"Papas Ruffles 150g", "codigo": 7802000008535, "Precio":0
+    },
+    {
+      "nombre":"Picada Lays", "codigo": 7730311000903, "Precio":0
+    },
+    {
+      "nombre":"Latas Cololo", "codigo": 7730213000131, "Precio":0
+    },
+    {
+      "nombre":"Vinagre de Alcohol Gamberoni 1l", "codigo":7730302303129, "Precio":0
+    },
+    {
+      "nombre":"Vinagre Manzana Gamberoni 500ml", "codigo":7730302312244, "Precio":0
+    },
+    {
+      "nombre":"Vinagre Manzana Gamberoni 1l", "codigo":7730302313128, "Precio":0
+    },
+    {
+      "nombre":"Papas tubo Stax", "codigo":7501011178861, "Precio":0
+    },
+    {
+      "nombre":"Pack Arveja + choclo + jardinera Rio", "codigo":7730205095176, "Precio":0
+    },
+    {
+      "nombre":"Durazno Rio 0%", "codigo":7730205077202, "Precio":0
+    },
+    {
+      "nombre":"Durazno Rio", "codigo":7730205106513, "Precio":0
+    },
+    {
+      "nombre":"Atun Lomito Rio 354g", "codigo": 7730205074652, "Precio":0
     }
 ]
 }
