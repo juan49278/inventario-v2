@@ -991,6 +991,15 @@
     },
     {
       "nombre":"Arveja sin sal Rio", "codigo":7730205107961, "Precio":0
+    },
+    {
+      "nombre":"Surtidas El Trigal", "codigo":7730116103304, "Precio":129
+    },
+    {
+      "nombre":"Sin sal El Trigal", "codigo":7730116259155, "Precio":158
+    },
+    {
+      "nombre":"Palitos Stack", "codigo":7730955840385, "Precio":189
     }
     ]
 }
