@@ -29,6 +29,7 @@ function show() {
             <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value=${cantidad}><p class="cant d-none"></p>
             <td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" onchange="guardarLocal()"class="form-control precio col-10 col-md-3" aria-label="precio" value=${precio}><p class="precio d-none"></p>
             <td class="col-span-2"> $<span class="total"></span>
+            <td><input type="button" class="btn btn-danger borrar" value="Eliminar" /></td>
             </tr>`
   document.getElementById('productos').innerHTML += toAppened
 }
@@ -98,3 +99,9 @@ btnClean.addEventListener('click', ()=>{
   localStorage.removeItem('tableSalon')
   window.location.reload()
 })
+$(function () {
+  $(document).on('click', '.borrar', function (event) {
+      event.preventDefault();
+      $(this).closest('tr').remove();
+  });
+});
