@@ -982,6 +982,12 @@
     },
     {
       "nombre":"Jugos Big C chico", "codigo":7730920130763, "Precio":0
+    },
+    {
+      "nombre":"Durazno Citral", "codigo":7898917393017, "Precio":0
+    },
+    {
+      "nombre":"Faina Puritas", "codigo":7730354005309, "Precio":0
     }
     ]
 }
