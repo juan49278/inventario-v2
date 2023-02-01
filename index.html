@@ -57,7 +57,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
-              onclick="save(), show(), calcular(), findDuplicate()">Guardar</button>
+              onclick="save(), show(), calcular()">Guardar</button>
           </div>
         </div>
       </div>
@@ -125,7 +125,273 @@
               </tr>
             </thead>
             <tbody class="form-control-md" id="productos">
-            </tbody>
+            <tr>
+            <th scope="row" class="small">773078112004</th>
+            <td class="col-span-2 nombre"> Farinia La Sembradora</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="38"><p class="cant d-none">38</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354003633</th>
+            <td class="col-span-2 nombre"> Fideo Buonapasta</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="118"><p class="cant d-none">118</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354002834</th>
+            <td class="col-span-2 nombre"> Fideo Don Gusto</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="624"><p class="cant d-none">624</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="59"><p class="precio d-none">59</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">36816</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7798141971923</th>
+            <td class="col-span-2 nombre"> Fideo La Teresina</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="52"><p class="cant d-none">52</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="29"><p class="precio d-none">29</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">1508</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730956020120</th>
+            <td class="col-span-2 nombre"> Fideo Pomarola verde</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="13"><p class="cant d-none">13</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354001813</th>
+            <td class="col-span-2 nombre"> Fideos Puritas 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="122"><p class="cant d-none">122</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="69"><p class="precio d-none">69</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">8418</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354003176</th>
+            <td class="col-span-2 nombre"> Fideos Puritas 400g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="336"><p class="cant d-none">336</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730116150193</th>
+            <td class="col-span-2 nombre"> Rallopan 400g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="19"><p class="cant d-none">19</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730172252190</th>
+            <td class="col-span-2 nombre"> Rallopan 450g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="108"><p class="cant d-none">108</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730914674136</th>
+            <td class="col-span-2 nombre"> Pure de papas Demas 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="29"><p class="cant d-none">29</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="269"><p class="precio d-none">269</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">7801</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354002797</th>
+            <td class="col-span-2 nombre"> Pure de papas Puritas 125g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="96"><p class="cant d-none">96</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="12"><p class="precio d-none">12</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">1152</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730205037756</th>
+            <td class="col-span-2 nombre"> Yerba Armiño clasica 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="19"><p class="cant d-none">19</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730205037749</th>
+            <td class="col-span-2 nombre"> Yerba Armiño clasica 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="16"><p class="cant d-none">16</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730205065162</th>
+            <td class="col-span-2 nombre"> Yerba Armiño compuesta 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="12"><p class="cant d-none">12</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730205072863</th>
+            <td class="col-span-2 nombre"> Yerba Armiño suave 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="16"><p class="cant d-none">16</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730205072870</th>
+            <td class="col-span-2 nombre"> Yerba Armiño suave 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="22"><p class="cant d-none">22</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003920</th>
+            <td class="col-span-2 nombre"> Yerba Baldo 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="11"><p class="cant d-none">11</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003906</th>
+            <td class="col-span-2 nombre"> Yerba Baldo 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="17"><p class="cant d-none">17</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003654</th>
+            <td class="col-span-2 nombre"> Yerba Canarias 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="23"><p class="cant d-none">23</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003661</th>
+            <td class="col-span-2 nombre"> Yerba Canarias 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="29"><p class="cant d-none">29</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003715</th>
+            <td class="col-span-2 nombre"> Yerba Canarias edicion especial</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="4"><p class="cant d-none">4</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241010294</th>
+            <td class="col-span-2 nombre"> Yerba Serena 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="35"><p class="cant d-none">35</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241009038</th>
+            <td class="col-span-2 nombre"> Yerba Serena 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="11"><p class="cant d-none">11</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241009137</th>
+            <td class="col-span-2 nombre"> Yerba Canarias te rojo y te verde</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="6"><p class="cant d-none">6</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003821</th>
+            <td class="col-span-2 nombre"> Yerba Contigo roja 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="13"><p class="cant d-none">13</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003814</th>
+            <td class="col-span-2 nombre"> Yerba Contigo roja 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="12"><p class="cant d-none">12</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003807</th>
+            <td class="col-span-2 nombre"> Yerba Contigo verde 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="8"><p class="cant d-none">8</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730241003791</th>
+            <td class="col-span-2 nombre"> Yerba Contigo verde 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="11"><p class="cant d-none">11</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282002524</th>
+            <td class="col-span-2 nombre"> Yerba Sara compuesta 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="10"><p class="cant d-none">10</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282002531</th>
+            <td class="col-span-2 nombre"> Yerba Sara compuesta 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="29"><p class="cant d-none">29</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282002357</th>
+            <td class="col-span-2 nombre"> Yerba Sara seleccionada 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="46"><p class="cant d-none">46</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282000582</th>
+            <td class="col-span-2 nombre"> Yerba Sara suave 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="12"><p class="cant d-none">12</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282000599</th>
+            <td class="col-span-2 nombre"> Yerba Sara suave 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="22"><p class="cant d-none">22</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282000018</th>
+            <td class="col-span-2 nombre"> Yerba Sara clasica 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="5"><p class="cant d-none">5</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730282002623</th>
+            <td class="col-span-2 nombre"> Yerba Sara clasica 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="9"><p class="cant d-none">9</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354002902</th>
+            <td class="col-span-2 nombre"> Yerba Serrana 1kg</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="45"><p class="cant d-none">45</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354002919</th>
+            <td class="col-span-2 nombre"> Yerba Serrana 500g</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="55"><p class="cant d-none">55</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="0"><p class="precio d-none">0</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">0</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr><tr>
+            <th scope="row" class="small">7730354005514</th>
+            <td class="col-span-2 nombre"> Yerba Cebador intensa + azucar</td>
+            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="58"><p class="cant d-none">58</p>
+            </td><td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="199"><p class="precio d-none">199</p>
+            </td><td class="col-span-2"> $<span class="total" onclick="guardarLocal()">11542</span>
+            </td><td><input type="button" class="btn btn-danger borrar" value="Eliminar"></td>
+            </tr></tbody>
             <tfoot>
               <tr>
                 <td>Total balance:</td>
