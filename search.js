@@ -82,7 +82,7 @@ function save() {
   cantidad = quantity.value
 }
 function copy() {
-  search.value = document.querySelector('p#resultado').innerHTML
+  search.value = document.querySelector('p#resultado').innerHTML 
 }
 
 function findDuplicate(){
