@@ -1,4 +1,4 @@
-﻿{
+{
   "productos": [
     {
       "nombre": "Arroz Saman 1kg",
@@ -955,7 +955,7 @@
       "nombre": "Jardinera Emigrante",
       "codigo": 7730267023476,
       "codigo1": 7730267024886,
-      "Precio": 43
+      "Precio": 46
     },
     {
       "nombre": "Choclo Emigrante",
@@ -1112,12 +1112,12 @@
       "nombre": "Agua Matutina 2.5l",
       "codigo": 7730400003877,
       "codigo1": 7730400003884,
-      "Precio": 50
+      "Precio": 37
     },
     {
       "nombre": "Bidon Salus 6l",
       "codigo": 7730400002771,
-      "Precio": 126
+      "Precio": 89
     },
     {
       "nombre": "Sidra Gorlero 1l",
@@ -1834,7 +1834,7 @@
     {
       "nombre": "Agua sifon 2l Esencial",
       "codigo": 7791913000814,
-      "Precio": 73
+      "Precio": 57
     },
     {
       "nombre": "Agua Salus bidon 6l",
@@ -1845,7 +1845,7 @@
       "nombre": "Agua Matutina x4",
       "codigo": 7730922256119,
       "codigo1": 7730922256102,
-      "Precio": 145
+      "Precio": 99
     },
     {
       "nombre": "Avena 200g Puritas",
@@ -1886,11 +1886,13 @@
     {
       "nombre": "Arveja Aida",
       "codigo": 7,
+      "codigo1": 7730354003428,
       "Precio": 23
     },
     {
       "nombre": "Tomate Cololo",
       "codigo": 8,
+      "codigo1": 7730213003071,
       "Precio": 57
     },
     {
@@ -2083,7 +2085,7 @@
     {
       "nombre": "Azúcar Rubia",
       "codigo": 7730975890384,
-      "Precio": 76
+      "Precio": 72
     },
     {
       "nombre": "Pure de papas Knorr 125g",
@@ -2144,7 +2146,7 @@
     {
       "nombre": "Pan rallado Cañuelas",
       "codigo": 792180138859,
-      "Precio": 73
+      "Precio": 77
     },
     {
       "nombre": "Pan Magno Lactal",
@@ -2229,7 +2231,7 @@
     {
       "nombre": "Nuez moscada molida",
       "codigo": 77304926,
-      "Precio": 68
+      "Precio": 38
     },
     {
       "nombre": "Condimenton",
@@ -2584,7 +2586,7 @@
       "nombre": "Sal baja en sodio",
       "codigo": 7730177003148,
       "codigo1": 7730172003148,
-      "Precio": 125
+      "Precio": 165
     },
     {
       "nombre": "Royal 200g",
@@ -2701,6 +2703,433 @@
       "nombre": "Nestle Ecco 170g",
       "codigo": 7802950002324,
       "Precio": 330
+    },
+    {
+      "nombre": "Sardina Dukita",
+      "codigo": 7730566000659,
+      "Precio": 53
+    },
+    {
+      "nombre": "Paté Oderich",
+      "codigo": 7896041108019,
+      "codigo1": 7896041108026,
+      "codigo2": 7896041108071,
+      "codigo3": 7896041108057,
+      "Precio": 43
+    },
+    {
+      "nombre": "Champiñones laminados frasco Rio",
+      "codigo": 7730205045720,
+      "Precio": 131
+    },
+    {
+      "nombre": "Champiñones laminados Emigrante", 
+      "codigo": 7730267005953,
+      "Precio": 105
+    },
+    {
+      "nombre": "Palmitos rodaja Emigrante", 
+      "codigo": 7730267007544,
+      "Precio": 115
+    },
+    {
+      "nombre": "Arveja Emigrante 300g",
+      "codigo": 7730267024879,
+      "Precio": 31
+    },
+    {
+      "nombre": "Atún lomito oliva Emigrante 354g",
+      "codigo": 7730267009982,
+      "Precio": 247
+    },
+    {
+      "nombre": "Chantilly Fleischmann 100g",
+      "codigo": 7730917690348,
+      "Precio": 130
+    },
+    {
+      "nombre": "Chantilly Fleischmann 50g",
+      "codigo": 7730917690201,
+      "Precio": 83
+    },
+    {
+      "nombre": "Flan Fleischmann",
+      "codigo": 7730917690393,
+      "Precio": 99
+    },
+    {
+      "nombre": "Chantilly light Fleischmann 75g",
+      "codigo": 7730917691277,
+      "Precio": 130
+    },
+    {
+      "nombre": "Salsa blanca sabores",
+      "codigo": 7730177003056,
+      "codigo1": 7730177002677,
+      "Precio": 50
+    },
+    {
+      "nombre": "Salsa blanca",
+      "codigo": 7730177000734,
+      "Precio": 48
+    },
+    {
+      "nombre": "Ajil 25g",
+      "codigo": 7730177000215,
+      "Precio": 63
+    },
+    {
+      "nombre": "Orégano 25g",
+      "codigo": 7730177000048,
+      "Precio": 50
+    },
+    {
+      "nombre": "Adobo 25g",
+      "codigo": 7730177000130,
+      "Precio": 52
+    },
+    {
+      "nombre": "Bracafe 100g",
+      "codigo": 7613035511576,
+      "Precio": 331
+    },
+    {
+      "nombre": "Bracafe 170g",
+      "codigo": 7613035511590,
+      "Precio": 478
+    },
+    {
+      "nombre": "Nescafe tradicional 200g + recarga",
+      "codigo": 7613031578931,
+      "Precio": 555
+    },
+    {
+      "nombre": "Nescafe original 200g + recarga",
+      "codigo": 7613031578917,
+      "Precio": 555
+    },
+    {
+      "nombre": "Nescafe tradicional 100g",
+      "codigo": 7891000016589,
+      "Precio": 295
+    },
+    {
+      "nombre": "Nescafe original 100g",
+      "codigo": 7891000300503,
+      "Precio": 295
+    },
+    {
+      "nombre": "Nescafe descafeinado 100g",
+      "codigo": 7613035379213,
+      "Precio": 445
+    },
+    {
+      "nombre": "Capuchino Nescafe 18g", 
+      "codigo": 7613033458507,
+      "codigo1": 7613033458101,
+      "codigo2": 7613033458538,
+      "Precio": 42
+    },
+    {
+      "nombre": "Bracafe 3 en 1",
+      "codigo": 7613035218208,
+      "Precio": 30,
+    },
+    {
+      "nombre": "Vascolet 100g",
+      "codigo": 7613287466846,
+      "Precio": 46
+    },
+    {
+      "nombre": "Vascolet 200g",
+      "codigo": 7613287472021,
+      "Precio": 95
+    },
+    {
+      "nombre": "Vascolet 500g",
+      "codigo": 7613287466389,
+      "Precio": 230
+    },
+    {
+      "nombre": "Cocoa Copacabana 100g",
+      "codigo": 7613035325036,
+      "Precio": 48
+    },
+    {
+      "nombre": "Cocoa Copacabana 200g",
+      "codigo": 7613035321557,
+      "Precio": 102
+    },
+    {
+      "nombre": "Cocoa Copacabana 500g",
+      "codigo": 7613035320710,
+      "Precio": 255
+    },
+    {
+      "nombre": "Cacao puro Nestle 200g",
+      "codigo": 7613036886192,
+      "Precio": 205
+    },
+    {
+      "nombre": "Cacao Nestle 500g",
+      "codigo": 7613039707555,
+      "Precio": 279
+    },
+    {
+      "nombre": "Cacao Nestle 200g",
+      "codigo": 7730109000122,
+      "Precio": 142
+    },
+    {
+      "nombre": "Bizcochuelo Fleischmann",
+      "codigo": 7730917691376,
+      "codigo1": 7730917691222,
+      "Precio": 196
+    },
+    {
+      "nombre": "Muffins Fleischmann",
+      "codigo": 7730917691383,
+      "Precio": 223
+    },
+    {
+      "nombre": "Gelatina sin sabor",
+      "codigo": 7622201106034,
+      "Precio": 63
+    },
+    {
+      "nombre": "Colores 20cc",
+      "codigo": 77310309,
+      "codigo1": 77310323,
+      "codigo2": 77310330,
+      "codigo3": 77310316,
+      "Precio": 78
+    },
+    {
+      "nombre": "Vainilla 20ml",
+      "codigo": 77310248,
+      "Precio": 66
+    },
+    {
+      "nombre": "Vainilla 60ml",
+      "codigo": 7730177000369,
+      "Precio": 97
+    },
+    {
+      "nombre": "Gelatina 8 porciones",
+      "codigo": 7730110141821,
+      "Precio": 86
+    },
+    {
+      "nombre": "Flan 8 porciones",
+      "codigo": 7730110124220,
+      "Precio": 86
+    },
+    {
+      "nombre": "Postre 8 porciones",
+      "codigo": 7730110124077,
+      "Precio": 86
+    },
+    {
+      "nombre": "Postre 4 porciones",
+      "codigo": 7622300226237,
+      "Precio": 45
+    },
+    {
+      "nombre": "Bracafe recarga",
+      "codigo": 7730109000306,
+      "Precio": 139
+    },
+    {
+      "nombre": "Café Chana 250g", 
+      "codigo": 7730109012323,
+      "Precio": 339
+    },
+    {
+      "nombre": "Café Águila 500g",
+      "codigo": 7730109012552,
+      "Precio": 505
+    },
+    {
+      "nombre": "Café Águila 250g",
+      "codigo": 7730109012521,
+      "Precio": 289
+    },
+    {
+      "nombre": "Café Águila 100g",
+      "codigo": 7730109012514,
+      "Precio": 125
+    },
+    {
+      "nombre": "Maizena 550g",
+      "codigo": 7794000005389,
+      "Precio": 173
+    },
+    {
+      "nombre": "Te President 90g",
+      "codigo": 7730282031081,
+      "Precio": 125
+    },
+    {
+      "nombre": "Te verde hebras Hornimans",
+      "codigo": 7730261000084,
+      "Precio": 57
+    },
+    {
+      "nombre": "Te amarillo hebras Hornimans",
+      "codigo": 7730261000107,
+      "Precio": 70
+    },
+    {
+      "nombre": "Te rojo hebras Hornimans", 
+      "codigo": 7730261000091,
+      "Precio": 47
+    },
+    {
+      "nombre": "Te canarias x10", 
+      "codigo": 7730241080013,
+      "Precio": 47
+    },
+    {
+      "nombre": "Te canarias sabores",
+      "codigo": 7730241080563,
+      "codigo1": 7730241080501,
+      "codigo2": 7730241080082,
+      "codigo3": 7730241080198,
+      "codigo4": 7730241080655,
+      "Precio": 70
+    },
+    {
+      "nombre": "Te canarias sabores",
+      "codigo": 7730241080488,
+      "Precio": 70
+    },
+    {
+      "nombre": "Te Hornimans x10", 
+      "codigo": 7730261000046,
+      "Precio": 43
+    },
+    {
+      "nombre": "Cereal Trix 90g",
+      "codigo": 7613034413062,
+      "Precio": 81
+    },
+    {
+      "nombre": "Bracafe sticks x14",
+      "codigo": 8445290239495,
+      "Precio": 78
+    },
+    {
+      "nombre": "Café Águila sticks x10",
+      "codigo": 7613035758018,
+      "Precio": 50
+    },
+    {
+      "nombre": "Sal de ajo 75g",
+      "codigo": 7730177000789,
+      "Precio": 125
+    },
+    {
+      "nombre": "Levadura Fleischmann 100g",
+      "codigo": 7730917690157,
+      "Precio": 214
+    },
+    {
+      "nombre": "Levadura Fleischmann 55g",
+      "codigo": 7730917691420,
+      "Precio": 129
+    },
+    {
+      "nombre": "Levadura Terry 10g",
+      "codigo": 77309730,
+      "Precio": 29
+    },
+    {
+      "nombre": "Polvo de hornear Fleischmann", 
+      "codigo": 7730917691505,
+      "Precio": 20
+    },
+    {
+      "nombre": "Royal 30g",
+      "codigo": 762220176731,
+      "Precio": 25
+    },
+    {
+      "nombre": "Royal 200g",
+      "codigo": 7622201767716,
+      "Precio": 123
+    },
+    {
+      "nombre": "Pan rallado clásico La Triguenia",
+      "codigo": 7730221000079,
+      "Precio": 91
+    },
+    {
+      "nombre": "Sopa Gourmet",
+      "codigo": 7730306001847,
+      "codigo1": 7730306001601,
+      "Precio": 85
+    },
+    {
+      "nombre": "Agua mineral sin gas Esencial", 
+      "codigo": 7730914390029,
+      "Precio": 37
+    },
+    {
+      "nombre": "Papas ruffles 135g",
+      "codigo": 7802000017148,
+      "Precio": 140
+    },
+    {
+      "nombre": "Galletas dulces Rio",
+      "codigo": 7730205103475,
+      "codigo1": 7730205103468,
+      "codigo2": 7730205103451,
+      "codigo3": 7730205103444,
+      "Precio": 73
+    },
+    {
+      "nombre": "Galletas salvado sin sal Rio", 
+      "codigo": 7730205104496,
+      "Precio": 139
+    },
+    {
+      "nombre": "Galletas semillas Rio",
+      "codigo": 7730205104489,
+      "Precio": 84
+    },
+    {
+      "nombre": "Galletas salvado Rio", 
+      "codigo": 7730205104502,
+      "Precio": 92
+    },
+    {
+      "nombre": "Galletas sin sal vegana Rio",
+      "codigo": 7730205104342,
+      "Precio": 129
+    },
+    {
+      "nombre": "Ades 200ml",
+      "codigo": 7790895643743,
+      "codigo1": 7790895643712,
+      "codigo2": 7790895643767,
+      "codigo3": 7790895643729,
+      "Precio": 33
+    },
+    {
+      "nombre": "Speed 250ml",
+      "codigo": 7798119220015,
+      "Precio": 105
+    },
+    {
+      "nombre": "Speed 473ml",
+      "codigo": 7798119220183,
+      "Precio": 125
+    },
+    {
+      "nombre": "Fideos instantáneo Ninfa",
+      "codigo": 7896111419847,
+      "codigo1": 7896111419885,
+      "Precio": 16
     }
   ]
 }
