@@ -21,8 +21,6 @@ canvas.drawingBuffer {
 #table {
   color: white;
   box-sizing: content-box;
-  width: 100%;
-  height: max-content;
 }
 
 #spinner {
