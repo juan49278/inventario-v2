@@ -1,4 +1,4 @@
-  //Carga principal de la pagina con el evento DOMContentLoad
+//Carga principal de la pagina con el evento DOMContentLoad
 addEventListener('DOMContentLoaded', async () => {
   showSpinner()
   let promise = await fetch('productos.json')
@@ -288,7 +288,7 @@ function duplicate(a) {
     if (arrays.includes(a) && arrays.includes(b)) {
       duplicateYes.play()
       swal({
-        title:"Atención",
+        title: "Atención",
         icon: "info",
         text: `Se encontró el siguiente
         Producto duplicado: ${b}`,
@@ -299,14 +299,14 @@ function duplicate(a) {
 }
 
 //Borrar lista de Productos y tabla
-function deleteAll(){
+function deleteAll() {
   swal({
     title: "¿Estás seguro?",
     text: "Se borrará todo el progreso de la tabla y TODOS los Productos la acción no se puede deshacer",
     icon: "warning",
     buttons: true
   }).then((result) => {
-    if(result ==true) {
+    if (result == true) {
       swal({
         title: "Listo",
         icon: "info",
@@ -327,20 +327,20 @@ if (toastTrigger) {
   })
 }
 
-function launchModal(){
+function launchModal() {
   modalListProducts.classList.remove("d-none")
   modalListProducts.classList.add("d-block")
   recoverProductsList()
 }
 
-function closeModalProducts(){
+function closeModalProducts() {
   modalListProducts.classList.remove("d-block")
   modalListProducts.classList.add("d-none")
 }
 
 //Mostrar Productos actualizados en modal
-function recoverProductsList(){
-  for(arrays of arraysAdded){
+function recoverProductsList() {
+  for (arrays of arraysAdded) {
     nombre = arrays.nombre
     precio = arrays.Precio
     codigo = arrays.codigo

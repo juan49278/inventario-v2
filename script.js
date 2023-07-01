@@ -41,17 +41,17 @@ $(document).ready(() => {
   });
 })
 
-  $(document).ready(() => {
-    $("#listUpdate").click(function() {
-      downloadExcel()
-      $("#bodyProductTable").table2excel({
-        exclude: ".noExl",
-        name: "Worksheet Name",
-        filename: "Productos" + "_" + (document.title),
-        fileext: ".xls"
-      });
+$(document).ready(() => {
+  $("#listUpdate").click(function () {
+    downloadExcel()
+    $("#bodyProductTable").table2excel({
+      exclude: ".noExl",
+      name: "Worksheet Name",
+      filename: "Productos" + "_" + (document.title),
+      fileext: ".xls"
     });
-  })
+  });
+})
 
 function calcular() {
   let todosInputs = document.querySelectorAll('input.cant');
@@ -97,4 +97,4 @@ function downloadExcel() {
     text: 'Se empezó a descargar tu Excel',
     icon: 'info'
   })
-    }
+}

@@ -68,7 +68,7 @@ body {
   background-position: top;
   background-attachment: fixed;
   color: black;
-  font-family: Ubuntu,sans-serif
+  font-family: Ubuntu, sans-serif
 }
 
 .container {
@@ -81,9 +81,12 @@ body {
   opacity: 0.9;
   position: static;
 }
+
 .swal-modal {
   background-color: #6874F4;
 }
-.swal-text, .swal-title {
+
+.swal-text,
+.swal-title {
   color: white;
 }
