@@ -21,7 +21,8 @@ canvas.drawingBuffer {
 #table {
   color: white;
   box-sizing: content-box;
-  max-height: 100%;
+  width: 100%;
+  height: max-content;
 }
 
 #spinner {
@@ -65,10 +66,12 @@ body {
   background-image: url('frigo.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   background-attachment: fixed;
   color: black;
-  font-family: Ubuntu, sans-serif
+  font-family: Ubuntu, sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
 .container {
