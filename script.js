@@ -47,7 +47,7 @@ $(document).ready(() => {
     $("#bodyProductTable").table2excel({
       exclude: ".noExl",
       name: "Worksheet Name",
-      filename: "Productos" + "_" + (document.title),
+      filename: (document.title)  + "_" + "Productos",
       fileext: ".xls"
     });
   });
