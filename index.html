@@ -130,7 +130,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
-                  onclick="save(), show(), calcular()">Guardar</button>
+                  onclick="save(), show()">Guardar</button>
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
                   onclick="closeModal()">Cancelar</button>
               </div>
@@ -158,7 +158,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save"
-                onclick="saveAdd(), showAdd(), calcular()">Guardar</button>
+                onclick="saveAdd(), showAdd()">Guardar</button>
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
                 onclick="closeModalAdd()">Cancelar</button>
             </div>
@@ -215,69 +215,68 @@
                   tabindex="0">
                 </div>
               </div> -->
-              <div class="d-none" id="listGroup">
-              </div>
-              <table class="table form-control-sm" id="table">
-                <thead>
-                  <tr class="form-control-sm">
-                    <th scope="col-span-2">#</th>
-                    <th scope="col-span-2">Producto</th>
-                    <th scope="col-span-2">Cantidad</th>
-                    <th scope="col-span-2">Precio</th>
-                    <th scope="col-span-2">Subtotal $</th>
-                    <th scope="col-span-2">  </th>
-                  </tr>
-                </thead>
-                <tbody class="form-control-sm" id="productos">
-
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td> </td>
-                    <td>Total balance:</td>
-                    <td>$ <span id="result"></span></td>
-                    <td>Fecha: <span id="mesVal"></span></td>
-                  </tr>
-                </tfoot>
-              </table>
+            <div class="d-none" id="listGroup">
             </div>
+            <table class="table form-control-sm" id="table">
+              <thead>
+                <tr class="form-control-sm">
+                  <th scope="col-span-2">#</th>
+                  <th scope="col-span-2">Producto</th>
+                  <th scope="col-span-2">Cantidad</th>
+                  <th scope="col-span-2">Precio</th>
+                  <th scope="col-span-2">Subtotal $</th>
+                  <th scope="col-span-2"> </th>
+                </tr>
+              </thead>
+              <tbody class="form-control-sm" id="productos">
+
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td> </td>
+                  <td>Total balance:</td>
+                  <td>$ <span id="result"></span></td>
+                  <td>Fecha: <span id="mesVal"></span></td>
+                </tr>
+              </tfoot>
+            </table>
+            <!-- <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+            <a href="javascript:nextPage()" id="btn_next">Next</a>
+            page: <span id="page"></span> -->
           </div>
         </div>
-        <audio src="error.mp3" type="audio/mpeg" id="error"></audio>
-        <audio src="duplicate.wav" type="audio/wav" id="duplicateYes"></audio>
-        <div
-          class="d-flex flex-wrap justify-content-evenly justify-content-md-evenly align-content-space-between mb-5 mt-4">
-          <button type="button" class="btn btn-success mt-3" id="result" onclick="calculoBalance()"
-            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Calcula todos los subtotales">Calcular
-            balance</button>
-          <button type="button" class="btn btn-success mt-3" id="getXLS" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="Generar archivo Excel a partir de la tabla">Exportar a Excel</button>
-          <button type="button" class="btn btn-secondary disabled mt-3" id="btnClean" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="Borra todos los datos de la tabla">Limpiar datos guardados</button>
-          <button type="button" class="btn btn-success mt-3" onclick="duplicate()" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="Buscar productos repetidos">Filtrar repetidos</button>
-        </div>
-        <footer class="text-muted">
-          <div class="container text-white text-start" id="footer">
-            <p id="contact">Esta aplicación web fue realizada solo para uso interno de la empresa. <br>
-              ©2023 Todos los derechos reservados® Diseño y desarrollo por Juan Martinez contacto <a
-                href="https://wa.me/+59897095516" target="_blank">aquí</a> -
-            </p>
-          </div>
-        </footer>
-        <div id="animation">
-          <div id="spinner">
-          </div>
-          <p class="text-white position-relative text-center d-block" style="width:50%;top:50%;left:28%;">Espera por
-            favor
+      </div>
+      <audio src="error.mp3" type="audio/mpeg" id="error"></audio>
+      <audio src="duplicate.wav" type="audio/wav" id="duplicateYes"></audio>
+      <div
+        class="d-flex flex-wrap justify-content-evenly justify-content-md-evenly align-content-space-between mb-5 mt-4">
+        <button type="button" class="btn btn-success mt-3" id="result" onclick="calculoBalance()"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Calcula todos los subtotales">Calcular</button>
+        <button type="button" class="btn btn-success mt-3" id="getXLS" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="Generar archivo Excel a partir de la tabla">Exportar a Excel</button>
+        <button type="button" class="btn btn-secondary disabled mt-3" id="btnClean" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="Borra todos los datos de la tabla">Limpiar datos guardados</button>
+      </div>
+      <footer class="text-muted">
+        <div class="container text-white text-start" id="footer">
+          <p id="contact">Esta aplicación web fue realizada solo para uso interno de la empresa. <br>
+            ©2023 Todos los derechos reservados® Diseño y desarrollo por Juan Martinez contacto <a
+              href="https://wa.me/+59897095516" target="_blank">aquí</a> -
           </p>
         </div>
-        <a href="#"><img src="up.png" class="img-thumbnail position-fixed keyboard" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="Volver arriba" width="40"
-            style="left:75%;top:85%;border-radius:100%;"></a>
-        <a href="#"><img src="options.png" class="img-thumbnail position-fixed" data-bs-toggle="offcanvas"
-            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" width="40"
-            style="left:75%;top:78%;border-radius:100%;"></a>
+      </footer>
+      <div id="animation">
+        <div id="spinner">
+        </div>
+        <p class="text-white position-relative text-center d-block" style="width:50%;top:50%;left:28%;">Espera por
+          favor
+        </p>
+      </div>
+      <a href="#"><img src="up.png" class="img-thumbnail position-fixed keyboard" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="Volver arriba" width="40" style="left:75%;top:85%;border-radius:100%;"></a>
+      <a href="#"><img src="options.png" class="img-thumbnail position-fixed" data-bs-toggle="offcanvas"
+          data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" width="40"
+          style="left:75%;top:78%;border-radius:100%;"></a>
   </main>
 </body>
 

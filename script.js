@@ -35,7 +35,7 @@ $(document).ready(() => {
     $("#table").table2excel({
       exclude: ".noExl",
       name: "Worksheet Name",
-      filename: "Inventario" + "_" + (document.title) + "_" + (document.getElementById("mes").value),
+      filename: "Inventario" + "_" + (document.getElementById("mes").value),
       fileext: ".xls"
     });
   });
@@ -47,17 +47,17 @@ $(document).ready(() => {
     $("#bodyProductTable").table2excel({
       exclude: ".noExl",
       name: "Worksheet Name",
-      filename: (document.title)  + "_" + "Productos",
+      filename: "Lista" + "_" + "Productos",
       fileext: ".xls"
     });
   });
 })
 
 function calcular() {
-  let todosInputs = document.querySelectorAll('input.cant');
+  let todosInputs = document.querySelectorAll('p.cant');
   for (let i = 0; i < todosInputs.length; i++) {
-    let a = document.querySelectorAll("input.cant")[i].value;
-    let b = document.querySelectorAll('input.precio')[i].value;
+    let a = document.querySelectorAll("p.cant")[i].innerHTML;
+    let b = document.querySelectorAll('p.precio')[i].innerHTML;
     let c = b * a;
     document.querySelectorAll('span.total')[i].innerHTML = c
     document.querySelectorAll('p.cant')[i].innerHTML = a
@@ -66,6 +66,7 @@ function calcular() {
 }
 
 function calculoBalance() {
+  calcular()
   let spanInputs = document.querySelectorAll(`span.total`);
   let resultado = 0;
 

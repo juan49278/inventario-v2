@@ -4,20 +4,10 @@ addEventListener('DOMContentLoaded', async () => {
   let promise = await fetch('productos.json')
   let result = await promise.json()
   data = result
-  if (localStorage.getItem('tableSalon')) {
+  if (localStorage.getItem('tableInventario')) {
     btnClean.classList.remove('btn-secondary', 'disabled')
     btnClean.classList.add('btn-success')
-    table.innerHTML = localStorage.getItem('tableSalon')
-    let pCant = document.querySelectorAll('p.cant')
-    let pPrecio = document.querySelectorAll('p.precio')
-    let iCant = document.querySelectorAll('input.cant')
-    let iPrecio = document.querySelectorAll('input.precio')
-    for (let i = 0; i < pCant.length; i++) {
-      iCant[i].value = pCant[i].innerHTML
-      for (let i = 0; i < pPrecio.length; i++) {
-        iPrecio[i].value = pPrecio[i].innerHTML
-      }
-    }
+    table.innerHTML = localStorage.getItem('tableInventario')
   }
   if (JSON.parse(localStorage.getItem("saved")) == undefined) {
     productAdd = arraysAdded
@@ -34,7 +24,9 @@ addEventListener('DOMContentLoaded', async () => {
 
 //Evento change para guardar los cambios
 //al localstorage
-addEventListener("change", () => {
+addEventListener("keypress", () => {
+  calcular()
+  calculoBalance()
   guardarLocal()
 })
 
@@ -44,8 +36,8 @@ function show() {
   toAppened = `
             <th scope="row" class="small">${codeShow}</th>
             <td class="col-span-2 nombre">${exampleModalLabel.innerHTML.split(":")[1]}</td>
-            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="${cantidad}"><p class="cant d-none"></p>
-            <td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="${precio}"><p class="precio d-none"></p>
+            <td class="col-span-2"><p class="cant">${cantidad}</p>
+            <td class="col-span-2"><p class="precio">${precio}</p>
             <td class="col-span-2"> $<span class="total"></span>
             <td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
@@ -54,6 +46,7 @@ function show() {
   document.getElementById('productos').innerHTML += toAppened
   codeShow = ""
   quantity.value = ""
+  duplicate()
 }
 
 //Mostrar producto agregado a la tabla
@@ -62,8 +55,8 @@ function showAdd() {
   toAppened = `
             <th scope="row" class="small">${codeShow}</th>
             <td class="col-span-2 nombre">${nombreAdd.value}</td>
-            <td class="col-span-2"><input type="number" placeholder="Cant." oninput="calcular()" class="form-control cant col-8 col-md-3" aria-label="cant" value="${cantidad2}"><p class="cant d-none"></p>
-            <td class="col-span-2"><input type="number" placeholder="$" oninput="calcular()" class="form-control precio col-10 col-md-3" aria-label="precio" value="${precio2}"><p class="precio d-none"></p>
+            <td class="col-span-2"><p class="cant">${cantidad2}</p>
+            <td class="col-span-2"><p class="precio">${precio2}</p>
             <td class="col-span-2"> $<span class="total"></span>
             <td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
             <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
@@ -74,6 +67,7 @@ function showAdd() {
   nombreAdd.value = ""
   quantityNew.value = ""
   priceNew.value = ""
+  duplicate()
 }
 
 //Funcion que despliega div oculto
@@ -134,10 +128,8 @@ function showSaveProducts() {
 //Variables
 const search = document.querySelector('input#search')
 const button = document.getElementById('btnSearch')
-let cantidad = document.querySelector("#quantity")
-let precio = document.querySelector("#price")
-let cantidad2 = document.querySelector("#quantityNew")
-let precio2 = document.querySelector("#priceNew")
+let cantidad = document.querySelector("p.cant")
+let precio = document.querySelector("p.precio")
 let arraysAdded = []
 let productAdd = {}
 
@@ -219,7 +211,7 @@ function copy() {
 
 //Borrar los datos que hayan guardado de la tabla
 btnClean.addEventListener('click', () => {
-  localStorage.removeItem('tableSalon')
+  localStorage.removeItem('tableInventario')
   window.location.reload()
 })
 
@@ -278,7 +270,7 @@ function add() {
 }
 
 //Funcion de mostrar productos duplicados
-function duplicate(a) {
+function duplicate(a, b) {
   let arrays = []
   let divs = document.querySelectorAll("td.nombre")
   for (let i = 0; i < divs.length; i++) {
@@ -286,14 +278,13 @@ function duplicate(a) {
     b = divs[i + 1].innerHTML
     arrays.push(a)
     if (arrays.includes(a) && arrays.includes(b)) {
-      duplicateYes.play()
-      swal({
-        title: "Atención",
-        icon: "info",
-        text: `Se encontró el siguiente
-        Producto duplicado: ${b}`,
-        button: "Entendido"
-      })
+      param = arrays.indexOf(b)
+      param2 = divs.length
+      result = parseInt(divs[param].nextElementSibling.querySelector("p.cant").innerHTML) +
+        parseInt(divs[param2 - 1].nextElementSibling.querySelector("p.cant").innerHTML)
+      divs[param2 -1].nextElementSibling.querySelector("p.cant").innerHTML = result
+      divs[param].closest('tr').remove();
+      result = ""
     }
   }
 }
@@ -349,7 +340,7 @@ function recoverProductsList() {
     codigo3 = arrays.codigo3
     codigo4 = arrays.codigo4
     bodyProduct.innerHTML += `<th scope="row">${nombre}</th>
-            <td class="col-span-2 nombre">${precio}</td>
+            <td class="col-span-2">${precio}</td>
             <td class="col-span-2"><p>${codigo}</p></td>
             <td class="col-span-2 d-none"><p>${codigo1}</p></td>
             <td class="col-span-2 d-none"><p>${codigo2}</p></td>
@@ -358,7 +349,64 @@ function recoverProductsList() {
   }
   modalBody.innerHTML = `${arraysAdded.length}`
 }
-/*
+/* 
 function edit(param){
   console.log(arraysAdded.indexOf(param))
-}*/
+}
+var current_page = 1;
+var records_per_page = 3
+function prevPage()
+{
+    if (current_page > 1) {
+        current_page--;
+        changePage(current_page);
+    }
+}
+
+function nextPage()
+{
+    if (current_page < numPages()) {
+        current_page++;
+        changePage(current_page);
+    }
+}
+    
+function changePage(page)
+{
+  var elemnts = arraysAdded
+    var btn_next = document.getElementById("btn_next");
+    var btn_prev = document.getElementById("btn_prev");
+    var page_span = document.getElementById("page");
+ 
+    // Validate page
+    if (page < 1) page = 1;
+    if (page > numPages()) page = numPages();
+
+    productos.innerHTML = "";
+
+    for (var i = (page-1) * records_per_page; i < (page * records_per_page) && i < elemnts.length; i++) {
+        productos.innerHTML +=  + "<br>";
+    }
+    page_span.innerHTML = page + "/" + numPages();
+
+    if (page == 1) {
+        btn_prev.style.visibility = "hidden";
+    } else {
+        btn_prev.style.visibility = "visible";
+    }
+
+    if (page == numPages()) {
+        btn_next.style.visibility = "hidden";
+    } else {
+        btn_next.style.visibility = "visible";
+    }
+}
+
+function numPages()
+{
+    return Math.ceil(arraysAdded.length / records_per_page);
+}
+
+window.onload = function() {
+    changePage(1);
+}; */
