@@ -675,6 +675,7 @@
       "nombre": "Petaca Gregsons",
       "codigo": 77311283,
       "Precio": 145
+      
     },
     {
       "nombre": "Petaca Grappamiel",
@@ -2641,7 +2642,7 @@
       "Precio": 28
     },
     {
-      "nombre": "Galletitas con leche El Trigal",
+      "nombre":"Galletitas con leche El Trigal",
       "codigo": 7730116141122,
       "Precio": 85
     },
@@ -2722,12 +2723,12 @@
       "Precio": 131
     },
     {
-      "nombre": "Champiñones laminados Emigrante",
+      "nombre": "Champiñones laminados Emigrante", 
       "codigo": 7730267005953,
       "Precio": 105
     },
     {
-      "nombre": "Palmitos rodaja Emigrante",
+      "nombre": "Palmitos rodaja Emigrante", 
       "codigo": 7730267007544,
       "Precio": 115
     },
@@ -2823,7 +2824,7 @@
       "Precio": 445
     },
     {
-      "nombre": "Capuchino Nescafe 18g",
+      "nombre": "Capuchino Nescafe 18g", 
       "codigo": 7613033458507,
       "codigo1": 7613033458101,
       "codigo2": 7613033458538,
@@ -2939,7 +2940,7 @@
       "Precio": 139
     },
     {
-      "nombre": "Café Chana 250g",
+      "nombre": "Café Chana 250g", 
       "codigo": 7730109012323,
       "Precio": 339
     },
@@ -2979,12 +2980,12 @@
       "Precio": 70
     },
     {
-      "nombre": "Te rojo hebras Hornimans",
+      "nombre": "Te rojo hebras Hornimans", 
       "codigo": 7730261000091,
       "Precio": 47
     },
     {
-      "nombre": "Te canarias x10",
+      "nombre": "Te canarias x10", 
       "codigo": 7730241080013,
       "Precio": 47
     },
@@ -3003,7 +3004,7 @@
       "Precio": 70
     },
     {
-      "nombre": "Te Hornimans x10",
+      "nombre": "Te Hornimans x10", 
       "codigo": 7730261000046,
       "Precio": 43
     },
@@ -3043,7 +3044,7 @@
       "Precio": 29
     },
     {
-      "nombre": "Polvo de hornear Fleischmann",
+      "nombre": "Polvo de hornear Fleischmann", 
       "codigo": 7730917691505,
       "Precio": 20
     },
@@ -3069,7 +3070,7 @@
       "Precio": 85
     },
     {
-      "nombre": "Agua mineral sin gas Esencial",
+      "nombre": "Agua mineral sin gas Esencial", 
       "codigo": 7730914390029,
       "Precio": 37
     },
@@ -3087,7 +3088,7 @@
       "Precio": 73
     },
     {
-      "nombre": "Galletas salvado sin sal Rio",
+      "nombre": "Galletas salvado sin sal Rio", 
       "codigo": 7730205104496,
       "Precio": 139
     },
@@ -3097,7 +3098,7 @@
       "Precio": 84
     },
     {
-      "nombre": "Galletas salvado Rio",
+      "nombre": "Galletas salvado Rio", 
       "codigo": 7730205104502,
       "Precio": 92
     },
@@ -3129,6 +3130,26 @@
       "codigo": 7896111419847,
       "codigo1": 7896111419885,
       "Precio": 16
+    },
+    {
+      "nombre": "Galletas sin sal Trigal 400g",
+      "codigo": 7730116259148,
+      "Precio": 156
+    },
+    {
+      "nombre": "Helados recreo",
+      "codigo": 7730172205134,
+      "Precio": 70
+    },
+    {
+      "nombre": "Helados recreo light",
+      "codigo": 7730172203123,
+      "Precio": 75
+    },
+    {
+      "nombre": "Leche en polvo 200g",
+      "codigo": 7730105004803,
+      "Precio": 0
     }
   ]
 }
