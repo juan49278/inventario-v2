@@ -137,8 +137,8 @@
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Durazno",
-      "codigo": 773012400602,
-      "Precio": 134
+      "codigo": 7730124000602,
+      "Precio": 125
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Ciruela",
@@ -511,7 +511,8 @@
       "nombre": "Galleta Arroz Saman",
       "codigo": 7730115717403,
       "codigo1": 7730115717106,
-      "Precio": 71
+      "codigo2": 7730115717304,
+      "Precio": 75
     },
     {
       "nombre": "Galleta Arroz Saman mini",
@@ -1572,7 +1573,13 @@
       "codigo": 7730354002834,
       "codigo1": 7730354002803,
       "codigo2": 7730354002810,
+      "codigo3": 7730354002827,
       "Precio": 59
+    },
+    {
+      "nombre": "Fideo Don Gusto 400g",
+      "codigo4": 7730354006054,
+      "Precio": 45
     },
     {
       "nombre": "Fideo La Teresina",
@@ -1650,6 +1657,7 @@
       "nombre": "Latas Rio",
       "codigo": 7730205062734,
       "codigo1": 7730205100740,
+      "codigo2": 7730205098115,
       "Precio": 73
     },
     {
@@ -1746,7 +1754,8 @@
       "nombre": "Galletas Isabela",
       "codigo": 7896022086886,
       "codigo1": 7896022086862,
-      "Precio": 85
+      "codigo2": 7896022086909,
+      "Precio": 89
     },
     {
       "nombre": "Garbanzo Emigrante 500g",
@@ -1757,7 +1766,8 @@
       "nombre": "Jugos Big C 200ml",
       "codigo": 7730920130763,
       "codigo1": 7730920130770,
-      "Precio": 18
+      "codigo2": 7730920130800,
+      "Precio": 19
     },
     {
       "nombre": "Durazno Citral",
@@ -1834,12 +1844,13 @@
     {
       "nombre": "Agua sifon 2l Esencial",
       "codigo": 7791913000814,
+      "codigo1": 7730914390265,
       "Precio": 57
     },
     {
       "nombre": "Agua Salus bidon 6l",
       "codigo": 7730400002771,
-      "Precio": 115
+      "Precio": 89
     },
     {
       "nombre": "Agua Matutina x4",
@@ -2075,6 +2086,11 @@
       "codigo2": 7730103300242,
       "codigo3": 7730103305353,
       "codigo4": 7730103300082,
+      "Precio": 99
+    },
+    {
+      "nombre": "Fideos Adria",
+      "codigo": 7730103305681,
       "Precio": 99
     },
     {
@@ -3137,12 +3153,12 @@
       "Precio": 156
     },
     {
-      "nombre": "Helados recreo",
+      "nombre": "Helados Recreo",
       "codigo": 7730172205134,
       "Precio": 70
     },
     {
-      "nombre": "Helados recreo light",
+      "nombre": "Helados Recreo light",
       "codigo": 7730172203123,
       "Precio": 75
     },
@@ -3150,6 +3166,145 @@
       "nombre": "Leche en polvo 200g",
       "codigo": 7730105004803,
       "Precio": 0
+    },
+    {
+      "nombre": "Lentejas Rio 500g",
+      "codigo": 7730205102416,
+      "Precio": 0
+    },
+    {
+      "nombre": "Mermelada Los Nietitos 400g 0% Arandanos",
+      "codigo": 7730124000596,
+      "Precio": 169
+    },
+    {
+      "nombre": "Mayonesa Natura 500g + arveja",
+      "codigo": 7730205094551,
+      "Precio": 142
+    },
+    {
+      "nombre": "Ajo Cololo",
+      "codigo": 7730213006560,
+      "Precio": 185
+    },
+    {
+      "nombre": "Aceituna sin carozo Emigrante",
+      "codigo": 7730267001627,
+      "Precio": 72
+    },
+    {
+      "nombre": "Levadura Fleischmann 10g",
+      "codigo": 77309129,
+      "Precio": 28
+    },
+    {
+      "nombre": "Aceituna Rio 300g",
+      "codigo": 7730205060266,
+      "Precio": 115
+    },
+    {
+      "nombre": "Agua Salus 600ml",
+      "codigo": 7730400001729,
+      "Precio": 43
+    },
+    {
+      "nombre": "Pan Marbella 0%",
+      "codigo": 7730411001237,
+      "Precio": 139
+    },
+    {
+      "nombre": "Condimentos El Fogon",
+      "codigo": 9,
+      "Precio": 69
+    },
+    {
+      "nombre": "Flan 4 porciones Royarina",
+      "codigo": 7730110124213,
+      "Precio": 45
+    },
+    {
+      "nombre": "Choclo Cololo chica",
+      "codigo": 7730213003163,
+      "Precio": 59
+    },
+    {
+      "nombre": "Poroto Pequenia Granja",
+      "codigo": 7730465003010,
+      "Precio": 43
+    },
+    {
+      "nombre": "Peras Rio 0%",
+      "codigo": 7730205080295,
+      "Precio": 175
+    },
+    {
+      "nombre": "Caldo Knorr x2",
+      "codigo": 10,
+      "Precio": 18
+    },
+    {
+      "nombre": "Caldos Maggi x2",
+      "codigo": 11,
+      "Precio": 17
+    },
+    {
+      "nombre": "Sweetlife caja",
+      "codigo": 12,
+      "Precio": 4
+    },
+    {
+      "nombre": "Cafe Aguila caja",
+      "codigo": 13,
+      "Precio": 4
+    },
+    {
+      "nombre": "Bracafe sticks caja",
+      "codigo": 14,
+      "Precio": 5
+    },
+    {
+      "nombre": "Cafe Iguacu sticks",
+      "codigo": 15,
+      "Precio": 4
+    },
+    {
+      "nombre": "Sweetlife x10",
+      "codigo": 16,
+      "Precio": 50
+    },
+    {
+      "nombre": "Bracafe sticks x10 suelto",
+      "codigo": 17
+    },
+    {
+      "nombre": "Vodka Skyy",
+      "codigo": 7791200000213,
+      "Precio": 529
+    },
+    {
+      "nombre": "Fernet Pompeya",
+      "codigo": 7730210000615,
+      "Precio": 395
+    },
+    {
+      "nombre": "Jhonnie Black",
+      "codigo": 5000267023625,
+      "Precio": 2190
+    },
+    {
+      "nombre": "Chivas",
+      "codigo": 80432400432,
+      "Precio": 2230
+    },
+    {
+      "nombre": "Vino Vinia Mendoza",
+      "codigo": 7791843016725,
+      "Precio": 199
+    },
+    {
+      "nombre": "Vermouth Bruzzone",
+      "codigo": 7730262000380,
+      "Precio": 219
     }
   ]
 }
