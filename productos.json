@@ -1189,6 +1189,7 @@
       "codigo1": 7730135000028,
       "codigo2": 7730135000035,
       "codigo3": 7730135000271,
+      "codigo4": 7730135000288,
       "Precio": 125
     },
     {
@@ -1971,6 +1972,7 @@
       "codigo": 773026002025021,
       "codigo1": 7730260020267,
       "codigo2": 7730260020274,
+      "codigo3": 7730260020250,
       "Precio": 278
     },
     {
@@ -3306,6 +3308,21 @@
       "nombre": "Vermouth Bruzzone",
       "codigo": 7730262000380,
       "Precio": 219
+    },
+    {
+      "nombre": "Agua Salus 2.25l",
+      "codigo": 7730400000395,
+      "Precio": 50
+    },
+    {
+      "nombre": "Lenteja Emigrante 400g",
+      "codigo": 7730267001740,
+      "Precio": 87
+    },
+    {
+      "nombre": "Arroz Shiva 1kg",
+      "codigo": 7730114000025,
+      "Precio": 0
     }
   ]
 }
