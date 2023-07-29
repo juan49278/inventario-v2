@@ -29,12 +29,12 @@
     {
       "nombre": "Miel Los Nietitos 250g",
       "codigo": 7730124031507,
-      "Precio": 121
+      "Precio": 123
     },
     {
       "nombre": "Miel Los Nietitos 700g",
       "codigo": 7730124000176,
-      "Precio": 279
+      "Precio": 285
     },
     {
       "nombre": "Dulce membrillo Los Nietitos 400g",
@@ -44,52 +44,52 @@
     {
       "nombre": "Batata con chocolate Los Nietitos",
       "codigo": 7730124255019,
-      "Precio": 75
+      "Precio": 77
     },
     {
       "nombre": "Dulce membrillo Los Nietitos 450g 0%",
       "codigo": 7730124572406,
-      "Precio": 114
+      "Precio": 117
     },
     {
       "nombre": "Batata Los Nietitos 250g 0%",
       "codigo": 7730124000169,
-      "Precio": 75
+      "Precio": 76
     },
     {
       "nombre": "Dulce membrillo Los Nietitos 250g 0%",
       "codigo": 7730124571508,
-      "Precio": 77
+      "Precio": 79
     },
     {
       "nombre": "Dulce de Leche Los Nietitos 0% Pote",
       "codigo": 7730124572505,
-      "Precio": 213
+      "Precio": 217
     },
     {
       "nombre": "Dulce de Leche Los Nietitos 0% frasco",
       "codigo": 7730124000671,
-      "Precio": 210
+      "Precio": 209
     },
     {
       "nombre": "Dulce de leche Creme chocolate",
       "codigo": 7730124001746,
-      "Precio": 136
+      "Precio": 139
     },
     {
       "nombre": "Dulce de leche Los Nietitos 250g",
       "codigo": 7730124382517,
-      "Precio": 73
+      "Precio": 74
     },
     {
       "nombre": "Dulce de leche Los Nietitos 500g",
       "codigo": 7730124383002,
-      "Precio": 127
+      "Precio": 129
     },
     {
       "nombre": "Dulce de leche Los Nietitos 1kg",
       "codigo": 7730124384009,
-      "Precio": 210
+      "Precio": 214
     },
     {
       "nombre": "Jugos Big C",
@@ -98,7 +98,7 @@
       "codigo2": 7730920130862,
       "codigo3": 7730920130589,
       "codigo4": 7730920130596,
-      "Precio": 70
+      "Precio": 69
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Durazno",
@@ -113,17 +113,17 @@
     {
       "nombre": "Mermelada Los Nietitos 500g Zapallo",
       "codigo": 7730124011301,
-      "Precio": 106
+      "Precio": 108
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Ciruela",
       "codigo": 7730124014302,
-      "Precio": 113
+      "Precio": 119
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Higo",
       "codigo": 7730124012308,
-      "Precio": 116
+      "Precio": 122
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Tres frutos",
@@ -138,27 +138,27 @@
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Durazno",
       "codigo": 7730124000602,
-      "Precio": 125
+      "Precio": 136
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Ciruela",
       "codigo": 7730124002903,
-      "Precio": 126
+      "Precio": 129
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Higo",
       "codigo": 7730124000589,
-      "Precio": 133
+      "Precio": 135
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Zapallo",
       "codigo": 7730124002828,
-      "Precio": 120
+      "Precio": 123
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Tres frutos",
       "codigo": 7730124002507,
-      "Precio": 163
+      "Precio": 166
     },
     {
       "nombre": "Mermelada Los Nietitos 250g Durazno",
@@ -178,57 +178,57 @@
     {
       "nombre": "Mermelada Los Nietitos 250g Higo",
       "codigo": 7730124012209,
-      "Precio": 66
+      "Precio": 70
     },
     {
       "nombre": "Mermelada Los Nietitos 250g Zapallo",
       "codigo": 7730124011202,
-      "Precio": 62
+      "Precio": 63
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Arandano",
       "codigo": 7730124002149,
-      "Precio": 170
+      "Precio": 174
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Naranja",
       "codigo": 7730124002118,
-      "Precio": 137
+      "Precio": 140
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Higo",
       "codigo": 7730124002101,
-      "Precio": 142
+      "Precio": 145
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Ciruela",
       "codigo": 7730124002156,
-      "Precio": 142
+      "Precio": 145
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Tres frutos",
       "codigo": 7730124002132,
-      "Precio": 167
+      "Precio": 170
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Naranja Maracuya",
       "codigo": 7730124002583,
-      "Precio": 167
+      "Precio": 170
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Frutilla",
       "codigo": 7730124002095,
-      "Precio": 158
+      "Precio": 161
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Durazno",
       "codigo": 7730124002088,
-      "Precio": 146
+      "Precio": 149
     },
     {
       "nombre": "Mermelada Los Nietitos 340g 0% Durazno Mango",
       "codigo": 7730124002576,
-      "Precio": 168
+      "Precio": 171
     },
     {
       "nombre": "Sazon para el horno Maggi",
@@ -242,7 +242,7 @@
     {
       "nombre": "Pure de papas Demas 1kg",
       "codigo": 7730914674136,
-      "Precio": 269
+      "Precio": 329
     },
     {
       "nombre": "Barbacoa Hellmans",
@@ -252,7 +252,7 @@
     {
       "nombre": "Ketchup Hellmans 250g",
       "codigo": 7794000006188,
-      "Precio": 80
+      "Precio": 89
     },
     {
       "nombre": "Salsa soja 500ml baja en sodio",
@@ -457,13 +457,13 @@
       "nombre": "Leche Parmalat",
       "codigo": 7891097001024,
       "codigo1": 7891097001048,
-      "Precio": 78
+      "Precio": 85
     },
     {
       "nombre": "Leche Conaprole caja",
       "codigo": 7730105021374,
       "codigo1": 7730105021381,
-      "Precio": 64
+      "Precio": 67
     },
     {
       "nombre": "Arroz Saman 500g",
@@ -588,13 +588,13 @@
     {
       "nombre": "Whisky Monje",
       "codigo": 5000281001739,
-      "Precio": 569
+      "Precio": 659
     },
     {
       "nombre": "Martini",
       "codigo": 7730302000622,
       "codigo1": 7790950134834,
-      "Precio": 409
+      "Precio": 459
     },
     {
       "nombre": "Fernet Branca",
@@ -614,12 +614,12 @@
     {
       "nombre": "Whisky 100 pipers",
       "codigo": "080432402856",
-      "Precio": 625
+      "Precio": 709
     },
     {
       "nombre": "Petaca Criadores",
       "codigo": 77906106,
-      "Precio": 147
+      "Precio": 179
     },
     {
       "nombre": "Grappamiel vesubio 1l",
@@ -634,7 +634,7 @@
     {
       "nombre": "Whisky Criadores 1l",
       "codigo": 7790480001613,
-      "Precio": 619
+      "Precio": 629
     },
     {
       "nombre": "Galleta Trigueña dulce",
@@ -693,11 +693,12 @@
       "codigo": 7790093075780,
       "codigo1": 7790093075773,
       "codigo2": 7790093521805,
-      "Precio": 279
+      "Precio": 299
     },
     {
       "nombre": "Sal 2 Estrellas",
       "codigo": 7792900092768,
+      "codigo1": 779290092799,
       "Precio": 52
     },
     {
@@ -765,7 +766,7 @@
     {
       "nombre": "Azúcar Bella Union",
       "codigo": 7730975890346,
-      "Precio": 57
+      "Precio": 59
     },
     {
       "nombre": "Jugo Rigby 200ml",
@@ -787,7 +788,7 @@
     {
       "nombre": "Harina Cañuelas 0000",
       "codigo": 7730376000061,
-      "Precio": 64
+      "Precio": 60
     },
     {
       "nombre": "Harina Pizza Cañuelas",
@@ -1190,7 +1191,7 @@
       "codigo2": 7730135000035,
       "codigo3": 7730135000271,
       "codigo4": 7730135000288,
-      "Precio": 125
+      "Precio": 129
     },
     {
       "nombre": "Champiñones enteros Rio frasco",
@@ -1279,6 +1280,11 @@
       "Precio": 20
     },
     {
+      "nombre": "Galleta Hipopo",
+      "codigo": 7896286618755,
+      "Precio": 20
+    },
+    {
       "nombre": "Papas Lays 400g",
       "codigo": 7790310982853,
       "Precio": 285
@@ -1329,6 +1335,8 @@
     {
       "nombre": "Papas tubo Stax",
       "codigo": 7501011178861,
+      "codigo1": 7501011178847,
+      "codigo2": 7501011178854,
       "Precio": 200
     },
     {
@@ -1579,7 +1587,11 @@
     },
     {
       "nombre": "Fideo Don Gusto 400g",
-      "codigo4": 7730354006054,
+      "codigo": 7730354006054,
+      "codigo1": 7730354002032,
+      "codigo2": 7730354002018,
+      "codigo3": 7730354002025,
+      "codigo4": 7730354002667,
       "Precio": 45
     },
     {
@@ -1600,9 +1612,9 @@
       "Precio": 37
     },
     {
-      "nombre": "Pan rallado La Triguenia",
+      "nombre": "Pan rallado condimentado La Triguenia",
       "codigo": 7730221000536,
-      "Precio": 103
+      "Precio": 106
     },
     {
       "nombre": "Polenta Adria",
@@ -1636,10 +1648,22 @@
       "Precio": 75
     },
     {
+      "nombre": "Fideos Puritas 1kg",
+      "codigo": 7730354003657,
+      "Precio": 75
+    },
+    {
       "nombre": "Fideo Buonapasta",
       "codigo": 7730354003633,
       "codigo1": 7730354003626,
       "codigo2": 7730354003619,
+      "codigo3": 7730354003640,
+      "codigo4": 7730354003817,
+      "Precio": 35
+    },
+    {
+      "nombre": "Fideo Buonapasta",
+      "codigo": 7730354003602,
       "Precio": 35
     },
     {
@@ -1647,6 +1671,13 @@
       "codigo": 7730354003176,
       "codigo1": 7730354003145,
       "codigo2": 7730354003152,
+      "codigo3": 7730354003138,
+      "codigo4": 7730354003190,
+      "Precio": 32
+    },
+    {
+      "nombre": "Fideos Puritas 400g",
+      "codigo": 7730354003169,
       "Precio": 32
     },
     {
@@ -1659,6 +1690,13 @@
       "codigo": 7730205062734,
       "codigo1": 7730205100740,
       "codigo2": 7730205098115,
+      "codigo3": 7730205036872,
+      "codigo4": 7730205088307,
+      "Precio": 73
+    },
+    {
+      "nombre": "Latas Rio",
+      "codigo": 7730205081094,
       "Precio": 73
     },
     {
@@ -1708,7 +1746,7 @@
       "nombre": "Vino Pueblo del Sol",
       "codigo": 7730135000486,
       "codigo1": 7730135000509,
-      "Precio": 195
+      "Precio": 205
     },
     {
       "nombre": "Vino De la Carolina 1l",
@@ -1988,7 +2026,7 @@
       "nombre": "Sazon para el horno Knorr",
       "codigo": 7794000004931,
       "codigo1": 7794000004917,
-      "Precio": 110
+      "Precio": 115
     },
     {
       "nombre": "Arroz Blue Patna Parboiled",
@@ -2093,6 +2131,7 @@
     {
       "nombre": "Fideos Adria",
       "codigo": 7730103305681,
+      "codigo1": 7730103300013,
       "Precio": 99
     },
     {
@@ -2103,7 +2142,7 @@
     {
       "nombre": "Azúcar Rubia",
       "codigo": 7730975890384,
-      "Precio": 72
+      "Precio": 77
     },
     {
       "nombre": "Pure de papas Knorr 125g",
@@ -2164,6 +2203,7 @@
     {
       "nombre": "Pan rallado Cañuelas",
       "codigo": 792180138859,
+      "codigo1": 7792180138859,
       "Precio": 77
     },
     {
@@ -2457,12 +2497,12 @@
     {
       "nombre": "Ketchup Hellmans 500g",
       "codigo": 7794000006164,
-      "Precio": 133
+      "Precio": 145
     },
     {
       "nombre": "Ketchup Hellmans 60g",
       "codigo": 7794000006195,
-      "Precio": 37
+      "Precio": 39
     },
     {
       "nombre": "Mayonesa Hellmans light 125g",
@@ -2502,7 +2542,7 @@
     {
       "nombre": "Mayonesa Mayoliva 125g",
       "codigo": 7791866001838,
-      "Precio": 47
+      "Precio": 52
     },
     {
       "nombre": "Mayonesa Mayoliva 250g",
@@ -2538,7 +2578,7 @@
       "nombre": "Salsa pronta Knorr",
       "codigo": 7794000003705,
       "codigo1": 7794000003699,
-      "Precio": 89
+      "Precio": 95
     },
     {
       "nombre": "Salsa Dajuda",
@@ -2667,7 +2707,7 @@
     {
       "nombre": "Mermelada Los Nietitos 250g Arándanos",
       "codigo": 7730124152004,
-      "Precio": 78
+      "Precio": 77
     },
     {
       "nombre": "Mermelada Los Nietitos 250g Ciruela",
@@ -2677,12 +2717,12 @@
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Frutilla",
       "codigo": 7730124000619,
-      "Precio": 145
+      "Precio": 148
     },
     {
       "nombre": "Batata Los Nietitos 400g",
       "codigo": 7730124021508,
-      "Precio": 69
+      "Precio": 71
     },
     {
       "nombre": "Porotos tetra Cololo",
@@ -2784,7 +2824,7 @@
       "nombre": "Salsa blanca sabores",
       "codigo": 7730177003056,
       "codigo1": 7730177002677,
-      "Precio": 50
+      "Precio": 52
     },
     {
       "nombre": "Salsa blanca",
@@ -2985,7 +3025,7 @@
     {
       "nombre": "Te President 90g",
       "codigo": 7730282031081,
-      "Precio": 125
+      "Precio": 139
     },
     {
       "nombre": "Te verde hebras Hornimans",
@@ -3079,7 +3119,7 @@
     {
       "nombre": "Pan rallado clásico La Triguenia",
       "codigo": 7730221000079,
-      "Precio": 91
+      "Precio": 95
     },
     {
       "nombre": "Sopa Gourmet",
@@ -3157,11 +3197,15 @@
     {
       "nombre": "Helados Recreo",
       "codigo": 7730172205134,
+      "codigo1": 7730172201136,
+      "codigo2": 7730172203130,
       "Precio": 70
     },
     {
       "nombre": "Helados Recreo light",
       "codigo": 7730172203123,
+      "codigo1": 7730172207121,
+      "codigo2": 7730172205127,
       "Precio": 75
     },
     {
@@ -3177,7 +3221,7 @@
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Arandanos",
       "codigo": 7730124000596,
-      "Precio": 169
+      "Precio": 163
     },
     {
       "nombre": "Mayonesa Natura 500g + arveja",
@@ -3322,7 +3366,42 @@
     {
       "nombre": "Arroz Shiva 1kg",
       "codigo": 7730114000025,
-      "Precio": 0
+      "Precio": 39
+    },
+    {
+      "nombre": "Ketchup Cololo 290g",
+      "codigo": 7730213005280,
+      "Precio": 110
+    },
+    {
+      "nombre": "Pasta de mani",
+      "codigo": 7790524324098,
+      "Precio": 149
+    },
+    {
+      "nombre": "Mantequilla de Mani",
+      "codigo": 7790524324104,
+      "Precio": 149
+    },
+    {
+      "nombre": "Crema de avellana",
+      "codigo": 7896104806425,
+      "Precio": 569
+    },
+    {
+      "nombre": "Yerbera + Yerba 250g",
+      "codigo": 7730241016647,
+      "Precio": 290
+    },
+    {
+      "nombre": "Capitas Stack 250g",
+      "codigo": 7730958850220,
+      "Precio": 169
+    },
+    {
+      "nombre": "Yerba Contigo roja 1kg + 70g",
+      "codigo": 7730241027025,
+      "Precio": 182
     }
   ]
 }

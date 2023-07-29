@@ -61,15 +61,13 @@ canvas.drawingBuffer {
 }
 
 body {
-  background-image: url('frigo.png');
+  background-image: url('../frigo.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   background-attachment: fixed;
   color: black;
   font-family: Ubuntu, sans-serif;
-  height: 100%;
-  width: 100%;
 }
 
 .container {
@@ -77,10 +75,15 @@ body {
   opacity: 0.8;
 }
 
-#footer {
-  background-color: rgb(10, 16, 70);
+footer {
+  background: rgb(10, 16, 70);
   opacity: 0.9;
   position: static;
+  left: 0px;
+  bottom: 0px;
+  right: inherit;
+  width: 100%;
+  height: calc(6rem);
 }
 
 .swal-modal {

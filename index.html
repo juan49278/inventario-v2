@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" href="frigo.ico" type="image/x-icon">
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
@@ -35,6 +35,7 @@
                   <th scope="col-span-2">Producto</th>
                   <th scope="col-span-2">Precio</th>
                   <th scope="col-span-2">Código</th>
+                  <th scope="col-span-2">?</th>
                   <th scope="col-span-2" class="d-none">Código2</th>
                   <th scope="col-span-2" class="d-none">Código3</th>
                   <th scope="col-span-2" class="d-none">Código4</th>
@@ -129,8 +130,8 @@
                 <input type="number" id="price" class="form-control mt-2 mb-2" placeholder="$">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
-                  onclick="save(), show()">Guardar</button>
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
+                onclick="save(), show()">Guardar</button>
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
                   onclick="closeModal()">Cancelar</button>
               </div>
@@ -138,6 +139,7 @@
           </div>
         </div>
       </form>
+      <form class="form-check">
       <div class="modal show d-none" id="addProduct" tabindex="-1" aria-labelledby="addProductLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -152,12 +154,12 @@
               <input type="number" id="quantityNew" class="form-control mt-2 mb-2" placeholder="Cantidad" value=""
                 required>
               Ingresar precio
-              <input type="number" id="priceNew" class="form-control mt-2 mb-2" placeholder="$">
+              <input type="number" id="priceNew" class="form-control mt-2 mb-2" placeholder="$" value="">
               Código
               <input type="number" id="addCode" class="form-control mt-2 mb-2 text-muted" disabled>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="save"
+              <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" id="save"
                 onclick="saveAdd(), showAdd()">Guardar</button>
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
                 onclick="closeModalAdd()">Cancelar</button>
@@ -166,6 +168,7 @@
         </div>
       </div>
     </div>
+  </form>
     <div class="container gx-2 text-white container-sm">
       <div class="row d-flex justify-content-center">
         <h1 class="text-center text-white">Inventario</h1>
@@ -188,33 +191,6 @@
       <div class="container-sm mt-2">
         <div class="row-3">
           <div class="col">
-            <!-- <div id="content">
-              <ul class="nav nav-tabs mt-2" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Salon</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><a
-                      href="deposito.html" style="text-decoration: none;">Deposito</a></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                    type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><a
-                      href="congelados.html" style="text-decoration: none;">Congelados</a></button>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                  tabindex="0"></div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                  tabindex="0">
-                </div>
-                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                  tabindex="0">
-                </div>
-              </div> -->
             <div class="d-none" id="listGroup">
             </div>
             <table class="table form-control-sm" id="table">
@@ -240,9 +216,6 @@
                 </tr>
               </tfoot>
             </table>
-            <!-- <a href="javascript:prevPage()" id="btn_prev">Prev</a>
-            <a href="javascript:nextPage()" id="btn_next">Next</a>
-            page: <span id="page"></span> -->
           </div>
         </div>
       </div>
@@ -257,33 +230,35 @@
         <button type="button" class="btn btn-secondary disabled mt-3" id="btnClean" data-bs-toggle="tooltip"
           data-bs-placement="bottom" title="Borra todos los datos de la tabla">Limpiar datos guardados</button>
       </div>
-      <footer class="text-muted">
-        <div class="container text-white text-start" id="footer">
-          <p id="contact">Esta aplicación web fue realizada solo para uso interno de la empresa. <br>
-            ©2023 Todos los derechos reservados® Diseño y desarrollo por Juan Martinez contacto <a
-              href="https://wa.me/+59897095516" target="_blank">aquí</a> -
-          </p>
-        </div>
-      </footer>
-      <div id="animation">
-        <div id="spinner">
-        </div>
-        <p class="text-white position-relative text-center d-block" style="width:50%;top:50%;left:28%;">Espera por
-          favor
-        </p>
-      </div>
-      <a href="#"><img src="up.png" class="img-thumbnail position-fixed keyboard" data-bs-toggle="tooltip"
-          data-bs-placement="bottom" title="Volver arriba" width="40" style="left:75%;top:85%;border-radius:100%;"></a>
+      <a href=""><img src="help.png" class="img-thumbnail position-fixed" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" title="Pedir Asistencia" width="40" style="left:75%;top:59%;border-radius:100%;"></a>
+      <a href="#"><img src="up.png" class="img-thumbnail position-fixed" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" title="Volver arriba" width="40" style="left:75%;top:75%;border-radius:100%;"></a>
       <a href="#"><img src="options.png" class="img-thumbnail position-fixed" data-bs-toggle="offcanvas"
           data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" width="40"
-          style="left:75%;top:78%;border-radius:100%;"></a>
+          style="left:75%;top:67%;border-radius:100%;"></a>
   </main>
+  <footer class="text-muted">
+    <div class="container text-white text-center" id="footer">
+      <p id="contact">Esta aplicación web fue realizada solo para uso interno de la empresa. <br>
+        ©2023 Todos los derechos reservados® <br>
+        Diseño y desarrollo por Juan Martinez contacto <a href="https://wa.me/+59897095516" target="_blank">aquí</a> -
+      </p>
+    </div>
+  </footer>
+  <div id="animation">
+    <div id="spinner">
+    </div>
+    <p class="text-white position-relative text-center d-block" style="width:50%;top:50%;left:28%;">Espera por
+      favor
+    </p>
+  </div>
 </body>
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="search.js"></script>
+<script src="/js/search.js"></script>
 <!-- Cargamos Quagga y luego nuestro script -->
 <script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
-<script src="script.js"></script>
+<script src="/js/script.js"></script>
 
 </html>
