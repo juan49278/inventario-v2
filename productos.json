@@ -323,7 +323,7 @@
     {
       "nombre": "Galletas Solar",
       "codigo": 7730110221011,
-      "Precio": 103
+      "Precio": 110
     },
     {
       "nombre": "Galletas Solar coco",
@@ -499,7 +499,7 @@
     {
       "nombre": "Galleta Panina",
       "codigo": 7730116242164,
-      "Precio": 110
+      "Precio": 125
     },
     {
       "nombre": "Galleta Arroz Natural rice",
@@ -524,7 +524,7 @@
       "nombre": "Magic Toast",
       "codigo": 7896003702309,
       "codigo1": 7896003702415,
-      "Precio": 90
+      "Precio": 95
     },
     {
       "nombre": "Galleta Mediodia El Trigal",
@@ -640,7 +640,7 @@
       "nombre": "Galleta Trigueña dulce",
       "codigo": 7730221000628,
       "codigo1": 7730221000611,
-      "Precio": 63
+      "Precio": 65
     },
     {
       "nombre": "Galleta Maria Trigueña",
@@ -660,7 +660,7 @@
     {
       "nombre": "Galleta Maria rik x3",
       "codigo": 7730116101249,
-      "Precio": 119
+      "Precio": 125
     },
     {
       "nombre": "Grappa San Remo",
@@ -1243,7 +1243,7 @@
       "codigo1": 7896111424629,
       "codigo2": 7896111424582,
       "codigo3": 7896111424599,
-      "Precio": 99
+      "Precio": 105
     },
     {
       "nombre": "Jugo Frutare",
@@ -1276,7 +1276,7 @@
       "codigo2": 7896286618366,
       "codigo3": 7896286618373,
       "codigo4": 7896286618397,
-      "Precio": 21
+      "Precio": 20
     },
     {
       "nombre": "Papas Lays 400g",
@@ -1665,7 +1665,7 @@
       "nombre": "Galleta Triguenia",
       "codigo": 7730221000239,
       "codigo1": 7730221000222,
-      "Precio": 150
+      "Precio": 155
     },
     {
       "nombre": "Galletitas Neo",
@@ -1756,7 +1756,7 @@
       "codigo": 7896022086886,
       "codigo1": 7896022086862,
       "codigo2": 7896022086909,
-      "Precio": 89
+      "Precio": 45
     },
     {
       "nombre": "Garbanzo Emigrante 500g",
@@ -2145,7 +2145,7 @@
       "codigo": 7730213002210,
       "codigo1": 7730213006546,
       "codigo2": 7730213006539,
-      "Precio": 189
+      "Precio": 199
     },
     {
       "nombre": "Aderezos Barcatti",
@@ -2359,12 +2359,12 @@
     {
       "nombre": "Galletas Bridge",
       "codigo": 7730116460131,
-      "Precio": 115
+      "Precio": 119
     },
     {
       "nombre": "Galletas Salvaje",
       "codigo": 7730116460117,
-      "Precio": 110
+      "Precio": 105
     },
     {
       "nombre": "Ketchup Oderich 1kg",
@@ -2442,7 +2442,7 @@
       "nombre": "Mayonesa Hellmans clasica 500g",
       "codigo": 7794000006072,
       "codigo1": 7794000401389,
-      "Precio": 145
+      "Precio": 135
     },
     {
       "nombre": "Mayonesa Hellmans casera 250g",
@@ -2477,7 +2477,7 @@
     {
       "nombre": "Mayonesa Hellmans light 500g",
       "codigo": 7730343325432,
-      "Precio": 182
+      "Precio": 146
     },
     {
       "nombre": "Savora 60g",
