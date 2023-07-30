@@ -365,3 +365,13 @@ function recoverProductsList() {
   }
   modalBody.innerHTML = `${arraysAdded.length}`
 }
+
+function help(){
+  asistant.classList.remove("d-none")
+  asistant.classList.add("d-block")
+}
+
+function closeHelp(){
+  asistant.classList.remove("d-block")
+  asistant.classList.add("d-none")
+}
