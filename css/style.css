@@ -79,10 +79,8 @@ footer {
   background: rgb(10, 16, 70);
   opacity: 0.9;
   position: static;
-  left: 0px;
   bottom: 0px;
-  right: inherit;
-  width: 100%;
+  width: auto;
   height: calc(6rem);
 }
 
