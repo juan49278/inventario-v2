@@ -19,7 +19,7 @@ canvas.drawingBuffer {
 }
 
 #table {
-  color: white;
+  color: black;
   box-sizing: content-box;
 }
 
@@ -91,4 +91,4 @@ footer {
 .swal-text,
 .swal-title {
   color: white;
-}
+  }
