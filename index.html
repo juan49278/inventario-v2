@@ -64,7 +64,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="asistantLabel">Menu Asistencia</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeHelp()"></button>
           </div>
           <div class="modal-body">
             <p>Preguntas frecuentes:</p>
@@ -200,42 +200,40 @@
           <input type="date" name="mes" id="mes" class="form-control mb-3">
         </div>
       </div>
-      <div class="container-sm mt-2">
-        <div class="row-3">
+      <div class="container mt-2">
+        <div class="row">
           <div class="col">
+            <button class="btn btn-info mt-2" id="generate" type="button">Mostrar tabla</button>
             <div class="d-none" id="listGroup">
             </div>
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Mostrar</button>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                <table class="table form-control-sm" id="table">
-              <thead>
-                <tr class="form-control-sm">
-                  <th scope="col-span-2">#</th>
-                  <th scope="col-span-2">Producto</th>
-                  <th scope="col-span-2">Cantidad</th>
-                  <th scope="col-span-2">Precio</th>
-                  <th scope="col-span-2">Subtotal $</th>
-                  <th scope="col-span-2"> </th>
-                </tr>
-              </thead>
-              <tbody class="form-control-sm" id="productos">
-
-              </tbody>
-              <tfoot>
-                <tr>
-                  <td> </td>
-                  <td>Total balance:</td>
-                  <td>$ <span id="result"></span></td>
-                  <td>Fecha: <span id="mesVal"></span></td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-        </div>
+            <div id="preview" class="d-none">
+              <table class="table form-control-xl" id="table">
+                <thead>
+                  <tr class="form-control-xl">
+                    <th scope="col-span-2">#</th>
+                    <th scope="col-span-2">Producto</th>
+                    <th scope="col-span-2">Cantidad</th>
+                    <th scope="col-span-2">Precio</th>
+                    <th scope="col-span-2">Subtotal $</th>
+                    <th scope="col-span-2"> </th>
+                  </tr>
+                </thead>
+                <tbody class="form-control-xl" id="productos">
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td> </td>
+                    <td>Total balance:</td>
+                    <td>$ <span id="result"></span></td>
+                    <td>Fecha: <span id="mesVal"></span></td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
       </div>
               </div>
             </div>
+    </div>
       <audio src="error.mp3" type="audio/mpeg" id="error"></audio>
       <audio src="duplicate.wav" type="audio/wav" id="duplicateYes"></audio>
       <div

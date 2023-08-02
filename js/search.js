@@ -24,7 +24,7 @@ addEventListener('DOMContentLoaded', async () => {
 
 //Evento change para guardar los cambios
 //al localstorage
-addEventListener("keypress", () => {
+addEventListener("change", () => {
   calcular()
   calculoBalance()
   guardarLocal()
@@ -47,6 +47,7 @@ function show() {
   codeShow = ""
   quantity.value = ""
   duplicate()
+
 }
 
 //Mostrar producto agregado a la tabla
@@ -375,3 +376,15 @@ function closeHelp(){
   asistant.classList.remove("d-block")
   asistant.classList.add("d-none")
 }
+
+generate.addEventListener("click", () =>{
+  if(document.querySelector('#generate').innerHTML == "Mostrar tabla"){
+    preview.classList.remove('d-none')
+    preview.classList.add('d-block')
+    document.querySelector('#generate').innerHTML = "Ocultar tabla"
+  } else {
+    document.querySelector('#generate').innerHTML = "Mostrar tabla"
+    preview.classList.add('d-none')
+    preview.classList.remove('d-block')
+  }
+})
