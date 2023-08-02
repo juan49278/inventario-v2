@@ -28,6 +28,7 @@ addEventListener("change", () => {
   calcular()
   calculoBalance()
   guardarLocal()
+  console.clear()
 })
 
 //Mostrar producto encontrado
@@ -388,3 +389,13 @@ generate.addEventListener("click", () =>{
     preview.classList.remove('d-block')
   }
 })
+
+launchCamscan.addEventListener("click", () => {
+  camscan.classList.remove("d-none")
+  camscan.classList.add("d-block")
+})
+
+function closeCamscan(){
+  camscan.classList.add("d-none")
+  camscan.classList.remove("d-block")
+}

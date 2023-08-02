@@ -64,13 +64,15 @@
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="asistantLabel">Menu Asistencia</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeHelp()"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+              onclick="closeHelp()"></button>
           </div>
           <div class="modal-body">
             <p>Preguntas frecuentes:</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="closeHelp()">Cerrar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+              onclick="closeHelp()">Cerrar</button>
           </div>
         </div>
       </div>
@@ -100,15 +102,16 @@
       </div>
     </div>
     <div class="cont">
-      <div class="modal" id="camscan" tabindex="-1" aria-labelledby="camscanLabel" aria-hidden="true">
+      <div class="modal d-none" id="camscan" tabindex="-1" aria-labelledby="camscanLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5 text-black" id="camscanLabel">Escaneá el código con la cámara</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closeCamscan()"></button>
             </div>
             <div class="modal-body" id="codebar">
-              <p id="resultado">Aquí aparecerá el código</p>
+              <p id="resultado"></p>
+              <span>Aquí aparecerá el código</span><br>
               <button type="button" class="btn btn-danger" data-bs-dismiss="modal" onclick="copy()"
                 aria-label="Close">Copiar código en el buscador</button>
             </div>
@@ -127,32 +130,32 @@
           Se guardó correctamente el producto
         </div>
       </div>
-        <div class="modal show d-none" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-              </div>
-              <div class="modal-body">
-                <div id="agregarProducto">
+      <div class="modal show d-none" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            </div>
+            <div class="modal-body">
+              <div id="agregarProducto">
 
-                </div>
-                Ingresar cantidad
-                <input type="number" id="quantity" class="form-control mt-2 mb-2" placeholder="Cantidad" value=""
-                  required>
-                Ingresar precio
-                <input type="number" id="price" class="form-control mt-2 mb-2" placeholder="$">
               </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
+              Ingresar cantidad
+              <input type="number" id="quantity" class="form-control mt-2 mb-2" placeholder="Cantidad" value=""
+                required>
+              Ingresar precio
+              <input type="number" id="price" class="form-control mt-2 mb-2" placeholder="$">
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary" data-bs-dismiss="modal"
                 onclick="save(), show()">Guardar</button>
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
-                  onclick="closeModal()">Cancelar</button>
-              </div>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close"
+                onclick="closeModal()">Cancelar</button>
             </div>
           </div>
         </div>
+      </div>
       <div class="modal show d-none" id="addProduct" tabindex="-1" aria-labelledby="addProductLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -181,17 +184,17 @@
         </div>
       </div>
     </div>
-    <div class="container gx-2 text-white container-sm mt-4">
-      <div class="row d-flex justify-content-center">
+    <div class="container text-white mx-auto container-sm mt-4">
+      <div class="row d-flex justify-content-evenly">
         <h1 class="text-center text-white">Inventario</h1>
         <div class="col-md-4 col-6">
           <h4 class="mt-3">Buscar Artículo</h4>
-          <input type="number" name="search" id="search" class="form-control col-3 mt-2"
+          <input type="search" name="search" id="search" class="form-control col-3 mt-2"
             placeholder="Escaneá el código">
           <button class="btn btn-secondary mt-3 disabled col-5" id="btnSearch" data-bs-toggle="modal"
             data-bs-target="#exampleModal" onclick="filter()" data-bs-toggle="tooltip" data-bs-placement="bottom"
             title="Click para empezar a buscar">Buscar</button>
-          <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#camscan">
+          <button type="button" class="btn btn-warning mt-3" id="launchCamscan" data-bs-toggle="modal" data-bs-target="#camscan">
             Escanear con cámara
           </button>
         </div>
@@ -201,13 +204,13 @@
         </div>
       </div>
       <div class="container mt-2">
-        <div class="row">
+        <div class="row-3">
           <div class="col">
             <button class="btn btn-info mt-2" id="generate" type="button">Mostrar tabla</button>
             <div class="d-none" id="listGroup">
             </div>
             <div id="preview" class="d-none">
-              <table class="table form-control-xl" id="table">
+              <table class="table text-white form-control-xl" id="table">
                 <thead>
                   <tr class="form-control-xl">
                     <th scope="col-span-2">#</th>
@@ -230,28 +233,21 @@
                 </tfoot>
               </table>
             </div>
+          </div>
+        </div>
       </div>
-              </div>
-            </div>
     </div>
-      <audio src="error.mp3" type="audio/mpeg" id="error"></audio>
-      <audio src="duplicate.wav" type="audio/wav" id="duplicateYes"></audio>
-      <div
-        class="d-flex flex-wrap justify-content-evenly justify-content-md-evenly align-content-space-between mb-5 mt-4">
-        <button type="button" class="btn btn-success mt-3" id="result" onclick="calculoBalance()"
-          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Calcula todos los subtotales">Calcular</button>
-        <button type="button" class="btn btn-success mt-3" id="getXLS" data-bs-toggle="tooltip"
-          data-bs-placement="bottom" title="Generar archivo Excel a partir de la tabla">Exportar a Excel</button>
-        <button type="button" class="btn btn-secondary disabled mt-3" id="btnClean" data-bs-toggle="tooltip"
-          data-bs-placement="bottom" title="Borra todos los datos de la tabla">Limpiar datos guardados</button>
-      </div>
-      <a href="#"><img src="help.png" class="img-thumbnail position-fixed" data-bs-toggle="modal" data-bs-target="#asistant" data-bs-toggle="tooltip"
-        data-bs-placement="bottom" title="Pedir Asistencia" width="40" style="left:75%;top:59%;border-radius:100%;" onclick="help()"></a>
-      <a href="#"><img src="up.png" class="img-thumbnail position-fixed" data-bs-toggle="tooltip"
-          data-bs-placement="bottom" title="Volver arriba" width="40" style="left:75%;top:75%;border-radius:100%;"></a>
-      <a href="#"><img src="options.png" class="img-thumbnail position-fixed" data-bs-toggle="offcanvas"
-          data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" width="40"
-          style="left:75%;top:67%;border-radius:100%;"></a>
+    <audio src="error.mp3" type="audio/mpeg" id="error"></audio>
+    <audio src="duplicate.wav" type="audio/wav" id="duplicateYes"></audio>
+    <div
+      class="d-flex flex-wrap justify-content-evenly justify-content-md-evenly align-content-space-between mb-5 mt-4">
+      <button type="button" class="btn btn-success mt-3" id="result" onclick="calculoBalance()" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" title="Calcula todos los subtotales">Calcular</button>
+      <button type="button" class="btn btn-success mt-3" id="getXLS" data-bs-toggle="tooltip" data-bs-placement="bottom"
+        title="Generar archivo Excel a partir de la tabla">Exportar a Excel</button>
+      <button type="button" class="btn btn-secondary disabled mt-3" id="btnClean" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" title="Borra todos los datos de la tabla">Limpiar datos guardados</button>
+    </div>
   </main>
   <footer class="text-muted">
     <div class="container text-white text-center" id="footer">
@@ -260,6 +256,14 @@
         Diseño y desarrollo por Juan Martinez contacto <a href="https://wa.me/+59897095516" target="_blank">aquí</a> -
       </p>
     </div>
+    <a href="#"><img src="help.png" class="img-thumbnail position-fixed" data-bs-toggle="modal"
+      data-bs-target="#asistant" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pedir Asistencia"
+      width="40" style="left:75%;top:59%;border-radius:100%;" onclick="help()"></a>
+  <a href="#"><img src="up.png" class="img-thumbnail position-fixed" data-bs-toggle="tooltip"
+      data-bs-placement="bottom" title="Volver arriba" width="40" style="left:75%;top:75%;border-radius:100%;"></a>
+  <a href="#"><img src="options.png" class="img-thumbnail position-fixed" data-bs-toggle="offcanvas"
+      data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" width="40"
+      style="left:75%;top:67%;border-radius:100%;"></a>
   </footer>
   <div id="animation">
     <div id="spinner">
@@ -272,8 +276,7 @@
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="./js/search.js"></script>
-<!-- Cargamos Quagga y luego nuestro script -->
 <script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
 <script src="./js/script.js"></script>
 
-          </html>
+</html>
