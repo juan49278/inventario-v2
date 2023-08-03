@@ -149,9 +149,11 @@ search.addEventListener("input", () => {
   if (search.value != "") {
     button.classList.remove("btn-secondary", "disabled")
     button.classList.add("btn-info")
+    searchLive()
   } else {
     button.classList.remove("btn-info")
     button.classList.add("btn-secondary", "disabled")
+    searchResult.innerHTML = ""
   }
 })
 button.addEventListener("click", () => {
@@ -398,4 +400,16 @@ launchCamscan.addEventListener("click", () => {
 function closeCamscan(){
   camscan.classList.add("d-none")
   camscan.classList.remove("d-block")
+}
+
+function searchLive(){
+  searchResult.innerHTML = ""
+  let text = search.value.toLowerCase()
+  for(let arrays of arraysAdded){
+    let productName = arrays.nombre.toLowerCase()
+    if(productName.indexOf(text) !== -1){
+      searchResult.innerHTML += `
+      <li class="list-group-item cursor-active">${productName}</li>`
+    }
+  }
 }
