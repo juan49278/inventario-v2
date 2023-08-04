@@ -420,7 +420,7 @@ localStorage.setItem('item' ,id)
 }
 function selectResult() {
   let position = localStorage.getItem('item')
-  element = document.getElementById(`#span${position}`).innerHTML
+  element = document.getElementById(`${position}`).innerHTML
   search.value = element
   button.click();
   button.onclick = filter();
