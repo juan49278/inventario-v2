@@ -225,13 +225,13 @@ $(function () {
     event.preventDefault();
     swal({
       title: "¿Estás seguro?",
-    text: "Se borrara el elemento la accion no se puede deshacer",
-    icon: "warning",
-    buttons: true
-  }).then((result) => {
-    if (result == true){
-      $(this).closest('tr').remove();
-    }
+      text: "Se borrara el elemento la accion no se puede deshacer",
+      icon: "warning",
+      buttons: true
+    }).then((result) => {
+      if (result == true) {
+        $(this).closest('tr').remove();
+      }
     })
   });
 });
@@ -295,7 +295,7 @@ function duplicate(a, b) {
       param2 = divs.length
       result = parseInt(divs[param].nextElementSibling.querySelector("p.cant").innerHTML) +
         parseInt(divs[param2 - 1].nextElementSibling.querySelector("p.cant").innerHTML)
-      divs[param2 -1].nextElementSibling.querySelector("p.cant").innerHTML = result
+      divs[param2 - 1].nextElementSibling.querySelector("p.cant").innerHTML = result
       divs[param].closest('tr').remove();
       result = ""
     }
@@ -370,18 +370,18 @@ function recoverProductsList() {
   modalBody.innerHTML = `${arraysAdded.length}`
 }
 
-function help(){
+function help() {
   asistant.classList.remove("d-none")
   asistant.classList.add("d-block")
 }
 
-function closeHelp(){
+function closeHelp() {
   asistant.classList.remove("d-block")
   asistant.classList.add("d-none")
 }
 
-generate.addEventListener("click", () =>{
-  if(document.querySelector('#generate').innerHTML == "Mostrar tabla"){
+generate.addEventListener("click", () => {
+  if (document.querySelector('#generate').innerHTML == "Mostrar tabla") {
     preview.classList.remove('d-none')
     preview.classList.add('d-block')
     document.querySelector('#generate').innerHTML = "Ocultar tabla"
@@ -397,19 +397,32 @@ launchCamscan.addEventListener("click", () => {
   camscan.classList.add("d-block")
 })
 
-function closeCamscan(){
+function closeCamscan() {
   camscan.classList.add("d-none")
   camscan.classList.remove("d-block")
 }
 
-function searchLive(){
+function searchLive() {
   searchResult.innerHTML = ""
   let text = search.value.toLowerCase()
-  for(let arrays of arraysAdded){
+  for (let arrays of arraysAdded) {
     let productName = arrays.nombre.toLowerCase()
-    if(productName.indexOf(text) !== -1){
+    let productCode = arrays.codigo.toString()
+    if (productName.indexOf(text) !== -1) {
       searchResult.innerHTML += `
-      <li class="list-group-item cursor-active">${productName}</li>`
+      <li class="list-group-item cursor-active" onclick="idProduct(${productCode}), selectResult()">${productName}<br> Cod: <span id="${productCode}">${productCode}</span></li>`
     }
   }
+}
+
+function idProduct(id){
+localStorage.setItem('item' ,id)
+}
+function selectResult() {
+  let position = localStorage.getItem('item')
+  element = document.querySelector(`#span${position}`).innerHTML
+  search.value = element
+  button.click();
+  button.onclick = filter();
+  searchResult.innerHTML = ""
 }
