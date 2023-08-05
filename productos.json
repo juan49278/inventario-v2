@@ -676,7 +676,6 @@
       "nombre": "Petaca Gregsons",
       "codigo": 77311283,
       "Precio": 145
-      
     },
     {
       "nombre": "Petaca Grappamiel",
@@ -901,13 +900,13 @@
       "Precio": 149
     },
     {
-      "nombre": "Atun desmenuzado Demas",
+      "nombre": "Atún desmenuzado Demas",
       "codigo": 7730477003084,
       "codigo1": 7730914672958,
       "Precio": 43
     },
     {
-      "nombre": "Atun Lomito Rio 170g",
+      "nombre": "Atún Lomito Rio 170g",
       "codigo": 7730205043337,
       "codigo1": 7730205041678,
       "Precio": 135
@@ -933,13 +932,13 @@
       "Precio": 139
     },
     {
-      "nombre": "Atun Salamanca",
+      "nombre": "Atún Salamanca",
       "codigo": 7730963885590,
       "codigo1": 7730963885606,
       "Precio": 73
     },
     {
-      "nombre": "Atun desmenuzado Rio",
+      "nombre": "Atún desmenuzado Rio",
       "codigo": 7730205062871,
       "Precio": 135
     },
@@ -980,7 +979,7 @@
       "Precio": 46
     },
     {
-      "nombre": "Atun Lomito Emigrante 170g",
+      "nombre": "Atún Lomito Emigrante 170g",
       "codigo": 7730267006219,
       "Precio": 116
     },
@@ -1014,27 +1013,27 @@
       "Precio": 99
     },
     {
-      "nombre": "Salus pomelo sin azucar con gas 1.5l",
+      "nombre": "Salus pomelo sin azúcar con gas 1.5l",
       "codigo": 7730400003969,
       "Precio": 108
     },
     {
-      "nombre": "Salus tonica sin azucar 600ml",
+      "nombre": "Salus tónica sin azúcar 600ml",
       "codigo": 7730400003938,
       "Precio": 60
     },
     {
-      "nombre": "Salus tonica sin azucar 1.5l",
+      "nombre": "Salus tónica sin azúcar 1.5l",
       "codigo": 7730400003945,
       "Precio": 108
     },
     {
-      "nombre": "Salus pomelo sin azucar con gas 600ml",
+      "nombre": "Salus pomelo sin azúcar con gas 600ml",
       "codigo": 7730400003952,
       "Precio": 58
     },
     {
-      "nombre": "Agua tonica Paso de los toros",
+      "nombre": "Agua tónica Paso de los toros",
       "codigo": 7734284254080,
       "Precio": 115
     },
@@ -1355,7 +1354,7 @@
       "Precio": 145
     },
     {
-      "nombre": "Atun Lomito Rio 354g",
+      "nombre": "Atún Lomito Rio 354g",
       "codigo": 7730205074652,
       "Precio": 269
     },
@@ -1400,7 +1399,7 @@
       "Precio": 41
     },
     {
-      "nombre": "Atun Lomito Emigrante 354g",
+      "nombre": "Atún Lomito Emigrante 354g",
       "codigo": 7730267009975,
       "codigo1": 7730267009968,
       "Precio": 245
@@ -1547,12 +1546,12 @@
       "Precio": 59
     },
     {
-      "nombre": "Yerba Cebador intensa + azucar",
+      "nombre": "Yerba Cebador intensa + azúcar",
       "codigo": 7730354005514,
       "Precio": 199
     },
     {
-      "nombre": "Yerba Cebador + azucar",
+      "nombre": "Yerba Cebador + azúcar",
       "codigo": 7730354005590,
       "Precio": 179
     },
@@ -1612,7 +1611,7 @@
       "Precio": 37
     },
     {
-      "nombre": "Pan rallado condimentado La Triguenia",
+      "nombre": "Pan rallado condimentado La Trigueña",
       "codigo": 7730221000536,
       "Precio": 106
     },
@@ -1700,7 +1699,7 @@
       "Precio": 73
     },
     {
-      "nombre": "Galleta Triguenia",
+      "nombre": "Galleta Trigueña",
       "codigo": 7730221000239,
       "codigo1": 7730221000222,
       "Precio": 155
@@ -1928,7 +1927,7 @@
       "Precio": 165
     },
     {
-      "nombre": "Atun desmenuzado Emigrante",
+      "nombre": "Atún desmenuzado Emigrante",
       "codigo": 6,
       "codigo1": 7730267001337,
       "Precio": 69
@@ -2700,7 +2699,7 @@
       "Precio": 28
     },
     {
-      "nombre":"Galletitas con leche El Trigal",
+      "nombre": "Galletitas con leche El Trigal",
       "codigo": 7730116141122,
       "Precio": 85
     },
@@ -2738,7 +2737,7 @@
       "Precio": 55
     },
     {
-      "nombre": "Atun sobre Emigrante",
+      "nombre": "Atún sobre Emigrante",
       "codigo": 7730267007407,
       "Precio": 330
     },
@@ -2781,12 +2780,12 @@
       "Precio": 131
     },
     {
-      "nombre": "Champiñones laminados Emigrante", 
+      "nombre": "Champiñones laminados Emigrante",
       "codigo": 7730267005953,
       "Precio": 105
     },
     {
-      "nombre": "Palmitos rodaja Emigrante", 
+      "nombre": "Palmitos rodaja Emigrante",
       "codigo": 7730267007544,
       "Precio": 115
     },
@@ -2847,49 +2846,49 @@
       "Precio": 52
     },
     {
-      "nombre": "Bracafe 100g",
+      "nombre": "Bracafé 100g",
       "codigo": 7613035511576,
       "Precio": 331
     },
     {
-      "nombre": "Bracafe 170g",
+      "nombre": "Bracafé 170g",
       "codigo": 7613035511590,
       "Precio": 478
     },
     {
-      "nombre": "Nescafe tradicional 200g + recarga",
+      "nombre": "Nescafé tradicional 200g + recarga",
       "codigo": 7613031578931,
       "Precio": 555
     },
     {
-      "nombre": "Nescafe original 200g + recarga",
+      "nombre": "Nescafé original 200g + recarga",
       "codigo": 7613031578917,
       "Precio": 555
     },
     {
-      "nombre": "Nescafe tradicional 100g",
+      "nombre": "Nescafé tradicional 100g",
       "codigo": 7891000016589,
       "Precio": 295
     },
     {
-      "nombre": "Nescafe original 100g",
+      "nombre": "Nescafé original 100g",
       "codigo": 7891000300503,
       "Precio": 295
     },
     {
-      "nombre": "Nescafe descafeinado 100g",
+      "nombre": "Nescafé descaféinado 100g",
       "codigo": 7613035379213,
       "Precio": 445
     },
     {
-      "nombre": "Capuchino Nescafe 18g", 
+      "nombre": "Capuchino Nescafé 18g",
       "codigo": 7613033458507,
       "codigo1": 7613033458101,
       "codigo2": 7613033458538,
       "Precio": 42
     },
     {
-      "nombre": "Bracafe 3 en 1",
+      "nombre": "Bracafé 3 en 1",
       "codigo": 7613035218208,
       "Precio": 30
     },
@@ -2993,12 +2992,12 @@
       "Precio": 45
     },
     {
-      "nombre": "Bracafe recarga",
+      "nombre": "Bracafé recarga",
       "codigo": 7730109000306,
       "Precio": 139
     },
     {
-      "nombre": "Café Chana 250g", 
+      "nombre": "Café Chana 250g",
       "codigo": 7730109012323,
       "Precio": 339
     },
@@ -3038,12 +3037,12 @@
       "Precio": 70
     },
     {
-      "nombre": "Te rojo hebras Hornimans", 
+      "nombre": "Te rojo hebras Hornimans",
       "codigo": 7730261000091,
       "Precio": 47
     },
     {
-      "nombre": "Te canarias x10", 
+      "nombre": "Te canarias x10",
       "codigo": 7730241080013,
       "Precio": 47
     },
@@ -3062,7 +3061,7 @@
       "Precio": 70
     },
     {
-      "nombre": "Te Hornimans x10", 
+      "nombre": "Te Hornimans x10",
       "codigo": 7730261000046,
       "Precio": 43
     },
@@ -3072,7 +3071,7 @@
       "Precio": 81
     },
     {
-      "nombre": "Bracafe sticks x14",
+      "nombre": "Bracafé sticks x14",
       "codigo": 8445290239495,
       "Precio": 78
     },
@@ -3102,7 +3101,7 @@
       "Precio": 29
     },
     {
-      "nombre": "Polvo de hornear Fleischmann", 
+      "nombre": "Polvo de hornear Fleischmann",
       "codigo": 7730917691505,
       "Precio": 20
     },
@@ -3117,7 +3116,7 @@
       "Precio": 123
     },
     {
-      "nombre": "Pan rallado clásico La Triguenia",
+      "nombre": "Pan rallado clásico La Trigueña",
       "codigo": 7730221000079,
       "Precio": 95
     },
@@ -3128,7 +3127,7 @@
       "Precio": 85
     },
     {
-      "nombre": "Agua mineral sin gas Esencial", 
+      "nombre": "Agua mineral sin gas Esencial",
       "codigo": 7730914390029,
       "Precio": 37
     },
@@ -3146,7 +3145,7 @@
       "Precio": 73
     },
     {
-      "nombre": "Galletas salvado sin sal Rio", 
+      "nombre": "Galletas salvado sin sal Rio",
       "codigo": 7730205104496,
       "Precio": 139
     },
@@ -3156,7 +3155,7 @@
       "Precio": 84
     },
     {
-      "nombre": "Galletas salvado Rio", 
+      "nombre": "Galletas salvado Rio",
       "codigo": 7730205104502,
       "Precio": 92
     },
@@ -3299,17 +3298,17 @@
       "Precio": 4
     },
     {
-      "nombre": "Cafe Aguila caja",
+      "nombre": "café Aguila caja",
       "codigo": 13,
       "Precio": 4
     },
     {
-      "nombre": "Bracafe sticks caja",
+      "nombre": "Bracafé sticks caja",
       "codigo": 14,
       "Precio": 5
     },
     {
-      "nombre": "Cafe Iguacu sticks",
+      "nombre": "café Iguacu sticks",
       "codigo": 15,
       "Precio": 4
     },
@@ -3319,7 +3318,7 @@
       "Precio": 50
     },
     {
-      "nombre": "Bracafe sticks x10 suelto",
+      "nombre": "Bracafé sticks x10 suelto",
       "codigo": 17,
       "Precio": 50
     },

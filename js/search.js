@@ -402,11 +402,21 @@ function closeCamscan() {
   camscan.classList.remove("d-block")
 }
 
+let accent_map = {'á':'a', 'é':'e', 'è':'e', 'í':'i','ó':'o','ú':'u','Á':'a', 'É':'e', 'è':'e', 'Í':'i','Ó':'o','Ú':'u', 'ñ': 'n','Ñ':'n'};
+function accent_fold (s) {
+  if (!s) { return ''; }
+  let ret = '';
+  for (let i = 0; i < s.length; i++) {
+    ret += accent_map[s.charAt(i)] || s.charAt(i);
+  }
+  return ret;
+};
+
 function searchLive() {
   searchResult.innerHTML = ""
-  let text = search.value.toLowerCase()
+  let text = accent_fold(search.value).toLowerCase()
   for (let arrays of arraysAdded) {
-    let productName = arrays.nombre.toLowerCase()
+    let productName = accent_fold(arrays.nombre).toLowerCase()
     let productCode = arrays.codigo.toString()
     if (productName.indexOf(text) !== -1) {
       searchResult.innerHTML += `
@@ -418,6 +428,7 @@ function searchLive() {
 function idProduct(id){
 localStorage.setItem('item' ,id)
 }
+
 function selectResult() {
   let position = localStorage.getItem('item')
   element = document.getElementById(`${position}`).innerHTML

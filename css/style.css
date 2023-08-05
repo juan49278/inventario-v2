@@ -78,7 +78,7 @@ body {
 footer {
   background: rgb(10, 16, 70);
   opacity: 0.9;
-  position: static;
+  position: static, bottom;
   bottom: 0px;
   width: auto;
   height: calc(6rem);
