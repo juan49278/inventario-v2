@@ -47,7 +47,7 @@ function show() {
   document.getElementById('productos').innerHTML += toAppened
   codeShow = ""
   quantity.value = ""
-  duplicate()
+ /*  duplicate() */
 
 }
 
@@ -69,7 +69,7 @@ function showAdd() {
   nombreAdd.value = ""
   quantityNew.value = ""
   priceNew.value = ""
-  duplicate()
+  /* duplicate() */
 }
 
 //Funcion que despliega div oculto
