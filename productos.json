@@ -6,9 +6,9 @@
       "Precio": 66
     },
     {
-      "nombre": "Arroz Parboiled 1kg",
+      "nombre": "Arroz Saman Parboiled 1kg",
       "codigo": 7730115030106,
-      "Precio": 68
+      "Precio": 72
     },
     {
       "nombre": "Margarina Adorita 500g",
@@ -346,7 +346,7 @@
       "codigo1": 7730172275113,
       "codigo2": 7730116281125,
       "codigo3": 7730116292121,
-      "Precio": 113
+      "Precio": 125
     },
     {
       "nombre": "Galletas Tostex Colores",
@@ -421,12 +421,12 @@
     {
       "nombre": "Whisky Dunbar",
       "codigo": 7730901310054,
-      "Precio": 515
+      "Precio": 489
     },
     {
       "nombre": "Whisky Ballantimes",
       "codigo": 5010106111925,
-      "Precio": 1030
+      "Precio": 929
     },
     {
       "nombre": "Whisky Sandy Mac",
@@ -549,7 +549,7 @@
     {
       "nombre": "Azúcar Aruba",
       "codigo": 7730115000451,
-      "Precio": 55
+      "Precio": 61
     },
     {
       "nombre": "Faisan 1l",
@@ -782,7 +782,7 @@
       "nombre": "Mani Stack",
       "codigo": 7730955840231,
       "codigo1": 7730955840248,
-      "Precio": 170
+      "Precio": 175
     },
     {
       "nombre": "Harina Cañuelas 0000",
@@ -847,7 +847,7 @@
     {
       "nombre": "Lentejones Emigrante 500g",
       "codigo": 7730267001764,
-      "Precio": 68
+      "Precio": 89
     },
     {
       "nombre": "Pure de papas Rio 1kg",
@@ -877,7 +877,7 @@
     {
       "nombre": "Arveja Rio",
       "codigo": 7730205087072,
-      "Precio": 34
+      "Precio": 61
     },
     {
       "nombre": "Choclo + arveja Rio",
@@ -943,14 +943,14 @@
       "Precio": 135
     },
     {
-      "nombre": "Sardina Coquiero 250g",
+      "nombre": "Sardina Coqueiro 250g",
       "codigo": 7896009301032,
-      "Precio": 119
+      "Precio": 129
     },
     {
-      "nombre": "Sardina Coquiero 125g",
+      "nombre": "Sardina Coqueiro 125g",
       "codigo": 7896009301063,
-      "Precio": 62
+      "Precio": 68
     },
     {
       "nombre": "Jardinera Emigrante",
@@ -1113,12 +1113,12 @@
       "nombre": "Agua Matutina 2.5l",
       "codigo": 7730400003877,
       "codigo1": 7730400003884,
-      "Precio": 37
+      "Precio": 52
     },
     {
       "nombre": "Bidon Salus 6l",
       "codigo": 7730400002771,
-      "Precio": 89
+      "Precio": 129
     },
     {
       "nombre": "Sidra Gorlero 1l",
@@ -1222,7 +1222,7 @@
     {
       "nombre": "Garbanzo Lata Emigrante",
       "codigo": 7730267024848,
-      "Precio": 39
+      "Precio": 42
     },
     {
       "nombre": "Latas Emigrante",
@@ -1230,7 +1230,7 @@
       "codigo1": 7730267024923,
       "codigo2": 7730267024916,
       "codigo3": 7730267024909,
-      "Precio": 45
+      "Precio": 48
     },
     {
       "nombre": "Condimento Dukita",
@@ -1267,7 +1267,7 @@
     {
       "nombre": "Aceite Condesa",
       "codigo": 7730132000434,
-      "Precio": 75
+      "Precio": 69
     },
     {
       "nombre": "Galleta Hipopo",
@@ -1376,7 +1376,7 @@
     {
       "nombre": "Choclo Cololo grande",
       "codigo": 7730213000032,
-      "Precio": 58
+      "Precio": 71
     },
     {
       "nombre": "Arveja Cololo grande",
@@ -1715,7 +1715,7 @@
       "codigo": 7896022086558,
       "codigo1": 7896022086534,
       "codigo2": 7896022086527,
-      "Precio": 21
+      "Precio": 20
     },
     {
       "nombre": "Tostada Isabela",
@@ -1793,7 +1793,7 @@
       "codigo": 7896022086886,
       "codigo1": 7896022086862,
       "codigo2": 7896022086909,
-      "Precio": 45
+      "Precio": 89
     },
     {
       "nombre": "Garbanzo Emigrante 500g",
@@ -1828,7 +1828,7 @@
       "Precio": 129
     },
     {
-      "nombre": "Sin sal El Trigal",
+      "nombre": "Galleta Sin sal El Trigal",
       "codigo": 7730116259155,
       "Precio": 159
     },
@@ -1970,7 +1970,7 @@
     {
       "nombre": "Aceite Girasol El Emigrante",
       "codigo": 7730267019752,
-      "Precio": 109
+      "Precio": 99
     },
     {
       "nombre": "Yerba Canarias 1kg + 70g gratis",
@@ -2010,7 +2010,7 @@
       "codigo1": 7730260020267,
       "codigo2": 7730260020274,
       "codigo3": 7730260020250,
-      "Precio": 278
+      "Precio": 295
     },
     {
       "nombre": "Vino Vudu 1l",
@@ -2019,7 +2019,7 @@
       "codigo2": 7730260090659,
       "codigo3": 7730260000603,
       "codigo4": 7730260000610,
-      "Precio": 126
+      "Precio": 135
     },
     {
       "nombre": "Sazon para el horno Knorr",
@@ -2283,7 +2283,7 @@
     {
       "nombre": "Condimento verde 25g",
       "codigo": 7730177000390,
-      "Precio": 67
+      "Precio": 74
     },
     {
       "nombre": "Nuez moscada molida",
@@ -2323,7 +2323,7 @@
     {
       "nombre": "Pimienta negra molida",
       "codigo": 7730177000307,
-      "Precio": 61
+      "Precio": 65
     },
     {
       "nombre": "Canela en rama 25g",
@@ -2481,7 +2481,7 @@
       "nombre": "Mayonesa Hellmans clasica 500g",
       "codigo": 7794000006072,
       "codigo1": 7794000401389,
-      "Precio": 135
+      "Precio": 169
     },
     {
       "nombre": "Mayonesa Hellmans casera 250g",
@@ -2516,7 +2516,7 @@
     {
       "nombre": "Mayonesa Hellmans light 500g",
       "codigo": 7730343325432,
-      "Precio": 146
+      "Precio": 182
     },
     {
       "nombre": "Savora 60g",
@@ -2592,7 +2592,7 @@
     {
       "nombre": "Chucker 600ml",
       "codigo": 7792129000353,
-      "Precio": 140
+      "Precio": 165
     },
     {
       "nombre": "Granola tradicional Tres Flores",
@@ -2749,7 +2749,7 @@
     {
       "nombre": "Ron Havana Club",
       "codigo": 8501110080927,
-      "Precio": 749
+      "Precio": 689
     },
     {
       "nombre": "Nestle Ecco 50g",
@@ -2853,7 +2853,7 @@
     {
       "nombre": "Bracafé 170g",
       "codigo": 7613035511590,
-      "Precio": 478
+      "Precio": 479
     },
     {
       "nombre": "Nescafé tradicional 200g + recarga",
@@ -2885,7 +2885,7 @@
       "codigo": 7613033458507,
       "codigo1": 7613033458101,
       "codigo2": 7613033458538,
-      "Precio": 42
+      "Precio": 50
     },
     {
       "nombre": "Bracafé 3 en 1",
@@ -3250,7 +3250,7 @@
     {
       "nombre": "Agua Salus 600ml",
       "codigo": 7730400001729,
-      "Precio": 43
+      "Precio": 55
     },
     {
       "nombre": "Pan Marbella 0%",
@@ -3360,7 +3360,7 @@
     {
       "nombre": "Lenteja Emigrante 400g",
       "codigo": 7730267001740,
-      "Precio": 87
+      "Precio": 79
     },
     {
       "nombre": "Arroz Shiva 1kg",
@@ -3401,6 +3401,48 @@
       "nombre": "Yerba Contigo roja 1kg + 70g",
       "codigo": 7730241027025,
       "Precio": 182
+    },
+    {
+      "nombre": "Mayonesa Hellmans Vegana 500g",
+      "codigo": 22,
+      "Precio": 182
+    }, 
+    {
+      "nombre": "Galletas Cric-crac chica",
+      "codigo": 23,
+      "Precio": 104
+    },
+    {
+      "nombre": "Nescafé extrafuerte 100g",
+      "codigo": 24,
+      "Precio": 355
+    },
+    {
+      "nombre": "Galletas Arroz Blue Patna",
+      "codigo": 7730114000032,
+      "Precio": 62
+    },
+    {
+      "nombre": "Ron Bacardi Carta de Oro",
+      "codigo": 7501008604014,
+      "Precio": 639
+    },
+    {
+      "nombre": "Ron Bacardi Carta blanca",
+      "codigo": 7501008603017,
+      "Precio": 659
+    },
+    {
+      "nombre": "Granadina 1l",
+      "codigo": 7730210000059,
+      "Precio": 329
+    },
+    {
+      "nombre": "Galleta Tortitas Isabela",
+      "codigo": 7896022086992,
+      "codigo1": 7896022087005,
+      "codigo2": 7896022086985,
+      "Precio": 45
     }
   ]
 }
