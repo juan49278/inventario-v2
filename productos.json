@@ -89,7 +89,7 @@
     {
       "nombre": "Dulce de leche Los Nietitos 1kg",
       "codigo": 7730124384009,
-      "Precio": 214
+      "Precio": 189
     },
     {
       "nombre": "Jugos Big C",
@@ -237,7 +237,7 @@
       "codigo2": 7613035190467,
       "codigo3": 7613035191792,
       "codigo4": 7613035191822,
-      "Precio": 88
+      "Precio": 105
     },
     {
       "nombre": "Pure de papas Demas 1kg",
@@ -247,7 +247,7 @@
     {
       "nombre": "Barbacoa Hellmans",
       "codigo": 7794000003583,
-      "Precio": 139
+      "Precio": 145
     },
     {
       "nombre": "Ketchup Hellmans 250g",
@@ -323,7 +323,7 @@
     {
       "nombre": "Galletas Solar",
       "codigo": 7730110221011,
-      "Precio": 110
+      "Precio": 115
     },
     {
       "nombre": "Galletas Solar coco",
@@ -346,7 +346,7 @@
       "codigo1": 7730172275113,
       "codigo2": 7730116281125,
       "codigo3": 7730116292121,
-      "Precio": 125
+      "Precio": 113
     },
     {
       "nombre": "Galletas Tostex Colores",
@@ -426,7 +426,7 @@
     {
       "nombre": "Whisky Ballantimes",
       "codigo": 5010106111925,
-      "Precio": 929
+      "Precio": 959
     },
     {
       "nombre": "Whisky Sandy Mac",
@@ -660,7 +660,7 @@
     {
       "nombre": "Galleta Maria rik x3",
       "codigo": 7730116101249,
-      "Precio": 125
+      "Precio": 113
     },
     {
       "nombre": "Grappa San Remo",
@@ -825,7 +825,7 @@
       "Precio": 112
     },
     {
-      "nombre": "Grabanzo Rio 500g",
+      "nombre": "Garbanzo Rio 500g",
       "codigo": 7730205102423,
       "Precio": 72
     },
@@ -857,7 +857,7 @@
     {
       "nombre": "Pure de papas Rio 125g",
       "codigo": 7730205060600,
-      "Precio": 61
+      "Precio": 57
     },
     {
       "nombre": "Pack Tomate + Lentejas Rio",
@@ -1081,13 +1081,17 @@
     },
     {
       "nombre": "Sidra La Gijonesa sabores 1.5l",
-      "codigo": 7730408000892,
-      "Precio": 75
+      "codigo": 7730408000885,
+      "codigo1": 77304088000892,
+      "codigo2": 7730408000908,
+      "codigo3": 7730408001097,
+      "Precio": 89
     },
     {
       "nombre": "Sidra La Gijonesa sabores vidrio",
       "codigo": 7730408001271,
-      "codigo1": 7730408000861,
+      "codigo1": 7730488001332,
+      "codigo2": 7730488000854,
       "Precio": 179
     },
     {
@@ -1116,14 +1120,9 @@
       "Precio": 52
     },
     {
-      "nombre": "Bidon Salus 6l",
-      "codigo": 7730400002771,
-      "Precio": 129
-    },
-    {
       "nombre": "Sidra Gorlero 1l",
       "codigo": 7730408000663,
-      "Precio": 69
+      "Precio": 79
     },
     {
       "nombre": "Aceite Altoleico Optimo",
@@ -1148,7 +1147,7 @@
     {
       "nombre": "Pulpa de tomate Big Choice",
       "codigo": 7730920130886,
-      "Precio": 62
+      "Precio": 67
     },
     {
       "nombre": "Pulpa de tomate Gourmet",
@@ -1171,7 +1170,7 @@
     {
       "nombre": "Pulpa de tomate Conaprole",
       "codigo": 7730105025402,
-      "Precio": 79
+      "Precio": 85
     },
     {
       "nombre": "Pulpa de tomate Rigby 500g",
@@ -1825,7 +1824,7 @@
     {
       "nombre": "Surtidas El Trigal",
       "codigo": 7730116103304,
-      "Precio": 129
+      "Precio": 135
     },
     {
       "nombre": "Galleta Sin sal El Trigal",
@@ -1883,18 +1882,18 @@
       "nombre": "Agua sifon 2l Esencial",
       "codigo": 7791913000814,
       "codigo1": 7730914390265,
-      "Precio": 57
+      "Precio": 73
     },
     {
       "nombre": "Agua Salus bidon 6l",
       "codigo": 7730400002771,
-      "Precio": 89
+      "Precio": 129
     },
     {
       "nombre": "Agua Matutina x4",
       "codigo": 7730922256119,
       "codigo1": 7730922256102,
-      "Precio": 99
+      "Precio": 149
     },
     {
       "nombre": "Avena 200g Puritas",
@@ -2048,12 +2047,12 @@
     {
       "nombre": "Dulce de leche Manjar 500g",
       "codigo": 7730105005145,
-      "Precio": 119
+      "Precio": 122
     },
     {
       "nombre": "Dulce de leche Manjar 1kg",
       "codigo": 7730105005435,
-      "Precio": 195
+      "Precio": 199
     },
     {
       "nombre": "Juguito",
@@ -2151,7 +2150,7 @@
     {
       "nombre": "Pure de papas Knorr Receta completa 125g",
       "codigo": 7794000006379,
-      "Precio": 125
+      "Precio": 127
     },
     {
       "nombre": "Oliva Rio 500ml",
@@ -2388,7 +2387,7 @@
       "codigo1": 7730114000469,
       "codigo2": 7730114000407,
       "codigo3": 7730114000445,
-      "Precio": 77
+      "Precio": 94
     },
     {
       "nombre": "Rinde mas 3 en 1",
@@ -2408,7 +2407,7 @@
     {
       "nombre": "Ketchup Oderich 1kg",
       "codigo": 7896041172584,
-      "Precio": 121
+      "Precio": 125
     },
     {
       "nombre": "Oliva saborizado",
@@ -2475,7 +2474,7 @@
     {
       "nombre": "Mayonesa Hellmans clasica 250g",
       "codigo": 7794000006065,
-      "Precio": 112
+      "Precio": 89
     },
     {
       "nombre": "Mayonesa Hellmans clasica 500g",
@@ -2506,7 +2505,7 @@
     {
       "nombre": "Mayonesa Hellmans light 125g",
       "codigo": 7794000006393,
-      "Precio": 57
+      "Precio": 53
     },
     {
       "nombre": "Mayonesa Hellmans light 250g",
@@ -2536,7 +2535,7 @@
     {
       "nombre": "Mayonesa Natura 125g",
       "codigo": 7791866001197,
-      "Precio": 42
+      "Precio": 50
     },
     {
       "nombre": "Mayonesa Mayoliva 125g",
@@ -2561,7 +2560,7 @@
     {
       "nombre": "Mayonesa Natura 250g",
       "codigo": 7791866001203,
-      "Precio": 94
+      "Precio": 98
     },
     {
       "nombre": "Mayonesa Natura 500g",
@@ -2664,7 +2663,7 @@
       "nombre": "Faina El Trigal",
       "codigo": 7730172516148,
       "codigo1": 7730172515141,
-      "Precio": 73
+      "Precio": 75
     },
     {
       "nombre": "Aceituna Rio 100g",
@@ -3129,7 +3128,7 @@
     {
       "nombre": "Agua mineral sin gas Esencial",
       "codigo": 7730914390029,
-      "Precio": 37
+      "Precio": 41
     },
     {
       "nombre": "Papas ruffles 135g",
@@ -3215,7 +3214,7 @@
     {
       "nombre": "Lentejas Rio 500g",
       "codigo": 7730205102416,
-      "Precio": 0
+      "Precio": 89
     },
     {
       "nombre": "Mermelada Los Nietitos 400g 0% Arandanos",
@@ -3406,7 +3405,7 @@
       "nombre": "Mayonesa Hellmans Vegana 500g",
       "codigo": 22,
       "Precio": 182
-    }, 
+    },
     {
       "nombre": "Galletas Cric-crac chica",
       "codigo": 23,
@@ -3443,6 +3442,65 @@
       "codigo1": 7896022087005,
       "codigo2": 7896022086985,
       "Precio": 45
+    },
+    {
+      "nombre": "Salsa Remia sabores",
+      "codigo": 8710448591795,
+      "codigo1": 8710448595779,
+      "codigo2": 8710448595823,
+      "codigo3": 8710448095798,
+      "codigo4": 8710448595892,
+      "Precio": 195
+    },
+    {
+      "nombre": "Salsa Remia sabores",
+      "codigo": 8710448595809,
+      "Precio": 195
+    },
+    {
+      "nombre": "Magdalena de Las Heras",
+      "codigo": 8410722551803,
+      "Precio": 129
+    },
+    {
+      "nombre": "Cerveza Corona 269ml",
+      "codigo": 7792798008377,
+      "Precio": 69
+    },
+    {
+      "nombre": "Malta Pilsen 473ml",
+      "codigo": 7730452004686,
+      "Precio": 89
+    },
+    {
+      "nombre": "Ketchup Pontevedra 60g",
+      "codigo": 7730976820595,
+      "Precio": 29
+    },
+    {
+      "nombre": "Papas Stack tubo",
+      "codigo": 6917554119659,
+      "Precio": 145
+    },
+    {
+      "nombre": "Sidra Gijonesa 950ml",
+      "codigo": 7730408000618,
+      "Precio": 199
+    },
+    {
+      "nombre": "Sidra Gijonesa 1.5l",
+      "codigo": 773048000595,
+      "Precio": 85
+    },
+    {
+      "nombre": "Sidra Gijonesa 330ml",
+      "codigo": 7730408001196,
+      "Precio": 65
+    },
+    {
+      "nombre": "Condipez 20g",
+      "codigo": 7730177002264,
+      "Precio": 54
     }
   ]
 }
