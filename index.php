@@ -20,6 +20,9 @@
 </head>
 
 <body>
+  <?php
+  echo "Hello Juan"
+  ?>
   <main id="main">
     <div class="modal d-none" id="modalListProducts" tabindex="-1" aria-labelledby="modalListProductsLabel"
       aria-hidden="true">
