@@ -3,7 +3,7 @@
     {
       "nombre": "Arroz Saman 1kg",
       "codigo": 7730115040105,
-      "Precio": 66
+      "Precio": 70
     },
     {
       "nombre": "Arroz Saman Parboiled 1kg",
@@ -13,7 +13,7 @@
     {
       "nombre": "Margarina Adorita 500g",
       "codigo": 7891152507805,
-      "Precio": 105
+      "Precio": 115
     },
     {
       "nombre": "Margarina Adorita 250g",
@@ -24,7 +24,7 @@
       "nombre": "Salsa para helado",
       "codigo": 7730124805511,
       "codigo1": 7730124807508,
-      "Precio": 156
+      "Precio": 143
     },
     {
       "nombre": "Miel Los Nietitos 250g",
@@ -346,7 +346,7 @@
       "codigo1": 7730172275113,
       "codigo2": 7730116281125,
       "codigo3": 7730116292121,
-      "Precio": 113
+      "Precio": 125
     },
     {
       "nombre": "Galletas Tostex Colores",
@@ -463,7 +463,7 @@
       "nombre": "Leche Conaprole caja",
       "codigo": 7730105021374,
       "codigo1": 7730105021381,
-      "Precio": 67
+      "Precio": 70
     },
     {
       "nombre": "Arroz Saman 500g",
@@ -735,7 +735,7 @@
       "nombre": "Vainilla Zeze",
       "codigo": 7896200001823,
       "codigo1": 7896200001809,
-      "Precio": 81
+      "Precio": 93
     },
     {
       "nombre": "Poroto Manteca de Diez 1kg",
@@ -1204,7 +1204,7 @@
     {
       "nombre": "Tomate entero pelado Rio",
       "codigo": 7730205074782,
-      "Precio": 54
+      "Precio": 49
     },
     {
       "nombre": "Papas Pay",
@@ -1242,7 +1242,7 @@
       "codigo1": 7896111424629,
       "codigo2": 7896111424582,
       "codigo3": 7896111424599,
-      "Precio": 105
+      "Precio": 107
     },
     {
       "nombre": "Jugo Frutare",
@@ -1254,7 +1254,7 @@
     {
       "nombre": "Durazno Aida",
       "codigo": 7730354006122,
-      "Precio": 79
+      "Precio": 85
     },
     {
       "nombre": "Jugos Rigby 1l",
@@ -1335,7 +1335,7 @@
       "codigo": 7501011178861,
       "codigo1": 7501011178847,
       "codigo2": 7501011178854,
-      "Precio": 200
+      "Precio": 210
     },
     {
       "nombre": "Pack Arveja + choclo + jardinera Rio",
@@ -1785,7 +1785,7 @@
     {
       "nombre": "Galletas Kuky",
       "codigo": 7896022086817,
-      "Precio": 59
+      "Precio": 89
     },
     {
       "nombre": "Galletas Isabela",
@@ -1857,7 +1857,7 @@
     {
       "nombre": "Tomate en trozos Rio",
       "codigo": 7730205060273,
-      "Precio": 54
+      "Precio": 57
     },
     {
       "nombre": "Pack cereales x2",
@@ -2530,7 +2530,7 @@
     {
       "nombre": "Mayonesa Uruguay 125g",
       "codigo": 7730132000731,
-      "Precio": 27
+      "Precio": 25
     },
     {
       "nombre": "Mayonesa Natura 125g",
@@ -2680,7 +2680,7 @@
       "codigo2": 7730267009487,
       "codigo3": 7730267011787,
       "codigo4": 7730267009470,
-      "Precio": 119
+      "Precio": 129
     },
     {
       "nombre": "Aceituna negra Emigrante",
@@ -2899,6 +2899,7 @@
     {
       "nombre": "Vascolet 200g",
       "codigo": 7613287472021,
+      "codigo1": 7613287647405,
       "Precio": 95
     },
     {
@@ -3018,7 +3019,7 @@
     {
       "nombre": "Maizena 550g",
       "codigo": 7794000005389,
-      "Precio": 173
+      "Precio": 175
     },
     {
       "nombre": "Te President 90g",
@@ -3244,7 +3245,8 @@
     {
       "nombre": "Aceituna Rio 300g",
       "codigo": 7730205060266,
-      "Precio": 115
+      "codigo1": 7730205108531,
+      "Precio": 114
     },
     {
       "nombre": "Agua Salus 600ml",
@@ -3409,7 +3411,7 @@
     {
       "nombre": "Galletas Cric-crac chica",
       "codigo": 23,
-      "Precio": 104
+      "Precio": 117
     },
     {
       "nombre": "Nescafé extrafuerte 100g",
@@ -3501,6 +3503,46 @@
       "nombre": "Condipez 20g",
       "codigo": 7730177002264,
       "Precio": 54
+    },
+    {
+      "nombre":"Galletas surtidas Dos en Uno",
+      "codigo": 7802225272056,
+      "Precio": 115
+    },
+    {
+      "nombre":"Nescau Nestle 175g",
+      "codigo": 7891000325537,
+      "Precio": 96
+    },
+    {
+      "nombre":"Cafe El Chana 500g",
+      "codigo": 7730109012354,
+      "Precio": 595
+    },
+    {
+      "nombre":"Cereal Trix caja",
+      "codigo": 7613034412904,
+      "Precio": 223
+    },
+    {
+      "nombre":"Sal sabores",
+      "codigo": 29,
+      "Precio": 209
+    },
+    {
+      "nombre":"Sal Urusal",
+      "codigo": 7730214000062,
+      "Precio": 46
+    },
+    {
+      "nombre":"Pan de molde Trigo de Marzo",
+      "codigo": 7730982120061,
+      "Precio": 109
+    },
+    {
+      "nombre":"Brownies Fleischmann",
+      "codigo": 7730917691499,
+      "Precio": 223
     }
   ]
 }
