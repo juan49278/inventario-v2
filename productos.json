@@ -282,7 +282,7 @@
     {
       "nombre": "Mayonesa Uruguay 1kg",
       "codigo": 7730132001417,
-      "Precio": 175
+      "Precio": 174
     },
     {
       "nombre": "Oliva Basso 500ml",
@@ -421,12 +421,12 @@
     {
       "nombre": "Whisky Dunbar",
       "codigo": 7730901310054,
-      "Precio": 489
+      "Precio": 515
     },
     {
       "nombre": "Whisky Ballantimes",
       "codigo": 5010106111925,
-      "Precio": 959
+      "Precio": 1030
     },
     {
       "nombre": "Whisky Sandy Mac",
@@ -446,7 +446,7 @@
     {
       "nombre": "Whisky William Lawson",
       "codigo": 5010752000345,
-      "Precio": 685
+      "Precio": 735
     },
     {
       "nombre": "Arroz Aruba",
@@ -588,13 +588,13 @@
     {
       "nombre": "Whisky Monje",
       "codigo": 5000281001739,
-      "Precio": 659
+      "Precio": 649
     },
     {
       "nombre": "Martini",
       "codigo": 7730302000622,
       "codigo1": 7790950134834,
-      "Precio": 459
+      "Precio": 515
     },
     {
       "nombre": "Fernet Branca",
@@ -604,7 +604,7 @@
     {
       "nombre": "Whisky William Lawson petaca",
       "codigo": 5010752004206,
-      "Precio": 169
+      "Precio": 189
     },
     {
       "nombre": "Blenders petaca",
@@ -735,12 +735,13 @@
       "nombre": "Vainilla Zeze",
       "codigo": 7896200001823,
       "codigo1": 7896200001809,
+      "codigo2": 7896200001816,
       "Precio": 93
     },
     {
       "nombre": "Poroto Manteca de Diez 1kg",
       "codigo": 7730970180152,
-      "Precio": 169
+      "Precio": 209
     },
     {
       "nombre": "Lenteja de Diez 1kg",
@@ -1690,7 +1691,7 @@
       "codigo2": 7730205098115,
       "codigo3": 7730205036872,
       "codigo4": 7730205088307,
-      "Precio": 73
+      "Precio": 84
     },
     {
       "nombre": "Latas Rio",
@@ -3482,6 +3483,9 @@
     {
       "nombre": "Papas Stack tubo",
       "codigo": 6917554119659,
+      "codigo1": 6917554119635,
+      "codigo2": 6917554119642,
+      "codigo3": 6917554119666,
       "Precio": 145
     },
     {
@@ -3543,6 +3547,22 @@
       "nombre":"Brownies Fleischmann",
       "codigo": 7730917691499,
       "Precio": 223
+    },
+    {
+      "nombre":"Petaca Whisky Black & White 200ml",
+      "codigo": 50196838,
+      "Precio": 140
+    },
+    {
+      "nombre":"Cookies Bauducco",
+      "codigo":7891962054476,
+      "codigo1": 7891962054810,
+      "Precio": 39
+    },
+    {
+      "nombre":"Frutilla en almibar Cololo",
+      "codigo": 7730213007628,
+      "Precio": 109
     }
   ]
 }
