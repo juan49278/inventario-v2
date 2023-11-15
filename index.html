@@ -10,13 +10,17 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
   <link rel="shortcut icon" href="frigo.ico" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <script src="//cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+
 </head>
 
 <body>
@@ -29,13 +33,13 @@
             <h1 class="modal-title fs-5" id="modalListProductsLabel">Lista de Productos</h1>
           </div>
           <div class="modal-body">
-            <table class="table form-control-sm table-bordered border-primary" id="bodyProductTable">
+            <table class="table table-striped form-control-sm table-bordered border-primary" id="bodyProductTable" style="width: 100%;">
               <thead>
                 <tr class="form-control-sm">
                   <th scope="col-span-2">Producto</th>
                   <th scope="col-span-2">Precio</th>
                   <th scope="col-span-2">Código</th>
-                  <th scope="col-span-2">?</th>
+                  <th scope="col-span-2">edit/elim</th>
                   <th scope="col-span-2" class="d-none">Código2</th>
                   <th scope="col-span-2" class="d-none">Código3</th>
                   <th scope="col-span-2" class="d-none">Código4</th>
@@ -215,7 +219,7 @@
             <div class="d-none" id="listGroup">
             </div>
             <div id="preview" class="d-none">
-              <table class="table text-white form-control-xl" id="table">
+              <table class="table table-striped text-white form-control-xl" id="table">
                 <thead>
                   <tr class="form-control-xl">
                     <th scope="col-span-2">#</th>
