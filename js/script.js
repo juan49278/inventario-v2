@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
 $(document).ready(() => {
   $("#getXLS").click(function () {
     downloadExcel()
-    $("#table").table2excel({
+    $("#table_wrapper").table2excel({
       exclude: ".noExl",
       name: "Worksheet Name",
       filename: "Inventario" + "_" + (document.getElementById("mes").value),
@@ -87,7 +87,7 @@ let hideSpinner = function () {
 }
 
 function guardarLocal() {
-  let table = document.getElementById('table').innerHTML
+  let table = document.getElementById('productos').innerHTML
   localStorage.setItem('table' + document.title, table)
   let divList = document.getElementById("listGroup").innerHTML
   localStorage.setItem("saveProducts", divList)

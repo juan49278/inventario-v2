@@ -7,7 +7,7 @@ addEventListener('DOMContentLoaded', async () => {
   if (localStorage.getItem('tableInventario')) {
     btnClean.classList.remove('btn-secondary', 'disabled')
     btnClean.classList.add('btn-success')
-    table.innerHTML = localStorage.getItem('tableInventario')
+    productos.innerHTML = localStorage.getItem('tableInventario')
   }
   if (JSON.parse(localStorage.getItem("saved")) == undefined) {
     productAdd = arraysAdded
@@ -31,20 +31,41 @@ addEventListener("change", () => {
   console.clear()
 })
 
+//Generar una fila nueva con los datos
+function addNewRow(param1, param2, param3, param4, param5, param6) {
+  table.row
+    .add([
+      param1,
+      param2,
+      param3,
+      param4,
+      param5,
+      param6
+    ])
+    .draw(false);
+  table
+}
+
+let table = new DataTable('#table', {
+  lengthMenu: [
+    [10, 25, 50, -1],
+    [10, 25, 50, 'Todo']
+  ]
+});
+
 //Mostrar producto encontrado
 function show() {
   let toAppened = ""
-  toAppened = `
-            <th scope="row" class="small">${codeShow}</th>
-            <td class="col-span-2 nombre">${exampleModalLabel.innerHTML.split(":")[1]}</td>
-            <td class="col-span-2"><p class="cant">${cantidad}</p>
-            <td class="col-span-2"><p class="precio">${precio}</p>
-            <td class="col-span-2"> $<span class="total"></span>
-            <td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
-            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
-            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
-          </svg></td> `
-  document.getElementById('productos').innerHTML += toAppened
+  let param1 = `<th scope="row" class="small">${codeShow}</th>`
+  let param2 = `<td class="col-span-2 nombre">${exampleModalLabel.innerHTML.split(":")[1]}</td>`
+  let param3 = `<td class="col-span-2"><p class="cant">${cantidad}</p>`
+  let param4 = `<td class="col-span-2"><p class="precio">${precio}</p>`
+  let param5 = `<td class="col-span-2"> $<span class="total"></span>`
+  let param6 = `<td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
+  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+  <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+  </svg></td>`
+  toAppened = + addNewRow(param1, param2, param3, param4, param5, param6)
   codeShow = ""
   quantity.value = ""
   duplicate()
@@ -53,17 +74,16 @@ function show() {
 //Mostrar producto agregado a la tabla
 function showAdd() {
   let toAppened = ""
-  toAppened = `
-            <th scope="row" class="small">${codeShow}</th>
-            <td class="col-span-2 nombre">${nombreAdd.value}</td>
-            <td class="col-span-2"><p class="cant">${cantidad2}</p>
-            <td class="col-span-2"><p class="precio">${precio2}</p>
-            <td class="col-span-2"> $<span class="total"></span>
-            <td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
-            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
-            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
-          </svg></td> `
-  document.getElementById('productos').innerHTML += toAppened
+  let param1 = `<th scope="row" class="small">${codeShow}</th>`
+  let param2 = `<td class="col-span-2 nombre">${nombreAdd.value}</td>`
+  let param3 = `<td class="col-span-2"><p class="cant">${cantidad2}</p>`
+  let param4 = `<td class="col-span-2"><p class="precio">${precio2}</p>`
+  let param5 = `<td class="col-span-2"> $<span class="total"></span>`
+  let param6 = `<td><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-trash borrar" viewBox="0 0 16 16">
+  <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+  <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+  </svg></td>`
+  toAppened = + addNewRow(param1, param2, param3, param4, param5, param6)
   codeShow = ""
   nombreAdd.value = ""
   quantityNew.value = ""
@@ -364,12 +384,12 @@ function recoverProductsList() {
   let table = new DataTable('#bodyProductTable');
   table.on('click', '.editTdNombre', function () {
     let data = table.row(this).data();
-  if (promptNombre == "" || promptNombre == null) {
-    promptNombre = prompt("Ingresa el nombre:", `${data[0]}`);
-  } else {
-    promptNombre = prompt("Ingresa el nombre:", `${promptNombre}`);
-  }
-});
+    if (promptNombre == "" || promptNombre == null) {
+      promptNombre = prompt("Ingresa el nombre:", `${data[0]}`);
+    } else {
+      promptNombre = prompt("Ingresa el nombre:", `${promptNombre}`);
+    }
+  });
 }
 function help() {
   asistant.classList.remove("d-none")
