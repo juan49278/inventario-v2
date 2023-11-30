@@ -272,7 +272,7 @@
     {
       "nombre": "Mostaza Oderich 1kg",
       "codigo": 7896041172782,
-      "Precio": 116
+      "Precio": 125
     },
     {
       "nombre": "Mayonesa Hellmans 1kg",
@@ -312,13 +312,13 @@
     {
       "nombre": "Chiquilin El Trigal",
       "codigo": 7730116120141,
-      "Precio": 112
+      "Precio": 118
     },
     {
       "nombre": "Coco y Miel El Trigal",
       "codigo": 7730116113136,
       "codigo1": 7730116111132,
-      "Precio": 112
+      "Precio": 115
     },
     {
       "nombre": "Galletas Solar",
@@ -346,7 +346,7 @@
       "codigo1": 7730172275113,
       "codigo2": 7730116281125,
       "codigo3": 7730116292121,
-      "Precio": 125
+      "Precio": 129
     },
     {
       "nombre": "Galletas Tostex Colores",
@@ -499,7 +499,7 @@
     {
       "nombre": "Galleta Panina",
       "codigo": 7730116242164,
-      "Precio": 125
+      "Precio": 129
     },
     {
       "nombre": "Galleta Arroz Natural rice",
@@ -660,7 +660,7 @@
     {
       "nombre": "Galleta Maria rik x3",
       "codigo": 7730116101249,
-      "Precio": 113
+      "Precio": 129
     },
     {
       "nombre": "Grappa San Remo",
@@ -893,7 +893,7 @@
     {
       "nombre": "Jardinera Oderich",
       "codigo": 7896041160123,
-      "Precio": 49
+      "Precio": 44
     },
     {
       "nombre": "Palmitos Enteros Rio",
@@ -957,17 +957,17 @@
       "nombre": "Jardinera Emigrante",
       "codigo": 7730267023476,
       "codigo1": 7730267024886,
-      "Precio": 46
+      "Precio": 48
     },
     {
       "nombre": "Choclo Emigrante",
       "codigo": 7730267023179,
-      "Precio": 40
+      "Precio": 45
     },
     {
       "nombre": "Arveja Emigrante",
       "codigo": 7730267023469,
-      "Precio": 31
+      "Precio": 34
     },
     {
       "nombre": "Grated de Sardina Ideal",
@@ -1042,7 +1042,7 @@
       "nombre": "Pepsi y pomelo",
       "codigo": 7734284600016,
       "codigo1": 7734284001448,
-      "Precio": 139
+      "Precio": 169
     },
     {
       "nombre": "Vino Roses 1l",
@@ -1073,7 +1073,7 @@
     {
       "nombre": "Aceite Arroz Saman",
       "codigo": 7730115000130,
-      "Precio": 149
+      "Precio": 155
     },
     {
       "nombre": "Pulpa de tomate De Ley",
@@ -1093,7 +1093,8 @@
       "codigo": 7730408001271,
       "codigo1": 7730488001332,
       "codigo2": 7730488000854,
-      "Precio": 179
+      "codigo3": 7730408001394,
+      "Precio": 209
     },
     {
       "nombre": "Vino Dante Robino",
@@ -1161,7 +1162,7 @@
     {
       "nombre": "Pulpa de tomate Gourmet chica",
       "codigo": 7730306002363,
-      "Precio": 26
+      "Precio": 24
     },
     {
       "nombre": "Pulpa de tomate Gourmet Napolitana chica",
@@ -1625,12 +1626,12 @@
       "codigo": 7730172252190,
       "codigo1": 7730172193141,
       "codigo2": 7730172252237,
-      "Precio": 135
+      "Precio": 139
     },
     {
       "nombre": "Rallopan 400g",
       "codigo": 7730116150193,
-      "Precio": 115
+      "Precio": 125
     },
     {
       "nombre": "Pan rallado Caserta",
@@ -1708,6 +1709,9 @@
       "nombre": "Galletitas Neo",
       "codigo": 7896408444637,
       "codigo1": 7896408441551,
+      "codigo2": 7896408444637,
+      "codigo3": 7896408444675,
+      "codigo4": 7896408444774,
       "Precio": 32
     },
     {
@@ -1825,7 +1829,7 @@
     {
       "nombre": "Surtidas El Trigal",
       "codigo": 7730116103304,
-      "Precio": 135
+      "Precio": 129
     },
     {
       "nombre": "Galleta Sin sal El Trigal",
@@ -1960,7 +1964,7 @@
       "codigo2": 7730116461114,
       "codigo3": 7730116362107,
       "codigo4": 7730116363104,
-      "Precio": 32
+      "Precio": 33
     },
     {
       "nombre": "Cerveza Estrella Galicia",
@@ -2208,7 +2212,7 @@
     {
       "nombre": "Pan Magno Lactal",
       "codigo": 7730411000513,
-      "Precio": 120
+      "Precio": 129
     },
     {
       "nombre": "Pan Magno Integral",
@@ -2228,7 +2232,7 @@
     {
       "nombre": "Pan Marbella Multicereal",
       "codigo": 7730411010994,
-      "Precio": 125
+      "Precio": 129
     },
     {
       "nombre": "Pan Campestre Lactal",
@@ -2243,7 +2247,7 @@
     {
       "nombre": "Pan Campestre Multicereal",
       "codigo": 7730411011281,
-      "Precio": 119
+      "Precio": 135
     },
     {
       "nombre": "Arroz Chef 500g",
@@ -2403,7 +2407,7 @@
     {
       "nombre": "Galletas Salvaje",
       "codigo": 7730116460117,
-      "Precio": 105
+      "Precio": 109
     },
     {
       "nombre": "Ketchup Oderich 1kg",
@@ -2701,7 +2705,7 @@
     {
       "nombre": "Galletitas con leche El Trigal",
       "codigo": 7730116141122,
-      "Precio": 85
+      "Precio": 89
     },
     {
       "nombre": "Mermelada Los Nietitos 250g Arándanos",
@@ -3192,7 +3196,7 @@
     {
       "nombre": "Galletas sin sal Trigal 400g",
       "codigo": 7730116259148,
-      "Precio": 156
+      "Precio": 165
     },
     {
       "nombre": "Helados Recreo",
@@ -3206,7 +3210,7 @@
       "codigo": 7730172203123,
       "codigo1": 7730172207121,
       "codigo2": 7730172205127,
-      "Precio": 75
+      "Precio": 70
     },
     {
       "nombre": "Leche en polvo 200g",
@@ -3236,7 +3240,7 @@
     {
       "nombre": "Aceituna sin carozo Emigrante",
       "codigo": 7730267001627,
-      "Precio": 72
+      "Precio": 79
     },
     {
       "nombre": "Levadura Fleischmann 10g",
@@ -3257,7 +3261,7 @@
     {
       "nombre": "Pan Marbella 0%",
       "codigo": 7730411001237,
-      "Precio": 139
+      "Precio": 149
     },
     {
       "nombre": "Condimentos El Fogon",
@@ -3410,6 +3414,11 @@
       "Precio": 182
     },
     {
+      "nombre": "Mayonesa Hellmans Vegana 250g",
+      "codigo": 19,
+      "Precio": 112
+    },
+    {
       "nombre": "Galletas Cric-crac chica",
       "codigo": 23,
       "Precio": 117
@@ -3498,7 +3507,7 @@
     {
       "nombre": "Sidra Gijonesa 1.5l",
       "codigo": 773048000595,
-      "Precio": 85
+      "Precio": 89
     },
     {
       "nombre": "Sidra Gijonesa 330ml",
@@ -3511,60 +3520,112 @@
       "Precio": 54
     },
     {
-      "nombre":"Galletas surtidas Dos en Uno",
+      "nombre": "Galletas surtidas Dos en Uno",
       "codigo": 7802225272056,
       "Precio": 115
     },
     {
-      "nombre":"Nescau Nestle 175g",
+      "nombre": "Nescau Nestle 175g",
       "codigo": 7891000325537,
       "Precio": 96
     },
     {
-      "nombre":"Cafe El Chana 500g",
+      "nombre": "Cafe El Chana 500g",
       "codigo": 7730109012354,
       "Precio": 595
     },
     {
-      "nombre":"Cereal Trix caja",
+      "nombre": "Cereal Trix caja",
       "codigo": 7613034412904,
       "Precio": 223
     },
     {
-      "nombre":"Sal sabores",
+      "nombre": "Sal sabores",
       "codigo": 29,
       "Precio": 209
     },
     {
-      "nombre":"Sal Urusal",
+      "nombre": "Sal Urusal",
       "codigo": 7730214000062,
       "Precio": 46
     },
     {
-      "nombre":"Pan de molde Trigo de Marzo",
+      "nombre": "Pan de molde Trigo de Marzo",
       "codigo": 7730982120061,
       "Precio": 109
     },
     {
-      "nombre":"Brownies Fleischmann",
+      "nombre": "Brownies Fleischmann",
       "codigo": 7730917691499,
       "Precio": 223
     },
     {
-      "nombre":"Petaca Whisky Black & White 200ml",
+      "nombre": "Petaca Whisky Black & White 200ml",
       "codigo": 50196838,
       "Precio": 140
     },
     {
-      "nombre":"Cookies Bauducco",
-      "codigo":7891962054476,
+      "nombre": "Cookies Bauducco",
+      "codigo": 7891962054476,
       "codigo1": 7891962054810,
       "Precio": 39
     },
     {
-      "nombre":"Frutilla en almibar Cololo",
+      "nombre": "Frutilla en almibar Cololo",
       "codigo": 7730213007628,
       "Precio": 109
+    },
+    {
+      "nombre": "Galleta Coquetel 320g",
+      "codigo": 7896022086800,
+      "Precio": 70
+    },
+    {
+      "nombre": "Energizante Baly 473ml",
+      "codigo": 7898080663733,
+      "Precio": 99
+    },
+    {
+      "nombre": "Turron Olimpo Premium",
+      "codigo": 7730954100176,
+      "codigo1": 7730954100183,
+      "codigo2": 7730954100190,
+      "codigo3": 7730954100206,
+      "codigo4": 7730954100213,
+      "Precio": 79
+    },
+    {
+      "nombre": "Turron Olimpo blando",
+      "codigo": 7730917010016,
+      "codigo1": 7730917010023,
+      "codigo2": 7730917010030,
+      "codigo3": 7730917010382,
+      "Precio": 39
+    },
+    {
+      "nombre":"Pepsi 2l",
+      "codigo": 7734284002353,
+      "Precio": 120
+    },
+    {
+      "nombre":"Coca Cola 3l",
+      "codigo": 7730197000639,
+      "Precio": 165
+    },
+    {
+      "nombre":"Coctel de frutas Rio 800g",
+      "codigo": 7730205043092,
+      "Precio": 179
+    },
+    {
+      "nombre":"Coctel de frutas Rio 0% 800g",
+      "codigo": 7730205080288,
+      "Precio": 179
+    },
+    {
+      "nombre":"Galleta La Trigueña Gramada 360g",
+      "codigo": 7730221000017,
+      "Precio": 130
     }
   ]
 }
