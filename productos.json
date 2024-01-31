@@ -1,14 +1,14 @@
 {
   "productos": [
     {
-      "nombre": "Arroz Saman 1kg",
+      "nombre": "Arroz Saman blanco 1kg",
       "codigo": 7730115040105,
-      "Precio": 70
+      "Precio": 75
     },
     {
       "nombre": "Arroz Saman Parboiled 1kg",
       "codigo": 7730115030106,
-      "Precio": 72
+      "Precio": 78
     },
     {
       "nombre": "Margarina Adorita 500g",
@@ -98,7 +98,7 @@
       "codigo2": 7730920130862,
       "codigo3": 7730920130589,
       "codigo4": 7730920130596,
-      "Precio": 69
+      "Precio": 70
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Durazno",
@@ -277,12 +277,13 @@
     {
       "nombre": "Mayonesa Hellmans 1kg",
       "codigo": 7794000006058,
-      "Precio": 335
+      "codigo1": 7730755002877,
+      "Precio": 319
     },
     {
       "nombre": "Mayonesa Uruguay 1kg",
       "codigo": 7730132001417,
-      "Precio": 174
+      "Precio": 169
     },
     {
       "nombre": "Oliva Basso 500ml",
@@ -401,7 +402,7 @@
     {
       "nombre": "Arroz Chef 1kg",
       "codigo": 7730114400016,
-      "Precio": 55
+      "Precio": 57
     },
     {
       "nombre": "Galleta Cric-crac",
@@ -416,7 +417,7 @@
     {
       "nombre": "Whisky Gregson 1l",
       "codigo": 7730282000483,
-      "Precio": 469
+      "Precio": 489
     },
     {
       "nombre": "Whisky Dunbar",
@@ -468,7 +469,7 @@
     {
       "nombre": "Arroz Saman 500g",
       "codigo": 7730115000239,
-      "Precio": 35
+      "Precio": 40
     },
     {
       "nombre": "Fideos Adria",
@@ -613,7 +614,8 @@
     },
     {
       "nombre": "Whisky 100 pipers",
-      "codigo": "080432402856",
+      "codigo": 80432402771,
+      "codigo1": "080432402856",
       "Precio": 709
     },
     {
@@ -930,7 +932,7 @@
     {
       "nombre": "Palmitos enteros Emigrante",
       "codigo": 7730267000309,
-      "Precio": 139
+      "Precio": 149
     },
     {
       "nombre": "Atún Salamanca",
@@ -967,7 +969,7 @@
     {
       "nombre": "Arveja Emigrante",
       "codigo": 7730267023469,
-      "Precio": 34
+      "Precio": 35
     },
     {
       "nombre": "Grated de Sardina Ideal",
@@ -977,7 +979,7 @@
     {
       "nombre": "Tomate Emigrante",
       "codigo": 7730267002761,
-      "Precio": 46
+      "Precio": 44
     },
     {
       "nombre": "Atún Lomito Emigrante 170g",
@@ -1092,8 +1094,9 @@
       "nombre": "Sidra La Gijonesa sabores vidrio",
       "codigo": 7730408001271,
       "codigo1": 7730488001332,
-      "codigo2": 7730488000854,
+      "codigo2": 773040800854,
       "codigo3": 7730408001394,
+      "codigo4": 7730408000861,
       "Precio": 209
     },
     {
@@ -1101,7 +1104,7 @@
       "codigo": 7790717151128,
       "codigo1": 7790717151067,
       "codigo2": 7790717151104,
-      "Precio": 449
+      "Precio": 399
     },
     {
       "nombre": "Vino Novecento",
@@ -1277,25 +1280,25 @@
       "codigo2": 7896286618366,
       "codigo3": 7896286618373,
       "codigo4": 7896286618397,
-      "Precio": 20
+      "Precio": 22
     },
     {
       "nombre": "Galleta Hipopo",
       "codigo": 7896286618755,
-      "Precio": 20
+      "Precio": 22
     },
     {
-      "nombre": "Papas Lays 400g",
+      "nombre": "Papas Lays 380g",
       "codigo": 7790310982853,
-      "Precio": 285
+      "Precio": 295
     },
     {
       "nombre": "Doritos 250g",
       "codigo": 7802000016820,
-      "Precio": 200
+      "Precio": 215
     },
     {
-      "nombre": "Papas Lays 250g",
+      "nombre": "Papas Lays 200g",
       "codigo": 7790310981191,
       "Precio": 200
     },
@@ -1307,7 +1310,7 @@
     {
       "nombre": "Picada Lays",
       "codigo": 7730311000903,
-      "Precio": 285
+      "Precio": 295
     },
     {
       "nombre": "Latas Cololo",
@@ -1330,14 +1333,14 @@
     {
       "nombre": "Vinagre Manzana Gamberoni 1l",
       "codigo": 7730302313128,
-      "Precio": 137
+      "Precio": 145
     },
     {
       "nombre": "Papas tubo Stax",
       "codigo": 7501011178861,
       "codigo1": 7501011178847,
       "codigo2": 7501011178854,
-      "Precio": 210
+      "Precio": 220
     },
     {
       "nombre": "Pack Arveja + choclo + jardinera Rio",
@@ -1504,7 +1507,7 @@
     {
       "nombre": "Yerba Sara suave 1kg",
       "codigo": 7730282000582,
-      "Precio": 175
+      "Precio": 168
     },
     {
       "nombre": "Yerba Sara suave 500g",
@@ -1969,7 +1972,7 @@
     {
       "nombre": "Cerveza Estrella Galicia",
       "codigo": 7898953990157,
-      "Precio": 61
+      "Precio": 79
     },
     {
       "nombre": "Aceite Girasol El Emigrante",
@@ -2014,7 +2017,19 @@
       "codigo1": 7730260020267,
       "codigo2": 7730260020274,
       "codigo3": 7730260020250,
+      "codigo4": 7730260020236,
       "Precio": 295
+    },
+    {
+      "nombre": "Vino Vudu 2l",
+      "codigo": 7730260020243,
+      "Precio": 295
+    },
+    {
+      "nombre": "Vino Vudu 1.5l",
+      "codigo": 7730260030365,
+      "codigo1": 7730260030310,
+      "Precio": 195
     },
     {
       "nombre": "Vino Vudu 1l",
@@ -2257,17 +2272,17 @@
     {
       "nombre": "Galleta Venecia Salada",
       "codigo": 7730990670015,
-      "Precio": 75
+      "Precio": 82
     },
     {
       "nombre": "Galleta Venecia carasucia",
       "codigo": 7730990670053,
-      "Precio": 83
+      "Precio": 91
     },
     {
       "nombre": "Venecia glisines dulces",
       "codigo": 7730990670077,
-      "Precio": 78
+      "Precio": 86
     },
     {
       "nombre": "Pimenton 25g",
@@ -2690,7 +2705,7 @@
     {
       "nombre": "Aceituna negra Emigrante",
       "codigo": 7730267022721,
-      "Precio": 86
+      "Precio": 80
     },
     {
       "nombre": "Aceituna c/ carozo emigrante",
@@ -2786,17 +2801,17 @@
     {
       "nombre": "Champiñones laminados Emigrante",
       "codigo": 7730267005953,
-      "Precio": 105
+      "Precio": 75
     },
     {
       "nombre": "Palmitos rodaja Emigrante",
       "codigo": 7730267007544,
-      "Precio": 115
+      "Precio": 119
     },
     {
       "nombre": "Arveja Emigrante 300g",
       "codigo": 7730267024879,
-      "Precio": 31
+      "Precio": 35
     },
     {
       "nombre": "Atún lomito oliva Emigrante 354g",
@@ -3139,7 +3154,7 @@
     {
       "nombre": "Papas ruffles 135g",
       "codigo": 7802000017148,
-      "Precio": 140
+      "Precio": 155
     },
     {
       "nombre": "Galletas dulces Rio",
@@ -3371,7 +3386,7 @@
     {
       "nombre": "Arroz Shiva 1kg",
       "codigo": 7730114000025,
-      "Precio": 39
+      "Precio": 45
     },
     {
       "nombre": "Ketchup Cololo 290g",
@@ -3453,7 +3468,7 @@
       "codigo": 7896022086992,
       "codigo1": 7896022087005,
       "codigo2": 7896022086985,
-      "Precio": 45
+      "Precio": 42
     },
     {
       "nombre": "Salsa Remia sabores",
@@ -3467,6 +3482,8 @@
     {
       "nombre": "Salsa Remia sabores",
       "codigo": 8710448595809,
+      "codigo1": 8710448595816,
+      "codigo2": 8710448564010,
       "Precio": 195
     },
     {
@@ -3506,8 +3523,8 @@
     },
     {
       "nombre": "Sidra Gijonesa 1.5l",
-      "codigo": 773048000595,
-      "Precio": 89
+      "codigo": 7730408000595,
+      "Precio": 85
     },
     {
       "nombre": "Sidra Gijonesa 330ml",
@@ -3603,29 +3620,58 @@
       "Precio": 39
     },
     {
-      "nombre":"Pepsi 2l",
+      "nombre": "Pepsi 2l",
       "codigo": 7734284002353,
       "Precio": 120
     },
     {
-      "nombre":"Coca Cola 3l",
+      "nombre": "Coca Cola 3l",
       "codigo": 7730197000639,
       "Precio": 165
     },
     {
-      "nombre":"Coctel de frutas Rio 800g",
+      "nombre": "Coctel de frutas Rio 800g",
       "codigo": 7730205043092,
       "Precio": 179
     },
     {
-      "nombre":"Coctel de frutas Rio 0% 800g",
+      "nombre": "Coctel de frutas Rio 0% 800g",
       "codigo": 7730205080288,
       "Precio": 179
     },
     {
-      "nombre":"Galleta La Trigueña Gramada 360g",
+      "nombre": "Galleta La Trigueña Gramada 360g",
       "codigo": 7730221000017,
       "Precio": 130
+    },
+    {
+      "nombre": "Budín Santa Edwiges",
+      "codigo": 7896064209502,
+      "codigo1": 7896064209519,
+      "Precio": 45
+    },
+    {
+      "nombre": "Budín Santa Edwiges relleno",
+      "codigo": 7896064209557,
+      "codigo1": 7896064209564,
+      "Precio": 59
+    },
+    {
+      "nombre": "Panettone Bambú 330g",
+      "codigo": 7730233000647,
+      "Precio": 59
+    },
+    {
+      "nombre": "Salsa soja Premium Sakura 150ml",
+      "codigo": 7896007810017,
+      "Precio": 129
+    },
+    {
+      "nombre": "Waffle Piraquê",
+      "codigo": 7896024726667,
+      "codigo1": 7896024726582,
+      "codigo2": 7896024726827,
+      "Precio": 33
     }
   ]
 }
