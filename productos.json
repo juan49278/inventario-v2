@@ -768,7 +768,7 @@
     {
       "nombre": "Azúcar Bella Union",
       "codigo": 7730975890346,
-      "Precio": 59
+      "Precio": 67
     },
     {
       "nombre": "Jugo Rigby 200ml",
@@ -860,7 +860,7 @@
     {
       "nombre": "Pure de papas Rio 125g",
       "codigo": 7730205060600,
-      "Precio": 57
+      "Precio": 58
     },
     {
       "nombre": "Pack Tomate + Lentejas Rio",
@@ -1832,7 +1832,7 @@
     {
       "nombre": "Surtidas El Trigal",
       "codigo": 7730116103304,
-      "Precio": 129
+      "Precio": 138
     },
     {
       "nombre": "Galleta Sin sal El Trigal",
@@ -1959,7 +1959,7 @@
     {
       "nombre": "Papas acanaladas Stack",
       "codigo": 7730955844918,
-      "Precio": 159
+      "Precio": 165
     },
     {
       "nombre": "Playeras Trigal",
@@ -2160,7 +2160,7 @@
     {
       "nombre": "Azúcar Rubia",
       "codigo": 7730975890384,
-      "Precio": 77
+      "Precio": 85
     },
     {
       "nombre": "Pure de papas Knorr 125g",
@@ -2322,7 +2322,7 @@
     {
       "nombre": "Clavo de olor",
       "codigo": 7730177000338,
-      "Precio": 47
+      "Precio": 49
     },
     {
       "nombre": "Comino 25g",
@@ -2565,7 +2565,7 @@
     {
       "nombre": "Mayonesa Mayoliva 250g",
       "codigo": 7791866003283,
-      "Precio": 94
+      "Precio": 105
     },
     {
       "nombre": "Salsa Golf Natura",
@@ -2649,14 +2649,14 @@
       "codigo2": 7794000004306,
       "codigo3": 7794000005907,
       "codigo4": 7794000004290,
-      "Precio": 85
+      "Precio": 88
     },
     {
       "nombre": "Sopas Knorr",
       "codigo": 7794000005815,
       "codigo1": 7794000005891,
       "codigo2": 7794000005822,
-      "Precio": 85
+      "Precio": 88
     },
     {
       "nombre": "Sal baja en sodio",
@@ -2857,7 +2857,7 @@
     {
       "nombre": "Orégano 25g",
       "codigo": 7730177000048,
-      "Precio": 50
+      "Precio": 51
     },
     {
       "nombre": "Adobo 25g",
@@ -2961,7 +2961,7 @@
       "nombre": "Bizcochuelo Fleischmann",
       "codigo": 7730917691376,
       "codigo1": 7730917691222,
-      "Precio": 196
+      "Precio": 206
     },
     {
       "nombre": "Muffins Fleischmann",
