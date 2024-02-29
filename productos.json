@@ -1239,7 +1239,7 @@
     {
       "nombre": "Condimento Dukita",
       "codigo": 7730566001052,
-      "Precio": 189
+      "Precio": 195
     },
     {
       "nombre": "Galleta Ninfa 720g",
@@ -2292,17 +2292,17 @@
     {
       "nombre": "Aji molido",
       "codigo": 7730177000291,
-      "Precio": 48
+      "Precio": 54
     },
     {
       "nombre": "Condifran x2 65g",
       "codigo": 7730177000482,
-      "Precio": 65
+      "Precio": 70
     },
     {
       "nombre": "Condimento verde 25g",
       "codigo": 7730177000390,
-      "Precio": 74
+      "Precio": 76
     },
     {
       "nombre": "Nuez moscada molida",
@@ -2327,17 +2327,17 @@
     {
       "nombre": "Comino 25g",
       "codigo": 7730177000321,
-      "Precio": 87
+      "Precio": 93
     },
     {
       "nombre": "Canela molida",
       "codigo": 7730177000239,
-      "Precio": 62
+      "Precio": 70
     },
     {
       "nombre": "Pimienta negra en grano",
       "codigo": 7730177000444,
-      "Precio": 46
+      "Precio": 49
     },
     {
       "nombre": "Pimienta negra molida",
@@ -2347,7 +2347,7 @@
     {
       "nombre": "Canela en rama 25g",
       "codigo": 7730177004831,
-      "Precio": 68
+      "Precio": 74
     },
     {
       "nombre": "Pimienta blanca molida",
@@ -2362,7 +2362,7 @@
     {
       "nombre": "Risotto 25g",
       "codigo": 7730177005098,
-      "Precio": 50
+      "Precio": 53
     },
     {
       "nombre": "Gelatina Fleischmann",
@@ -2842,17 +2842,17 @@
       "nombre": "Salsa blanca sabores",
       "codigo": 7730177003056,
       "codigo1": 7730177002677,
-      "Precio": 52
+      "Precio": 54
     },
     {
       "nombre": "Salsa blanca",
       "codigo": 7730177000734,
-      "Precio": 48
+      "Precio": 50
     },
     {
       "nombre": "Ajil 25g",
       "codigo": 7730177000215,
-      "Precio": 63
+      "Precio": 66
     },
     {
       "nombre": "Orégano 25g",
@@ -2979,17 +2979,17 @@
       "codigo1": 77310323,
       "codigo2": 77310330,
       "codigo3": 77310316,
-      "Precio": 78
+      "Precio": 86
     },
     {
       "nombre": "Vainilla 20ml",
       "codigo": 77310248,
-      "Precio": 66
+      "Precio": 75
     },
     {
       "nombre": "Vainilla 60ml",
       "codigo": 7730177000369,
-      "Precio": 97
+      "Precio": 102
     },
     {
       "nombre": "Gelatina 8 porciones",
@@ -3004,12 +3004,12 @@
     {
       "nombre": "Postre 8 porciones",
       "codigo": 7730110124077,
-      "Precio": 86
+      "Precio": 88
     },
     {
       "nombre": "Postre 4 porciones",
       "codigo": 7622300226237,
-      "Precio": 45
+      "Precio": 46
     },
     {
       "nombre": "Bracafé recarga",
@@ -3049,12 +3049,12 @@
     {
       "nombre": "Te verde hebras Hornimans",
       "codigo": 7730261000084,
-      "Precio": 57
+      "Precio": 53
     },
     {
       "nombre": "Te amarillo hebras Hornimans",
       "codigo": 7730261000107,
-      "Precio": 70
+      "Precio": 44
     },
     {
       "nombre": "Te rojo hebras Hornimans",
@@ -3113,7 +3113,7 @@
     {
       "nombre": "Levadura Fleischmann 55g",
       "codigo": 7730917691420,
-      "Precio": 129
+      "Precio": 130
     },
     {
       "nombre": "Levadura Terry 10g",
