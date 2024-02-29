@@ -436,7 +436,8 @@
     },
     {
       "nombre": "Whisky Something",
-      "codigo": "080432402771",
+      "codigo": 80432402771,
+      "codigo1": "080432402771",
       "Precio": 839
     },
     {
@@ -553,7 +554,7 @@
       "Precio": 68
     },
     {
-      "nombre": "Faisan 1l",
+      "nombre": "Vino Faisan 1l",
       "codigo": 7730540000507,
       "codigo1": 7730540000170,
       "codigo2": 7730540001191,
@@ -614,7 +615,7 @@
     },
     {
       "nombre": "Whisky 100 pipers",
-      "codigo": 80432402771,
+      "codigo": 80432402856,
       "codigo1": "080432402856",
       "Precio": 709
     },
@@ -746,14 +747,14 @@
       "Precio": 209
     },
     {
-      "nombre": "Lenteja de Diez 1kg",
+      "nombre": "Lentejones de Diez 1kg",
       "codigo": 7730970181111,
       "Precio": 159
     },
     {
       "nombre": "Maiz Pisingallo 1kg",
       "codigo": 7730970181173,
-      "Precio": 0
+      "Precio": 79
     },
     {
       "nombre": "Poroto Negro de Diez 1kg",
@@ -768,7 +769,7 @@
     {
       "nombre": "Azúcar Bella Union",
       "codigo": 7730975890346,
-      "Precio": 67
+      "Precio": 66
     },
     {
       "nombre": "Jugo Rigby 200ml",

@@ -441,7 +441,7 @@ function searchLive() {
     let productCode = arrays.codigo.toString()
     if (productName.indexOf(text) !== -1) {
       searchResult.innerHTML += `
-      <li class="list-group-item cursor-active" onclick="idProduct(${productCode}), selectResult()">${productName}<br> Cod: <span id="${productCode}">${productCode}</span> <br> Precio: $${arrays.Precio}</li>`
+      <li class="list-group-item found cursor-active" onclick="idProduct(${productCode}), selectResult()">${productName}<br> Cod: <span id="${productCode}">${productCode}</span> <br> Precio: $${arrays.Precio}</li>`
     }
   }
 }
