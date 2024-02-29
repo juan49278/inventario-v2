@@ -443,6 +443,7 @@
     {
       "nombre": "Whisky Jhonnie Red Label",
       "codigo": 5000267013626,
+      "codigo1": 5000267190143,
       "Precio": 1069
     },
     {
@@ -944,11 +945,13 @@
     {
       "nombre": "Atún desmenuzado Rio",
       "codigo": 7730205062871,
-      "Precio": 135
+      "codigo1": 7730205077752,
+      "Precio": 73
     },
     {
       "nombre": "Sardina Coqueiro 250g",
       "codigo": 7896009301032,
+      "codigo1": 7896009301025,
       "Precio": 129
     },
     {
@@ -985,6 +988,7 @@
     {
       "nombre": "Atún Lomito Emigrante 170g",
       "codigo": 7730267006219,
+      "codigo1": 7730267007575,
       "Precio": 116
     },
     {
@@ -1186,6 +1190,7 @@
     {
       "nombre": "Pulpa de tomate Rigby Italiana",
       "codigo": 7730493084791,
+      "codigo1": 7730493084043,
       "Precio": 78
     },
     {
@@ -1361,6 +1366,7 @@
     {
       "nombre": "Atún Lomito Rio 354g",
       "codigo": 7730205074652,
+      "codigo1": 7730205083579,
       "Precio": 269
     },
     {
@@ -1608,6 +1614,7 @@
     {
       "nombre": "Farinia La Sembradora",
       "codigo": 773078112004,
+      "codigo1": 7730781120040,
       "Precio": 49
     },
     {
@@ -3272,6 +3279,7 @@
     {
       "nombre": "Agua Salus 600ml",
       "codigo": 7730400001729,
+      "codigo1": 7730400001491,
       "Precio": 55
     },
     {
@@ -3673,6 +3681,28 @@
       "codigo1": 7896024726582,
       "codigo2": 7896024726827,
       "Precio": 33
+    },
+    {
+      "nombre": "Vino De la Colonia 750ml",
+      "codigo": 7730975870362,
+      "codigo1": 7730975870355,
+      "Precio": 179
+    },
+    {
+      "nombre": "Whisky Sir Edward’s Escocés",
+      "codigo": 5060116320589,
+      "Precio": 579
+    },
+    {
+      "nombre": "Pan rallado Marbella 800g",
+      "codigo": 7730411001527,
+      "Precio": 135
+    },
+    {
+      "nombre": "Atún desmenuzado sobres Rio",
+      "codigo": 7730205101181,
+      "codigo1": 7730205101204,
+      "Precio": 120
     }
   ]
 }
