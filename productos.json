@@ -272,7 +272,7 @@
     {
       "nombre": "Mostaza Oderich 1kg",
       "codigo": 7896041172782,
-      "Precio": 125
+      "Precio": 117
     },
     {
       "nombre": "Mayonesa Hellmans 1kg",
@@ -293,7 +293,7 @@
     {
       "nombre": "Oliva Basso 1l",
       "codigo": 80140139,
-      "Precio": 465
+      "Precio": 509
     },
     {
       "nombre": "Olivar del Virrey",
@@ -755,17 +755,17 @@
     {
       "nombre": "Maiz Pisingallo 1kg",
       "codigo": 7730970181173,
-      "Precio": 79
+      "Precio": 89
     },
     {
       "nombre": "Poroto Negro de Diez 1kg",
       "codigo": 7730970181074,
-      "Precio": 132
+      "Precio": 150
     },
     {
       "nombre": "Garbanzo de Diez 1kg",
       "codigo": 7730970181159,
-      "Precio": 139
+      "Precio": 119
     },
     {
       "nombre": "Azúcar Bella Union",
@@ -812,7 +812,7 @@
     {
       "nombre": "Grasa Mantex",
       "codigo": 7730900170055,
-      "Precio": 85
+      "Precio": 49.9
     },
     {
       "nombre": "Poroto Frutilla Rio 500g",
@@ -822,7 +822,7 @@
     {
       "nombre": "Lentejones Rio 500g",
       "codigo": 7730205102409,
-      "Precio": 94
+      "Precio": 95
     },
     {
       "nombre": "Poroto Manteca Rio 500g",
@@ -852,7 +852,7 @@
     {
       "nombre": "Lentejones Emigrante 500g",
       "codigo": 7730267001764,
-      "Precio": 89
+      "Precio": 90
     },
     {
       "nombre": "Pure de papas Rio 1kg",
@@ -1075,7 +1075,7 @@
     {
       "nombre": "Aceite Uruguay",
       "codigo": 7730132000441,
-      "Precio": 89
+      "Precio": 95
     },
     {
       "nombre": "Aceite Arroz Saman",
@@ -1544,7 +1544,7 @@
     {
       "nombre": "Yerba Sara clasica 1kg",
       "codigo": 7730282002623,
-      "Precio": 172
+      "Precio": 175
     },
     {
       "nombre": "Yerba Sara clasica 500g",
@@ -1813,7 +1813,7 @@
     {
       "nombre": "Garbanzo Emigrante 500g",
       "codigo": 7730267001733,
-      "Precio": 60
+      "Precio": 79
     },
     {
       "nombre": "Jugos Big C 200ml",
@@ -1962,7 +1962,7 @@
     {
       "nombre": "Poroto manteca Emigrante 500g",
       "codigo": 7730267001832,
-      "Precio": 101
+      "Precio": 145
     },
     {
       "nombre": "Papas acanaladas Stack",
@@ -2392,7 +2392,7 @@
       "codigo": 7730917690416,
       "codigo1": 7730917690430,
       "codigo2": 7730917690447,
-      "Precio": 104
+      "Precio": 109
     },
     {
       "nombre": "Postre Fleischmann light",
@@ -2675,7 +2675,7 @@
     {
       "nombre": "Royal 200g",
       "codigo": 762201767716,
-      "Precio": 123
+      "Precio": 129
     },
     {
       "nombre": "Royal 100g",
@@ -2844,7 +2844,7 @@
     {
       "nombre": "Chantilly light Fleischmann 75g",
       "codigo": 7730917691277,
-      "Precio": 130
+      "Precio": 138
     },
     {
       "nombre": "Salsa blanca sabores",
@@ -2979,7 +2979,7 @@
     {
       "nombre": "Gelatina sin sabor",
       "codigo": 7622201106034,
-      "Precio": 63
+      "Precio": 75
     },
     {
       "nombre": "Colores 20cc",
@@ -2997,17 +2997,17 @@
     {
       "nombre": "Vainilla 60ml",
       "codigo": 7730177000369,
-      "Precio": 102
+      "Precio": 109
     },
     {
       "nombre": "Gelatina 8 porciones",
       "codigo": 7730110141821,
-      "Precio": 86
+      "Precio": 88
     },
     {
-      "nombre": "Flan 8 porciones",
+      "nombre": "Flan 8 porciones Royarina",
       "codigo": 7730110124220,
-      "Precio": 86
+      "Precio": 88
     },
     {
       "nombre": "Postre 8 porciones",
@@ -3032,7 +3032,7 @@
     {
       "nombre": "Café Águila 500g",
       "codigo": 7730109012552,
-      "Precio": 505
+      "Precio": 625
     },
     {
       "nombre": "Café Águila 250g",
@@ -3295,7 +3295,7 @@
     {
       "nombre": "Flan 4 porciones Royarina",
       "codigo": 7730110124213,
-      "Precio": 45
+      "Precio": 41
     },
     {
       "nombre": "Choclo Cololo chica",
@@ -3390,7 +3390,7 @@
     {
       "nombre": "Lenteja Emigrante 400g",
       "codigo": 7730267001740,
-      "Precio": 79
+      "Precio": 90
     },
     {
       "nombre": "Arroz Shiva 1kg",
@@ -3578,6 +3578,7 @@
     {
       "nombre": "Pan de molde Trigo de Marzo",
       "codigo": 7730982120061,
+      "codigo1": 7730982120016,
       "Precio": 109
     },
     {
@@ -3636,7 +3637,7 @@
     {
       "nombre": "Coca Cola 3l",
       "codigo": 7730197000639,
-      "Precio": 165
+      "Precio": 179
     },
     {
       "nombre": "Coctel de frutas Rio 800g",
@@ -3703,6 +3704,103 @@
       "codigo": 7730205101181,
       "codigo1": 7730205101204,
       "Precio": 120
+    },
+    {
+      "nombre": "Salsa blanca Royarina 75g",
+      "codigo": 7730110124800,
+      "Precio": 95
+    },
+    {
+      "nombre": "Salsa blanca Royarina 35g",
+      "codigo": 7730110143559,
+      "Precio": 58
+    },
+    {
+      "nombre": "Atún desmenuzado Aida 170g",
+      "codigo": 7730354003503,
+      "codigo1": 7730354003534,
+      "Precio": 45
+    },
+    {
+      "nombre": "Pulpa de tomate Puritas 1kg",
+      "codigo": 7730354006597,
+      "Precio": 77
+    },
+    {
+      "nombre": "Puré de papas Demás 120g",
+      "codigo": 7730914674129,
+      "Precio": 48
+    },
+    {
+      "nombre": "Lentejones De diez 450g",
+      "codigo": 7730970180145,
+      "Precio": 85
+    },
+    {
+      "nombre": "Harina 1kg De diez 0000",
+      "codigo": 7730970180411,
+      "Precio": 45
+    },
+    {
+      "nombre": "Puré de papas De diez 120g",
+      "codigo": 7730970180480,
+      "Precio": 40
+    },
+    {
+      "nombre": "Poroto frutilla De diez 500g",
+      "codigo": 7730970181043, 
+      "Precio": 82
+    },
+    {
+      "nombre": "Poroto negro De diez 500g",
+      "codigo": 7730970181067,
+      "Precio": 83
+    },
+    {
+      "nombre": "Polenta De diez 400g",
+      "codigo": 7730970181364,
+      "Precio": 29
+    },
+    {
+      "nombre": "Avena De diez 1kg",
+      "codigo": 7730970181517,
+      "Precio": 93
+    },
+    {
+      "nombre": "Latas De diez",
+      "codigo": 7730970181760,
+      "codigo1": 7730970181777,
+      "codigo2": 7730970181784,
+      "codigo3": 7730970181791,
+      "codigo4": 7730970181883,
+      "Precio": 37
+    },
+    {
+      "nombre": "Fernet Buhero 700ml",
+      "codigo": 7792410533621,
+      "Precio": 489
+    },
+    {
+      "nombre": "Tortitas Isabela",
+      "codigo": 7896022086374,
+      "codigo1": 7896022086404,
+      "codigo2": 7896022086411,
+      "Precio": 37
+    },
+    {
+      "nombre": "Cerveza Colina 473ml",
+      "codigo": 7898055050759,
+      "Precio": 42
+    },
+    {
+      "nombre": "Grappa Pompeya",
+      "codigo": 77302100005827,
+      "Precio": 370
+    },
+    {
+      "nombre": "Vascolet 500g + cuaderno",
+      "codigo": 8445290780386,
+      "Precio": 230
     }
   ]
 }
