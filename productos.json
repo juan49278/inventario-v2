@@ -397,7 +397,7 @@
       "codigo": 7622201521967,
       "codigo1": 7622201806552,
       "codigo2": 7622201806682,
-      "Precio": 92
+      "Precio": 96
     },
     {
       "nombre": "Arroz Chef 1kg",
@@ -508,7 +508,7 @@
       "nombre": "Galleta Arroz Natural rice",
       "codigo": 7730984010018,
       "codigo1": 7730984010032,
-      "Precio": 67
+      "Precio": 71
     },
     {
       "nombre": "Galleta Arroz Saman",
@@ -745,12 +745,12 @@
     {
       "nombre": "Poroto Manteca de Diez 1kg",
       "codigo": 7730970180152,
-      "Precio": 209
+      "Precio": 205
     },
     {
       "nombre": "Lentejones de Diez 1kg",
       "codigo": 7730970181111,
-      "Precio": 159
+      "Precio": 139
     },
     {
       "nombre": "Maiz Pisingallo 1kg",
@@ -842,7 +842,7 @@
     {
       "nombre": "Poroto Frutilla Emigrante 500g",
       "codigo": 7730267001825,
-      "Precio": 103
+      "Precio": 109
     },
     {
       "nombre": "Poroto Negro Emigrante 500g",
@@ -852,7 +852,7 @@
     {
       "nombre": "Lentejones Emigrante 500g",
       "codigo": 7730267001764,
-      "Precio": 90
+      "Precio": 89
     },
     {
       "nombre": "Pure de papas Rio 1kg",
@@ -968,7 +968,7 @@
     {
       "nombre": "Choclo Emigrante",
       "codigo": 7730267023179,
-      "Precio": 45
+      "Precio": 51
     },
     {
       "nombre": "Arveja Emigrante",
@@ -983,7 +983,7 @@
     {
       "nombre": "Tomate Emigrante",
       "codigo": 7730267002761,
-      "Precio": 44
+      "Precio": 58
     },
     {
       "nombre": "Atún Lomito Emigrante 170g",
@@ -1085,7 +1085,7 @@
     {
       "nombre": "Pulpa de tomate De Ley",
       "codigo": 7730306000604,
-      "Precio": 65
+      "Precio": 68
     },
     {
       "nombre": "Sidra La Gijonesa sabores 1.5l",
@@ -1286,12 +1286,12 @@
       "codigo2": 7896286618366,
       "codigo3": 7896286618373,
       "codigo4": 7896286618397,
-      "Precio": 22
+      "Precio": 21
     },
     {
       "nombre": "Galleta Hipopo",
       "codigo": 7896286618755,
-      "Precio": 22
+      "Precio": 21
     },
     {
       "nombre": "Papas Lays 380g",
@@ -1316,7 +1316,7 @@
     {
       "nombre": "Picada Lays",
       "codigo": 7730311000903,
-      "Precio": 295
+      "Precio": 285
     },
     {
       "nombre": "Latas Cololo",
@@ -1723,7 +1723,7 @@
       "codigo2": 7896408444637,
       "codigo3": 7896408444675,
       "codigo4": 7896408444774,
-      "Precio": 32
+      "Precio": 35
     },
     {
       "nombre": "Fideo Isabela",
@@ -1873,7 +1873,7 @@
     {
       "nombre": "Tomate en trozos Rio",
       "codigo": 7730205060273,
-      "Precio": 57
+      "Precio": 62
     },
     {
       "nombre": "Pack cereales x2",
@@ -1939,7 +1939,7 @@
       "nombre": "Poroto Frutilla de Diez",
       "codigo": 5,
       "codigo1": 7730970181050,
-      "Precio": 165
+      "Precio": 150
     },
     {
       "nombre": "Atún desmenuzado Emigrante",
@@ -2467,7 +2467,7 @@
     {
       "nombre": "Ketchup Oderich 200g",
       "codigo": 7896041172508,
-      "Precio": 65
+      "Precio": 58
     },
     {
       "nombre": "Mostacero o Picantero",
@@ -2865,12 +2865,12 @@
     {
       "nombre": "Orégano 25g",
       "codigo": 7730177000048,
-      "Precio": 51
+      "Precio": 45
     },
     {
       "nombre": "Adobo 25g",
       "codigo": 7730177000130,
-      "Precio": 52
+      "Precio": 46
     },
     {
       "nombre": "Bracafé 100g",
@@ -3390,7 +3390,7 @@
     {
       "nombre": "Lenteja Emigrante 400g",
       "codigo": 7730267001740,
-      "Precio": 90
+      "Precio": 89
     },
     {
       "nombre": "Arroz Shiva 1kg",
@@ -3548,7 +3548,7 @@
     {
       "nombre": "Galletas surtidas Dos en Uno",
       "codigo": 7802225272056,
-      "Precio": 115
+      "Precio": 119
     },
     {
       "nombre": "Nescau Nestle 175g",
@@ -3801,6 +3801,11 @@
       "nombre": "Vascolet 500g + cuaderno",
       "codigo": 8445290780386,
       "Precio": 230
+    },
+    {
+      "nombre": "Poroto manteca De diez 450g",
+      "codigo": 7730970181081,
+      "Precio": 108
     }
   ]
 }
