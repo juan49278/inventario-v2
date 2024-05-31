@@ -3874,6 +3874,39 @@
       "nombre": "Espinaca deshidratada Knorr",
       "codigo": 7794000006140,
       "Precio": 65
-    }
+    },
+{
+"nombre": "Waffle Bauducco",
+"codigo": 7891962032283,
+"codigo1": 7891962032290,
+"codigo2: 7891962032306,
+"Precio": 55
+},
+{
+"nombre": "Salsa picante Bravo",
+"codigo": 7896007833214,
+"Precio": 131
+},
+{
+"nombre": "Galleta Renata",
+"codigo": 7896022205164,
+"codigo1": 7896022205201,
+"codigo2": 7896022205218,
+"codigo3": 7896022205225,
+"codigo4": 7896022205232,
+"Precio": 68
+},
+{
+"nombre": "Galleta Renata cracker",
+"codigo": 7896022205249,
+"codigo2": 7896022207663,
+"Precio": 77
+},
+{
+"nombre": "Floco de Arroz Zagonel",
+"codigo": 7897207900539,
+"codigo1": 7897207900812,
+"Precio": 85
+}
   ]
 }
