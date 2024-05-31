@@ -515,13 +515,13 @@
       "codigo": 7730115717403,
       "codigo1": 7730115717106,
       "codigo2": 7730115717304,
-      "Precio": 75
+      "Precio": 79
     },
     {
       "nombre": "Galleta Arroz Saman mini",
       "codigo": 7730115000420,
       "codigo1": 7730115000413,
-      "Precio": 83
+      "Precio": 88
     },
     {
       "nombre": "Magic Toast",
@@ -812,7 +812,7 @@
     {
       "nombre": "Grasa Mantex",
       "codigo": 7730900170055,
-      "Precio": 49.9
+      "Precio": 50
     },
     {
       "nombre": "Poroto Frutilla Rio 500g",
@@ -2219,7 +2219,7 @@
       "codigo2": 7730297007019,
       "codigo3": 7730297007095,
       "codigo4": 7730297007071,
-      "Precio": 59
+      "Precio": 60
     },
     {
       "nombre": "Picantina Barcatti",
@@ -2614,12 +2614,12 @@
     {
       "nombre": "Chucker 250ml",
       "codigo": 7792850000066,
-      "Precio": 89
+      "Precio": 91
     },
     {
       "nombre": "Chucker 600ml",
       "codigo": 7792129000353,
-      "Precio": 165
+      "Precio": 150
     },
     {
       "nombre": "Granola tradicional Tres Flores",
@@ -2680,7 +2680,7 @@
     {
       "nombre": "Royal 100g",
       "codigo": 7622201767662,
-      "Precio": 69
+      "Precio": 73
     },
     {
       "nombre": "Royal 30g",
@@ -2713,7 +2713,7 @@
     {
       "nombre": "Aceituna negra Emigrante",
       "codigo": 7730267022721,
-      "Precio": 80
+      "Precio": 79
     },
     {
       "nombre": "Aceituna c/ carozo emigrante",
@@ -3806,6 +3806,74 @@
       "nombre": "Poroto manteca De diez 450g",
       "codigo": 7730970181081,
       "Precio": 108
+    },
+    {
+      "nombre": "Pan rallado Morixe 500g",
+      "codigo": 7790199602910,
+      "Precio": 66
+    },
+    {
+      "nombre": "Pan rallado Morixe 1kg",
+      "codigo": 7790199602927,
+      "Precio": 112
+    },
+    {
+      "nombre": "Waffle Sensacion",
+      "codigo": 7622201698560,
+      "Precio": 112
+    },
+    {
+      "nombre": "Milka Mousse",
+      "codigo": 7622210940070,
+      "Precio": 112
+    },
+    {
+      "nombre": "Fariña La Abundancia",
+      "codigo": 7730195001249,
+      "Precio": 125
+    },
+    {
+      "nombre": "Jugos Dairyco 500ml",
+      "codigo": 7730203108434,
+      "codigo1": 7730203108489,
+      "codigo2": 7730203108601,
+      "Precio": 89
+    },
+    {
+      "nombre": "Jugo Zug 500ml",
+      "codigo": 7730203109738,
+      "codigo1": 7730203109769,
+      "Precio": 60
+    },
+    {
+      "nombre": "Agua sifon 2l Esencial limon",
+      "codigo": 7730914390470,
+      "Precio": 99
+    },
+    {
+      "nombre": "Arveja Campo vivo 170g",
+      "codigo": 7730970181951,
+      "Precio": 25
+    },
+    {
+      "nombre": "Cebolla deshidratada Knorr",
+      "codigo": 7794000006119,
+      "Precio": 129
+    },
+    {
+      "nombre": "Zanahoria deshidratada Knorr",
+      "codigo": 7794000006126,
+      "Precio": 65
+    },
+    {
+      "nombre": "Morron deshidratado Knorr",
+      "codigo": 7794000006133,
+      "Precio": 129
+    },
+    {
+      "nombre": "Espinaca deshidratada Knorr",
+      "codigo": 7794000006140,
+      "Precio": 65
     }
   ]
 }
