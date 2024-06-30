@@ -3,12 +3,12 @@
     {
       "nombre": "Arroz Saman blanco 1kg",
       "codigo": 7730115040105,
-      "Precio": 75
+      "Precio": 87
     },
     {
       "nombre": "Arroz Saman Parboiled 1kg",
       "codigo": 7730115030106,
-      "Precio": 78
+      "Precio": 89
     },
     {
       "nombre": "Margarina Adorita 500g",
@@ -283,7 +283,7 @@
     {
       "nombre": "Mayonesa Uruguay 1kg",
       "codigo": 7730132001417,
-      "Precio": 169
+      "Precio": 185
     },
     {
       "nombre": "Oliva Basso 500ml",
@@ -471,7 +471,7 @@
     {
       "nombre": "Arroz Saman 500g",
       "codigo": 7730115000239,
-      "Precio": 40
+      "Precio": 45
     },
     {
       "nombre": "Fideos Adria",
@@ -561,7 +561,7 @@
       "codigo2": 7730540001191,
       "codigo3": 7730540000200,
       "codigo4": 7730540000194,
-      "Precio": 129
+      "Precio": 115
     },
     {
       "nombre": "Azúcar Puritas",
@@ -721,14 +721,14 @@
       "codigo": 7804320148397,
       "codigo1": 7804320116921,
       "codigo2": 7804320116846,
-      "Precio": 299
+      "Precio": 229
     },
     {
       "nombre": "Vino Don Pascual",
       "codigo": 7730135000165,
       "codigo1": 7730135000196,
       "codigo2": 7730135000165,
-      "Precio": 299
+      "Precio": 289
     },
     {
       "nombre": "Vino Santa Teresa Varietal",
@@ -1200,7 +1200,7 @@
       "codigo2": 7730135000035,
       "codigo3": 7730135000271,
       "codigo4": 7730135000288,
-      "Precio": 129
+      "Precio": 139
     },
     {
       "nombre": "Champiñones enteros Rio frasco",
@@ -1625,7 +1625,7 @@
     {
       "nombre": "Pan rallado condimentado La Trigueña",
       "codigo": 7730221000536,
-      "Precio": 106
+      "Precio": 112
     },
     {
       "nombre": "Polenta Adria",
@@ -1714,7 +1714,7 @@
       "nombre": "Galleta Trigueña",
       "codigo": 7730221000239,
       "codigo1": 7730221000222,
-      "Precio": 155
+      "Precio": 165
     },
     {
       "nombre": "Galletitas Neo",
@@ -1760,7 +1760,7 @@
       "nombre": "Vino Pueblo del Sol",
       "codigo": 7730135000486,
       "codigo1": 7730135000509,
-      "Precio": 205
+      "Precio": 179
     },
     {
       "nombre": "Vino De la Carolina 1l",
@@ -1791,7 +1791,7 @@
       "codigo1": 7730540000460,
       "codigo2": 7730540000279,
       "codigo3": 7730540000286,
-      "Precio": 175
+      "Precio": 155
     },
     {
       "nombre": "Mayonesa Uruguay 500g",
@@ -2786,7 +2786,7 @@
     {
       "nombre": "Nestle Ecco 170g",
       "codigo": 7802950002324,
-      "Precio": 330
+      "Precio": 369
     },
     {
       "nombre": "Sardina Dukita",
@@ -2885,12 +2885,12 @@
     {
       "nombre": "Nescafé tradicional 200g + recarga",
       "codigo": 7613031578931,
-      "Precio": 555
+      "Precio": 599
     },
     {
       "nombre": "Nescafé original 200g + recarga",
       "codigo": 7613031578917,
-      "Precio": 555
+      "Precio": 599
     },
     {
       "nombre": "Nescafé tradicional 100g",
@@ -2905,7 +2905,7 @@
     {
       "nombre": "Nescafé descaféinado 100g",
       "codigo": 7613035379213,
-      "Precio": 445
+      "Precio": 479
     },
     {
       "nombre": "Capuchino Nescafé 18g",
@@ -3146,7 +3146,7 @@
     {
       "nombre": "Pan rallado clásico La Trigueña",
       "codigo": 7730221000079,
-      "Precio": 95
+      "Precio": 99
     },
     {
       "nombre": "Sopa Gourmet",
@@ -3395,7 +3395,7 @@
     {
       "nombre": "Arroz Shiva 1kg",
       "codigo": 7730114000025,
-      "Precio": 45
+      "Precio": 47
     },
     {
       "nombre": "Ketchup Cololo 290g",
@@ -3405,12 +3405,14 @@
     {
       "nombre": "Pasta de mani",
       "codigo": 7790524324098,
+      "codigo1": 77909524324548,
       "Precio": 149
     },
     {
       "nombre": "Mantequilla de Mani",
       "codigo": 7790524324104,
-      "Precio": 149
+      "codigo1": 7790524324555,
+      "Precio": 144
     },
     {
       "nombre": "Crema de avellana",
@@ -3907,16 +3909,6 @@
       "codigo": 7897207900539,
       "codigo1": 7897207900812,
       "Precio": 85
-    },
-{
-"nombre": "Pasta de Maní Croppeers",
-"codigo": 77909524324548,
-"Precio": 149
-},
-{
-"nombre": "Mantequilla de Maní Croppeers",
-"codigo": 7790524324555,
-"Precio": 144
-}
+    }
   ]
 }
