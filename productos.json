@@ -352,6 +352,7 @@
     {
       "nombre": "Galletas Tostex Colores",
       "codigo": 7798125810477,
+      "codigo1": 7798125811009,
       "Precio": 105
     },
     {
@@ -957,6 +958,7 @@
     {
       "nombre": "Sardina Coqueiro 125g",
       "codigo": 7896009301063,
+      "codigo1": 7896009301049,
       "Precio": 68
     },
     {
@@ -1180,7 +1182,7 @@
     {
       "nombre": "Pulpa de tomate Conaprole",
       "codigo": 7730105025402,
-      "Precio": 85
+      "Precio": 87
     },
     {
       "nombre": "Pulpa de tomate Rigby 500g",
@@ -1243,9 +1245,10 @@
       "Precio": 48
     },
     {
-      "nombre": "Condimento Dukita",
+      "nombre": "Condimentos Dukita 4x3",
       "codigo": 7730566001052,
-      "Precio": 195
+      "codigo1": 7730566001595,
+      "Precio": 185
     },
     {
       "nombre": "Galleta Ninfa 720g",
@@ -1295,7 +1298,7 @@
     },
     {
       "nombre": "Papas Lays 380g",
-      "codigo": 7790310982853,
+      "codigo": 7790310986165,
       "Precio": 295
     },
     {
@@ -1304,9 +1307,9 @@
       "Precio": 215
     },
     {
-      "nombre": "Papas Lays 200g",
-      "codigo": 7790310981191,
-      "Precio": 200
+      "nombre": "Papas Lays 235g",
+      "codigo": 7802000018138,
+      "Precio": 215
     },
     {
       "nombre": "Papas Ruffles 150g",
@@ -2001,7 +2004,7 @@
       "nombre": "Galletas Casaredo",
       "codigo": 7896408440561,
       "codigo1": 7896408440578,
-      "Precio": 69
+      "Precio": 70
     },
     {
       "nombre": "Ron Carabelas",
@@ -2305,7 +2308,7 @@
     {
       "nombre": "Condifran x2 65g",
       "codigo": 7730177000482,
-      "Precio": 70
+      "Precio": 73
     },
     {
       "nombre": "Condimento verde 25g",
@@ -2320,7 +2323,7 @@
     {
       "nombre": "Condimenton",
       "codigo": 7730177000277,
-      "Precio": 56
+      "Precio": 58
     },
     {
       "nombre": "Nuez moscada en grano",
@@ -2350,7 +2353,7 @@
     {
       "nombre": "Pimienta negra molida",
       "codigo": 7730177000307,
-      "Precio": 65
+      "Precio": 71
     },
     {
       "nombre": "Canela en rama 25g",
@@ -2492,7 +2495,9 @@
       "nombre": "Caldos Knorr x6",
       "codigo": 7794000005624,
       "codigo1": 7794000005631,
-      "Precio": 50
+      "codigo2": 7794000008595,
+      "codigo3": 7794000008601,
+      "Precio": 52
     },
     {
       "nombre": "Mayonesa Hellmans clasica 125g",
@@ -2543,6 +2548,7 @@
     {
       "nombre": "Mayonesa Hellmans light 500g",
       "codigo": 7730343325432,
+      "codigo1": 7794000006430,
       "Precio": 182
     },
     {
@@ -2664,6 +2670,15 @@
       "codigo": 7794000005815,
       "codigo1": 7794000005891,
       "codigo2": 7794000005822,
+      "codigo3": 7794000005839,
+      "codigo4": 7794000005860,
+      "Precio": 88
+    },
+    {
+      "nombre": "Sopas Knorr",
+      "codigo": 7794000005877,
+      "codigo1": 7794000005884,
+      "codigo2": 7794000008687,
       "Precio": 88
     },
     {
@@ -2675,6 +2690,7 @@
     {
       "nombre": "Royal 200g",
       "codigo": 762201767716,
+      "codigo1": 7730110120611,
       "Precio": 129
     },
     {
@@ -2764,8 +2780,9 @@
       "Precio": 55
     },
     {
-      "nombre": "Atún sobre Emigrante",
+      "nombre": "Atún en sobre Emigrante 500g",
       "codigo": 7730267007407,
+      "codigo1": 7730267011398,
       "Precio": 330
     },
     {
@@ -2865,7 +2882,7 @@
     {
       "nombre": "Orégano 25g",
       "codigo": 7730177000048,
-      "Precio": 45
+      "Precio": 51
     },
     {
       "nombre": "Adobo 25g",
@@ -3045,13 +3062,15 @@
       "Precio": 125
     },
     {
-      "nombre": "Maizena 550g",
+      "nombre": "Maizena 500g",
       "codigo": 7794000005389,
+      "codigo1": 7794000007468,
       "Precio": 175
     },
     {
       "nombre": "Te President 90g",
       "codigo": 7730282031081,
+      "codigo1": 773082030442,
       "Precio": 139
     },
     {
@@ -3136,6 +3155,7 @@
     {
       "nombre": "Royal 30g",
       "codigo": 762220176731,
+      "codigo1": 7622300842444,
       "Precio": 25
     },
     {
@@ -3152,6 +3172,7 @@
       "nombre": "Sopa Gourmet",
       "codigo": 7730306001847,
       "codigo1": 7730306001601,
+      "codigo2": 7730306002653,
       "Precio": 85
     },
     {
@@ -3437,6 +3458,7 @@
     {
       "nombre": "Mayonesa Hellmans Vegana 500g",
       "codigo": 22,
+      "codigo1": 7794000005433,
       "Precio": 182
     },
     {
@@ -3796,7 +3818,7 @@
     },
     {
       "nombre": "Grappa Pompeya",
-      "codigo": 77302100005827,
+      "codigo": 7730210000660,
       "Precio": 370
     },
     {
@@ -3909,6 +3931,86 @@
       "codigo": 7897207900539,
       "codigo1": 7897207900812,
       "Precio": 85
+    },
+    {
+      "nombre": "Maiz pisingallo 450g De diez",
+      "codigo": 77309701805,
+      "Precio": 37
+    },
+    {
+      "nombre": "Salsa Cheddar el Aleman 110g",
+      "codigo": 0798190132556,
+      "Precio": 50
+    },
+    {
+      "nombre": "Vascolet 500g + 100g gratis",
+      "codigo": 7613287647344,
+      "Precio": 249
+    },
+    {
+      "nombre": "Leche en polvo 400g Conaprole",
+      "codigo": 7730105004131,
+      "Precio": 189
+    },
+    {
+      "nombre": "Curry 25g",
+      "codigo": 7730177000284,
+      "Precio": 61
+    },
+    {
+      "nombre": "Anis 25g",
+      "codigo": 7730177000314,
+      "Precio": 92
+    },
+    {
+      "nombre": "Colores 60ml",
+      "codigo": 7730177005470,
+      "codigo1": 7730177005494,
+      "Precio": 105
+    },
+    {
+      "nombre": "Vinagre de Vino Gamberoni 500ml",
+      "codigo": 7730252000895,
+      "Precio": 85
+    },
+    {
+      "nombre": "Polvo de hornear 100g Fleischmann",
+      "codigo": 7730917690232,
+      "Precio": 64
+    },
+    {
+      "nombre": "Levadura Fleischmann 66g",
+      "codigo": 7730917692168,
+      "Precio": 130
+    },
+    {
+      "nombre": "Garbanzo De diez 500g",
+      "codigo": 7730970180084,
+      "Precio": 60
+    },
+    {
+      "nombre": "Savora 200g pote",
+      "codigo": 7794000006492,
+      "Precio": 195
+    },
+    {
+      "nombre": "Vino Don Santiago 750ml",
+      "codigo": 7730921380068,
+      "codigo1": 7730921380136,
+      "codigo2": 7730921380143,
+      "codigo3": 7730921380198,
+      "codigo4": 7730921380211,
+      "Precio": 199
+    },
+    {
+      "nombre": "Vino Don Santiago 750ml",
+      "codigo": 7730921380426,
+      "Precio": 199
+    },
+    {
+      "nombre": "Bidón Agua Esencial 6l",
+      "codigo": 7730914390463,
+      "Precio": 99
     }
   ]
 }
