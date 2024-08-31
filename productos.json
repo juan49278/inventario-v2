@@ -313,7 +313,7 @@
     {
       "nombre": "Chiquilin El Trigal",
       "codigo": 7730116120141,
-      "Precio": 118
+      "Precio": 120
     },
     {
       "nombre": "Coco y Miel El Trigal",
@@ -347,7 +347,7 @@
       "codigo1": 7730172275113,
       "codigo2": 7730116281125,
       "codigo3": 7730116292121,
-      "Precio": 129
+      "Precio": 135
     },
     {
       "nombre": "Galletas Tostex Colores",
@@ -391,19 +391,19 @@
       "codigo1": 7730110331932,
       "codigo2": 7730110332038,
       "codigo3": 7622300392024,
-      "Precio": 69
+      "Precio": 79
     },
     {
       "nombre": "Galletitas Oreo",
       "codigo": 7622201521967,
       "codigo1": 7622201806552,
       "codigo2": 7622201806682,
-      "Precio": 96
+      "Precio": 99
     },
     {
       "nombre": "Arroz Chef 1kg",
       "codigo": 7730114400016,
-      "Precio": 57
+      "Precio": 65
     },
     {
       "nombre": "Galleta Cric-crac",
@@ -433,7 +433,7 @@
     {
       "nombre": "Whisky Sandy Mac",
       "codigo": 5010408251589,
-      "Precio": 929
+      "Precio": 990
     },
     {
       "nombre": "Whisky Something",
@@ -445,7 +445,7 @@
       "nombre": "Whisky Jhonnie Red Label",
       "codigo": 5000267013626,
       "codigo1": 5000267190143,
-      "Precio": 1069
+      "Precio": 1150
     },
     {
       "nombre": "Whisky William Lawson",
@@ -503,7 +503,7 @@
     {
       "nombre": "Galleta Panina",
       "codigo": 7730116242164,
-      "Precio": 129
+      "Precio": 135
     },
     {
       "nombre": "Galleta Arroz Natural rice",
@@ -582,17 +582,17 @@
     {
       "nombre": "Vodka Siberia petaca",
       "codigo": 7730210000349,
-      "Precio": 125
+      "Precio": 135
     },
     {
       "nombre": "Whisky White Horse",
       "codigo": 5000265090056,
-      "Precio": 809
+      "Precio": 829
     },
     {
       "nombre": "Whisky Monje",
       "codigo": 5000281001739,
-      "Precio": 649
+      "Precio": 699
     },
     {
       "nombre": "Martini",
@@ -603,7 +603,7 @@
     {
       "nombre": "Fernet Branca",
       "codigo": 7790290001193,
-      "Precio": 625
+      "Precio": 659
     },
     {
       "nombre": "Whisky William Lawson petaca",
@@ -629,7 +629,7 @@
     {
       "nombre": "Grappamiel vesubio 1l",
       "codigo": 7730210000035,
-      "Precio": 279
+      "Precio": 289
     },
     {
       "nombre": "Whisky Blenders 1l",
@@ -665,7 +665,7 @@
     {
       "nombre": "Galleta Maria rik x3",
       "codigo": 7730116101249,
-      "Precio": 129
+      "Precio": 135
     },
     {
       "nombre": "Grappa San Remo",
@@ -685,12 +685,12 @@
     {
       "nombre": "Petaca Grappamiel",
       "codigo": 7730210000271,
-      "Precio": 89
+      "Precio": 99
     },
     {
       "nombre": "Whisky Vat 69",
       "codigo": 5000292262716,
-      "Precio": 649
+      "Precio": 719
     },
     {
       "nombre": "Vino Cafayate",
@@ -1111,14 +1111,14 @@
       "codigo": 7790717151128,
       "codigo1": 7790717151067,
       "codigo2": 7790717151104,
-      "Precio": 399
+      "Precio": 299
     },
     {
       "nombre": "Vino Novecento",
       "codigo": 7790717152002,
       "codigo1": 7790717152354,
       "codigo2": 7790717152019,
-      "Precio": 199
+      "Precio": 159
     },
     {
       "nombre": "Cerveza Spoller",
@@ -1129,7 +1129,7 @@
       "nombre": "Agua Matutina 2.5l",
       "codigo": 7730400003877,
       "codigo1": 7730400003884,
-      "Precio": 52
+      "Precio": 57
     },
     {
       "nombre": "Sidra Gorlero 1l",
@@ -1256,7 +1256,7 @@
       "codigo1": 7896111424629,
       "codigo2": 7896111424582,
       "codigo3": 7896111424599,
-      "Precio": 107
+      "Precio": 109
     },
     {
       "nombre": "Jugo Frutare",
@@ -1280,7 +1280,7 @@
     {
       "nombre": "Aceite Condesa",
       "codigo": 7730132000434,
-      "Precio": 69
+      "Precio": 65
     },
     {
       "nombre": "Galleta Hipopo",
@@ -1304,12 +1304,12 @@
     {
       "nombre": "Doritos 250g",
       "codigo": 7802000016820,
-      "Precio": 215
+      "Precio": 220
     },
     {
       "nombre": "Papas Lays 235g",
       "codigo": 7802000018138,
-      "Precio": 215
+      "Precio": 220
     },
     {
       "nombre": "Papas Ruffles 150g",
@@ -1319,7 +1319,7 @@
     {
       "nombre": "Picada Lays",
       "codigo": 7730311000903,
-      "Precio": 285
+      "Precio": 299
     },
     {
       "nombre": "Latas Cololo",
@@ -1572,7 +1572,7 @@
     {
       "nombre": "Pure de papas Puritas 125g",
       "codigo": 7730354002797,
-      "Precio": 39
+      "Precio": 35
     },
     {
       "nombre": "Polenta Puritas",
@@ -1906,13 +1906,13 @@
     {
       "nombre": "Agua Salus bidon 6l",
       "codigo": 7730400002771,
-      "Precio": 129
+      "Precio": 136
     },
     {
       "nombre": "Agua Matutina x4",
       "codigo": 7730922256119,
       "codigo1": 7730922256102,
-      "Precio": 149
+      "Precio": 160
     },
     {
       "nombre": "Avena 200g Puritas",
@@ -2015,7 +2015,7 @@
     {
       "nombre": "Fernet Branca Menta",
       "codigo": 7790290101473,
-      "Precio": 669
+      "Precio": 689
     },
     {
       "nombre": "Vodka + Energizante",
@@ -2113,7 +2113,7 @@
       "codigo2": 7622201816551,
       "codigo3": 7622201815042,
       "codigo4": 7622201816490,
-      "Precio": 18
+      "Precio": 19
     },
     {
       "nombre": "Jugos Tang",
@@ -2122,13 +2122,13 @@
       "codigo2": 7622201814946,
       "codigo3": 762201814977,
       "codigo4": 762220681999,
-      "Precio": 18
+      "Precio": 19
     },
     {
       "nombre": "Jugos Tang",
       "codigo": 7622201814854,
       "codigo1": 7622201816766,
-      "Precio": 18
+      "Precio": 19
     },
     {
       "nombre": "Jugos Clight",
@@ -2137,7 +2137,7 @@
       "codigo2": 7622201807672,
       "codigo3": 7622201807580,
       "codigo4": 7622201807610,
-      "Precio": 23
+      "Precio": 25
     },
     {
       "nombre": "Jugos Clight",
@@ -2146,7 +2146,7 @@
       "codigo2": 7622201807764,
       "codigo3": 7622201807733,
       "codigo4": 7622201682026,
-      "Precio": 23
+      "Precio": 25
     },
     {
       "nombre": "Fideos Adria",
@@ -2298,7 +2298,7 @@
     {
       "nombre": "Pimenton 25g",
       "codigo": 7730177000253,
-      "Precio": 42
+      "Precio": 44
     },
     {
       "nombre": "Aji molido",
@@ -2428,12 +2428,12 @@
     {
       "nombre": "Galletas Bridge",
       "codigo": 7730116460131,
-      "Precio": 119
+      "Precio": 125
     },
     {
       "nombre": "Galletas Salvaje",
       "codigo": 7730116460117,
-      "Precio": 109
+      "Precio": 112
     },
     {
       "nombre": "Ketchup Oderich 1kg",
@@ -2564,7 +2564,7 @@
     {
       "nombre": "Mayonesa Uruguay 125g",
       "codigo": 7730132000731,
-      "Precio": 25
+      "Precio": 27
     },
     {
       "nombre": "Mayonesa Natura 125g",
@@ -2803,7 +2803,7 @@
     {
       "nombre": "Nestle Ecco 170g",
       "codigo": 7802950002324,
-      "Precio": 369
+      "Precio": 330
     },
     {
       "nombre": "Sardina Dukita",
@@ -2877,7 +2877,7 @@
     {
       "nombre": "Ajil 25g",
       "codigo": 7730177000215,
-      "Precio": 66
+      "Precio": 69
     },
     {
       "nombre": "Orégano 25g",
@@ -2887,12 +2887,12 @@
     {
       "nombre": "Adobo 25g",
       "codigo": 7730177000130,
-      "Precio": 46
+      "Precio": 51
     },
     {
       "nombre": "Bracafé 100g",
       "codigo": 7613035511576,
-      "Precio": 331
+      "Precio": 311
     },
     {
       "nombre": "Bracafé 170g",
@@ -2975,7 +2975,7 @@
     {
       "nombre": "Cacao Nestle 500g",
       "codigo": 7613039707555,
-      "Precio": 279
+      "Precio": 335
     },
     {
       "nombre": "Cacao Nestle 200g",
@@ -3049,7 +3049,7 @@
     {
       "nombre": "Café Águila 500g",
       "codigo": 7730109012552,
-      "Precio": 625
+      "Precio": 505
     },
     {
       "nombre": "Café Águila 250g",
@@ -3120,7 +3120,7 @@
     {
       "nombre": "Bracafé sticks x14",
       "codigo": 8445290239495,
-      "Precio": 78
+      "Precio": 84
     },
     {
       "nombre": "Café Águila sticks x10",
@@ -3386,7 +3386,7 @@
     {
       "nombre": "Jhonnie Black",
       "codigo": 5000267023625,
-      "Precio": 2190
+      "Precio": 2350
     },
     {
       "nombre": "Chivas",
@@ -3716,7 +3716,7 @@
     {
       "nombre": "Whisky Sir Edward’s Escocés",
       "codigo": 5060116320589,
-      "Precio": 579
+      "Precio": 619
     },
     {
       "nombre": "Pan rallado Marbella 800g",
@@ -3814,7 +3814,7 @@
     {
       "nombre": "Cerveza Colina 473ml",
       "codigo": 7898055050759,
-      "Precio": 42
+      "Precio": 45
     },
     {
       "nombre": "Grappa Pompeya",
@@ -3849,6 +3849,7 @@
     {
       "nombre": "Milka Mousse",
       "codigo": 7622210940070,
+      "codigo1": 7622210940230,
       "Precio": 112
     },
     {
@@ -3904,7 +3905,8 @@
       "codigo": 7891962032283,
       "codigo1": 7891962032290,
       "codigo2": 7891962032306,
-      "Precio": 55
+      "codigo3": 7891962036915,
+      "Precio": 67
     },
     {
       "nombre": "Salsa picante Bravo",
@@ -4011,7 +4013,48 @@
     {
       "nombre": "Bidón Agua Esencial 6l",
       "codigo": 7730914390463,
-      "Precio": 99
+      "Precio": 119
+    },
+    {
+      "nombre": "Galletitas Oreo sin Tacc 95g",
+      "codigo": 7622202038099,
+      "Precio": 112
+    },
+    {
+      "nombre": "Tostadas El Trigal",
+      "codigo": 7730116233155,
+      "codigo1": 7730116233179,
+      "Precio": 89
+    },
+    {
+      "nombre": "Galletitas Negritos El Trigal",
+      "codigo": 7730116554144,
+      "Precio": 38
+    },
+    {
+      "nombre": "Dulce membrillo Los Nietitos 900g",
+      "codigo": 7730124020402,
+      "Precio": 153
+    },
+    {
+      "nombre": "Chizitos Bun",
+      "codigo": 7790310984093,
+      "Precio": 120
+    },
+    {
+      "nombre": "Cheetos",
+      "codigo": 7802000016882,
+      "Precio": 120
+    },
+    {
+      "nombre": "Energizante Baly 250ml",
+      "codigo": 7898080662262,
+      "Precio": 75
+    },
+    {
+      "nombre": "Energizante Baly 250ml sin azucar",
+      "codigo": 7898080663849,
+      "Precio": 75
     }
   ]
 }
