@@ -3,12 +3,12 @@
     {
       "nombre": "Arroz Saman blanco 1kg",
       "codigo": 7730115040105,
-      "Precio": 87
+      "Precio": 85
     },
     {
       "nombre": "Arroz Saman Parboiled 1kg",
       "codigo": 7730115030106,
-      "Precio": 89
+      "Precio": 87
     },
     {
       "nombre": "Margarina Adorita 500g",
@@ -69,7 +69,7 @@
     {
       "nombre": "Dulce de Leche Los Nietitos 0% frasco",
       "codigo": 7730124000671,
-      "Precio": 209
+      "Precio": 217
     },
     {
       "nombre": "Dulce de leche Creme chocolate",
@@ -89,7 +89,7 @@
     {
       "nombre": "Dulce de leche Los Nietitos 1kg",
       "codigo": 7730124384009,
-      "Precio": 189
+      "Precio": 214
     },
     {
       "nombre": "Jugos Big C",
@@ -98,7 +98,7 @@
       "codigo2": 7730920130862,
       "codigo3": 7730920130589,
       "codigo4": 7730920130596,
-      "Precio": 70
+      "Precio": 74
     },
     {
       "nombre": "Mermelada Los Nietitos 500g Durazno",
@@ -252,7 +252,7 @@
     {
       "nombre": "Ketchup Hellmans 250g",
       "codigo": 7794000006188,
-      "Precio": 89
+      "Precio": 95
     },
     {
       "nombre": "Salsa soja 500ml baja en sodio",
@@ -423,12 +423,12 @@
     {
       "nombre": "Whisky Dunbar",
       "codigo": 7730901310054,
-      "Precio": 515
+      "Precio": 520
     },
     {
       "nombre": "Whisky Ballantimes",
       "codigo": 5010106111925,
-      "Precio": 1030
+      "Precio": 1080
     },
     {
       "nombre": "Whisky Sandy Mac",
@@ -439,7 +439,7 @@
       "nombre": "Whisky Something",
       "codigo": 80432402771,
       "codigo1": "080432402771",
-      "Precio": 839
+      "Precio": 880
     },
     {
       "nombre": "Whisky Jhonnie Red Label",
@@ -634,12 +634,12 @@
     {
       "nombre": "Whisky Blenders 1l",
       "codigo": 7730901310078,
-      "Precio": 555
+      "Precio": 599
     },
     {
       "nombre": "Whisky Criadores 1l",
       "codigo": 7790480001613,
-      "Precio": 629
+      "Precio": 659
     },
     {
       "nombre": "Galleta Trigueña dulce",
@@ -722,7 +722,7 @@
       "codigo": 7804320148397,
       "codigo1": 7804320116921,
       "codigo2": 7804320116846,
-      "Precio": 229
+      "Precio": 269
     },
     {
       "nombre": "Vino Don Pascual",
@@ -1364,7 +1364,7 @@
     {
       "nombre": "Durazno Rio",
       "codigo": 7730205106513,
-      "Precio": 145
+      "Precio": 119
     },
     {
       "nombre": "Atún Lomito Rio 354g",
@@ -1776,7 +1776,7 @@
     {
       "nombre": "Whisky Jameson",
       "codigo": 5011007003227,
-      "Precio": 1249
+      "Precio": 1275
     },
     {
       "nombre": "Cania Bambu",
@@ -2055,7 +2055,7 @@
       "nombre": "Sazon para el horno Knorr",
       "codigo": 7794000004931,
       "codigo1": 7794000004917,
-      "Precio": 115
+      "Precio": 119
     },
     {
       "nombre": "Arroz Blue Patna Parboiled",
@@ -2213,7 +2213,7 @@
       "codigo": 7730213002210,
       "codigo1": 7730213006546,
       "codigo2": 7730213006539,
-      "Precio": 199
+      "Precio": 219
     },
     {
       "nombre": "Aderezos Barcatti",
@@ -2278,7 +2278,7 @@
     {
       "nombre": "Arroz Chef 500g",
       "codigo": 7730114000292,
-      "Precio": 33
+      "Precio": 41
     },
     {
       "nombre": "Galleta Venecia Salada",
@@ -2482,14 +2482,14 @@
       "nombre": "Caldos Knorr x12",
       "codigo": 7794000005730,
       "codigo1": 7794000005723,
-      "Precio": 96
+      "Precio": 105
     },
     {
       "nombre": "Caldos Maggi x12",
       "codigo": 7891000345481,
       "codigo1": 7891000345528,
       "codigo2": 7891000345443,
-      "Precio": 87
+      "Precio": 91
     },
     {
       "nombre": "Caldos Knorr x6",
@@ -3247,14 +3247,14 @@
       "codigo": 7730172207138,
       "codigo1": 7730172201136,
       "codigo2": 7730172203130,
-      "Precio": 70
+      "Precio": 73
     },
     {
       "nombre": "Helados Recreo light",
       "codigo": 7730172203123,
       "codigo1": 7730172207121,
       "codigo2": 7730172205127,
-      "Precio": 70
+      "Precio": 73
     },
     {
       "nombre": "Leche en polvo 200g",
@@ -3748,7 +3748,7 @@
     {
       "nombre": "Pulpa de tomate Puritas 1kg",
       "codigo": 7730354006597,
-      "Precio": 77
+      "Precio": 70
     },
     {
       "nombre": "Puré de papas Demás 120g",
@@ -4055,6 +4055,80 @@
       "nombre": "Energizante Baly 250ml sin azucar",
       "codigo": 7898080663849,
       "Precio": 75
+    },
+    {
+      "nombre": "Dulce de leche Doña Elvira 900g",
+      "codigo": 7730124001432,
+      "Precio": 144
+    },
+    {
+      "nombre": "Mermelada Los Nietitos Naranja 250g",
+      "codigo": 7730124013206,
+      "Precio": 64
+    },
+    {
+      "nombre": "Mermelada Los Nietitos Naranja 500g",
+      "codigo": 7730124013305,
+      "Precio": 109
+    },
+    {
+      "nombre": "Mostaza Schneck 100g",
+      "codigo": 7730138000018,
+      "Precio": 39
+    },
+    {
+      "nombre": "Arveja Rio 300g",
+      "codigo": 7730205069504,
+      "Precio": 28
+    },
+    {
+      "nombre": "Grasa San Jacinto 400g",
+      "codigo": 7730461000228,
+      "Precio": 45
+    },
+    {
+      "nombre": "Mix hierbas ahumado Brasas Humo",
+      "codigo": 7741910901225,
+      "Precio": 149
+    },
+    {
+      "nombre": "Sal entrefina Brasas Humo",
+      "codigo": 7741910901256,
+      "Precio": 149
+    },
+    {
+      "nombre": "Sal fina ahumada Brasas Humos",
+      "codigo": 7741910901263,
+      "Precio": 165
+    },
+    {
+      "nombre": "Ajo ahumado Brasas Humo",
+      "codigo": 7741910901287,
+      "Precio": 149
+    },
+    {
+      "nombre": "Condimento para Mariscos y paella Brasas Humo",
+      "codigo": 7741910901584,
+      "Precio": 149
+    },
+    {
+      "nombre": "Condimento para pescado Brasas Humos",
+      "codigo": 7741910901591,
+      "Precio": 149
+    },
+    {
+      "nombre": "Whisky Mac Arthur's",
+      "codigo": 5010509003087,
+      "Precio": 555
+    },
+    {
+      "nombre": "Vino 1903 750ml",
+      "codigo": 7730921380334,
+      "codigo1": 7730921380341,
+      "codigo2": 7730921380358,
+      "codigo3": 7730921380396,
+      "codigo4": 7730921380402,
+      "Precio": 149
     }
   ]
 }

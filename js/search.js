@@ -458,6 +458,11 @@ function selectResult() {
   button.onclick = filter();
   searchResult.innerHTML = ""
 }
+
+//Evitar recargar
+window.addEventListener("beforeunload", function (event) {
+  event.preventDefault();
+});
 /* document.getElementById('submitExport').addEventListener('click', function(e) {
   e.preventDefault();
   let export_to_excel = document.getElementById('table');
