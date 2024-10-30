@@ -1095,7 +1095,7 @@
       "codigo1": 77304088000892,
       "codigo2": 7730408000908,
       "codigo3": 7730408001097,
-      "Precio": 89
+      "Precio": 95
     },
     {
       "nombre": "Sidra La Gijonesa sabores vidrio",
@@ -1134,7 +1134,7 @@
     {
       "nombre": "Sidra Gorlero 1l",
       "codigo": 7730408000663,
-      "Precio": 79
+      "Precio": 85
     },
     {
       "nombre": "Aceite Altoleico Optimo",
@@ -3557,7 +3557,7 @@
     {
       "nombre": "Sidra Gijonesa 1.5l",
       "codigo": 7730408000595,
-      "Precio": 85
+      "Precio": 91
     },
     {
       "nombre": "Sidra Gijonesa 330ml",
@@ -3637,21 +3637,20 @@
       "Precio": 99
     },
     {
-      "nombre": "Turron Olimpo Premium",
-      "codigo": 7730954100176,
-      "codigo1": 7730954100183,
-      "codigo2": 7730954100190,
-      "codigo3": 7730954100206,
-      "codigo4": 7730954100213,
-      "Precio": 79
+      "nombre": "Turron Olimpo crocante",
+      "codigo": 7730954100220,
+      "codigo1": 7730954100237,
+      "codigo2": 7730954100244,
+      "codigo3": 7730954100251,
+      "Precio": 89
     },
     {
       "nombre": "Turron Olimpo blando",
-      "codigo": 7730917010016,
-      "codigo1": 7730917010023,
-      "codigo2": 7730917010030,
-      "codigo3": 7730917010382,
-      "Precio": 39
+      "codigo": 7730954100121,
+      "codigo1": 7730954100138,
+      "codigo2": 7730954100145,
+      "codigo3": 7730954100152,
+      "Precio": 47
     },
     {
       "nombre": "Pepsi 2l",
@@ -3682,13 +3681,13 @@
       "nombre": "Budín Santa Edwiges",
       "codigo": 7896064209502,
       "codigo1": 7896064209519,
-      "Precio": 45
+      "Precio": 59
     },
     {
       "nombre": "Budín Santa Edwiges relleno",
       "codigo": 7896064209557,
       "codigo1": 7896064209564,
-      "Precio": 59
+      "Precio": 79
     },
     {
       "nombre": "Panettone Bambú 330g",
@@ -4129,6 +4128,85 @@
       "codigo3": 7730921380396,
       "codigo4": 7730921380402,
       "Precio": 149
+    },
+    {
+      "nombre": "Panettone chocottone 80g",
+      "codigo": 7891962057668,
+      "Precio": 65
+    },
+    {
+      "nombre": "Panettone clasico o mini chocolate 80g",
+      "codigo": 7891962071114,
+      "codigo1": 7891962071121,
+      "Precio": 62
+    },
+    {
+      "nombre": "Nix 500ml",
+      "codigo": 7730130002331,
+      "codigo1": 7730289000189,
+      "codigo2": 7730289000264,
+      "codigo3": 7730289000554,
+      "codigo4": 7730289000493,
+      "Precio": 39
+    },
+    {
+      "nombre": "Agua Nativa 500ml",
+      "codigo": 7730130000450,
+      "codigo1": 7730130000474,
+      "Precio": 58
+    },
+    {
+      "nombre": "Cerveza Heneiken 710ml",
+      "codigo": 779314757283,
+      "Precio": 165
+    },
+    {
+      "nombre": "Nix 2.5l",
+      "codigo": 7730289001131,
+      "codigo1": 7730289001124,
+      "codigo2": 7730289001148,
+      "codigo3": 7730130000276,
+      "Precio": 128
+    },
+    {
+      "nombre": "Whisky Jack Daniels + vaso",
+      "codigo": 82184082201,
+      "codigo1": "082184082201",
+      "Precio": 2250
+    },
+    {
+      "nombre": "Magdalenas El Trigal 200g",
+      "codigo": 7730116690156,
+      "Precio": 109
+    },
+    {
+      "nombre": "Sidra La Gijonesa sabores vidrio 750ml",
+      "codigo": 7730408000854,
+      "codigo1": 7730408001332,
+      "Precio": 209
+    },
+    {
+      "nombre": "Aceite Oliva Natura 500ml",
+      "codigo": 7790272000961,
+      "Precio": 395
+    },
+    {
+      "nombre": "Pan dulce Limido 500g",
+      "codigo": 7791696012035,
+      "Precio": 99
+    },
+    {
+      "nombre": "Salsa picante Hellmans 340g",
+      "codigo": 7794000008922,
+      "Precio": 159
+    },
+    {
+      "nombre": "Espumante Freixenet extra",
+      "codigo": 7796626001691,
+      "Precio": 490
+    },
+    {
+      "nombre": ""
     }
   ]
 }
