@@ -272,7 +272,7 @@
     {
       "nombre": "Mostaza Oderich 1kg",
       "codigo": 7896041172782,
-      "Precio": 117
+      "Precio": 119
     },
     {
       "nombre": "Mayonesa Hellmans 1kg",
@@ -283,7 +283,7 @@
     {
       "nombre": "Mayonesa Uruguay 1kg",
       "codigo": 7730132001417,
-      "Precio": 185
+      "Precio": 195
     },
     {
       "nombre": "Oliva Basso 500ml",
@@ -603,7 +603,7 @@
     {
       "nombre": "Fernet Branca",
       "codigo": 7790290001193,
-      "Precio": 659
+      "Precio": 709
     },
     {
       "nombre": "Whisky William Lawson petaca",
@@ -1139,7 +1139,7 @@
     {
       "nombre": "Aceite Altoleico Optimo",
       "codigo": 7730132001431,
-      "Precio": 125
+      "Precio": 135
     },
     {
       "nombre": "Aceite Canola Optimo",
@@ -1193,7 +1193,7 @@
       "nombre": "Pulpa de tomate Rigby Italiana",
       "codigo": 7730493084791,
       "codigo1": 7730493084043,
-      "Precio": 78
+      "Precio": 94
     },
     {
       "nombre": "Vino Santa Teresa",
@@ -1248,7 +1248,7 @@
       "nombre": "Condimentos Dukita 4x3",
       "codigo": 7730566001052,
       "codigo1": 7730566001595,
-      "Precio": 185
+      "Precio": 189
     },
     {
       "nombre": "Galleta Ninfa 720g",
@@ -1577,7 +1577,7 @@
     {
       "nombre": "Polenta Puritas",
       "codigo": 7730354002322,
-      "Precio": 39
+      "Precio": 35
     },
     {
       "nombre": "Fideo Pomarola verde",
@@ -1738,7 +1738,7 @@
     {
       "nombre": "Tostada Isabela",
       "codigo": 7896022086138,
-      "Precio": 89
+      "Precio": 62
     },
     {
       "nombre": "Cinzano",
@@ -1930,7 +1930,7 @@
       "nombre": "Harina Cañuelas Leudante",
       "codigo": 3,
       "codigo1": 7730376000276,
-      "Precio": 76
+      "Precio": 75
     },
     {
       "nombre": "Pulpa de tomate Conaprole chica",
@@ -2068,7 +2068,7 @@
       "codigo1": 77908956433828,
       "codigo2": 77908956433866,
       "codigo3": 7790895643835,
-      "Precio": 104
+      "Precio": 99
     },
     {
       "nombre": "Dulce de leche Suizo 1kg",
@@ -2176,7 +2176,7 @@
     {
       "nombre": "Pure de papas Knorr 125g",
       "codigo": 7794000006355,
-      "Precio": 110
+      "Precio": 131
     },
     {
       "nombre": "Pure de papas Knorr Receta completa 125g",
@@ -2298,7 +2298,7 @@
     {
       "nombre": "Pimenton 25g",
       "codigo": 7730177000253,
-      "Precio": 44
+      "Precio": 46
     },
     {
       "nombre": "Aji molido",
@@ -2313,7 +2313,7 @@
     {
       "nombre": "Condimento verde 25g",
       "codigo": 7730177000390,
-      "Precio": 76
+      "Precio": 81
     },
     {
       "nombre": "Nuez moscada molida",
@@ -2343,7 +2343,7 @@
     {
       "nombre": "Canela molida",
       "codigo": 7730177000239,
-      "Precio": 70
+      "Precio": 77
     },
     {
       "nombre": "Pimienta negra en grano",
@@ -2353,12 +2353,12 @@
     {
       "nombre": "Pimienta negra molida",
       "codigo": 7730177000307,
-      "Precio": 71
+      "Precio": 78
     },
     {
       "nombre": "Canela en rama 25g",
       "codigo": 7730177004831,
-      "Precio": 74
+      "Precio": 77
     },
     {
       "nombre": "Pimienta blanca molida",
@@ -2564,7 +2564,7 @@
     {
       "nombre": "Mayonesa Uruguay 125g",
       "codigo": 7730132000731,
-      "Precio": 27
+      "Precio": 29
     },
     {
       "nombre": "Mayonesa Natura 125g",
@@ -2620,12 +2620,12 @@
     {
       "nombre": "Chucker 250ml",
       "codigo": 7792850000066,
-      "Precio": 91
+      "Precio": 93
     },
     {
       "nombre": "Chucker 600ml",
       "codigo": 7792129000353,
-      "Precio": 150
+      "Precio": 159
     },
     {
       "nombre": "Granola tradicional Tres Flores",
@@ -2635,7 +2635,7 @@
     {
       "nombre": "Granola frutal Tres Flores",
       "codigo": 7730946810038,
-      "Precio": 259
+      "Precio": 269
     },
     {
       "nombre": "Cereales Rio",
@@ -2685,7 +2685,7 @@
       "nombre": "Sal baja en sodio",
       "codigo": 7730177003148,
       "codigo1": 7730172003148,
-      "Precio": 165
+      "Precio": 190
     },
     {
       "nombre": "Royal 200g",
@@ -2887,7 +2887,7 @@
     {
       "nombre": "Adobo 25g",
       "codigo": 7730177000130,
-      "Precio": 51
+      "Precio": 54
     },
     {
       "nombre": "Bracafé 100g",
@@ -2912,12 +2912,12 @@
     {
       "nombre": "Nescafé tradicional 100g",
       "codigo": 7891000016589,
-      "Precio": 295
+      "Precio": 335
     },
     {
       "nombre": "Nescafé original 100g",
       "codigo": 7891000300503,
-      "Precio": 295
+      "Precio": 335
     },
     {
       "nombre": "Nescafé descaféinado 100g",
@@ -2939,7 +2939,7 @@
     {
       "nombre": "Vascolet 100g",
       "codigo": 7613287466846,
-      "Precio": 46
+      "Precio": 65
     },
     {
       "nombre": "Vascolet 200g",
@@ -2955,12 +2955,12 @@
     {
       "nombre": "Cocoa Copacabana 100g",
       "codigo": 7613035325036,
-      "Precio": 48
+      "Precio": 68
     },
     {
       "nombre": "Cocoa Copacabana 200g",
       "codigo": 7613035321557,
-      "Precio": 102
+      "Precio": 135
     },
     {
       "nombre": "Cocoa Copacabana 500g",
@@ -3130,7 +3130,7 @@
     {
       "nombre": "Sal de ajo 75g",
       "codigo": 7730177000789,
-      "Precio": 125
+      "Precio": 137
     },
     {
       "nombre": "Levadura Fleischmann 100g",
@@ -3613,7 +3613,7 @@
     {
       "nombre": "Petaca Whisky Black & White 200ml",
       "codigo": 50196838,
-      "Precio": 140
+      "Precio": 185
     },
     {
       "nombre": "Cookies Bauducco",
@@ -3787,7 +3787,7 @@
     {
       "nombre": "Avena De diez 1kg",
       "codigo": 7730970181517,
-      "Precio": 93
+      "Precio": 109
     },
     {
       "nombre": "Latas De diez",
@@ -3861,7 +3861,7 @@
       "codigo": 7730203108434,
       "codigo1": 7730203108489,
       "codigo2": 7730203108601,
-      "Precio": 89
+      "Precio": 92
     },
     {
       "nombre": "Jugo Zug 500ml",
@@ -4177,7 +4177,7 @@
     {
       "nombre": "Magdalenas El Trigal 200g",
       "codigo": 7730116690156,
-      "Precio": 109
+      "Precio": 106
     },
     {
       "nombre": "Sidra La Gijonesa sabores vidrio 750ml",
@@ -4204,6 +4204,214 @@
       "nombre": "Espumante Freixenet extra",
       "codigo": 7796626001691,
       "Precio": 490
+    },
+    {
+      "nombre": "Cerveza Schneider 710ml",
+      "codigo": 7793147570606,
+      "Precio": 120
+    },
+    {
+      "nombre": "Nix 1l",
+      "codigo": 773028900240,
+      "codigo1": 7730289001063,
+      "codigo2": 7730289001049,
+      "codigo3": 7730289001070,
+      "Precio": 70
+    },
+    {
+      "nombre": "Galletas Casaredo Surtidas 300g",
+      "codigo": 7896408445085,
+      "Precio": 69
+    },
+    {
+      "nombre": "Vascolet con Oreo 180g",
+      "codigo": 8445291464384,
+      "Precio": 110
+    },
+    {
+      "nombre": "Petaca Vat 69",
+      "codigo": 5000292263126,
+      "Precio": 199
+    },
+    {
+      "nombre": "Hamburguesa de Pollo Griller",
+      "codigo": 100,
+      "Precio": 67
+    },
+    {
+      "nombre": "Hamburguesa Manduca",
+      "codigo": 101,
+      "Precio": 155
+    },
+    {
+      "nombre": "Hamburguesa Camposur Cheddar",
+      "codigo": 102,
+      "Precio": 87
+    },
+    {
+      "nombre": "Hamburguesa Camposur extra x2",
+      "codigo": 103,
+      "Precio": 82
+    },
+    {
+      "nombre": "Hamburguesa Camposur extra x24",
+      "codigo": 104,
+      "Precio": 839
+    },
+    {
+      "nombre": "Hamburguesa Camposur parrillera",
+      "codigo": 105,
+      "Precio": 66
+    },
+    {
+      "nombre": "Hamburguesa La Dolfina x3",
+      "codigo": 106,
+      "Precio": 37
+    },
+    {
+      "nombre": "Croquetas Crufi 1kg",
+      "codigo": 107,
+      "Precio": 285
+    },
+    {
+      "nombre": "Papas Rusticas Crufi 1kg",
+      "codigo": 108,
+      "Precio": 269
+    },
+    {
+      "nombre": "Papas rusticas sazonadas Crufi 1kg",
+      "codigo": 109,
+      "Precio": 235
+    },
+    {
+      "nombre": "Papas Noisettes Crufi 1kg",
+      "codigo": 110,
+      "Precio": 285
+    },
+    {
+      "nombre": "Papas rosti Crufi 1kg",
+      "codigo": 111,
+      "Precio": 309
+    },
+    {
+      "nombre": "Papas caritas Ben Brasil",
+      "codigo": 112,
+      "Precio": 105
+    },
+    {
+      "nombre": "Papas Crufi 1kg",
+      "codigo": 113,
+      "Precio": 215
+    },
+    {
+      "nombre": "Papas Ben Brasil 1kg",
+      "codigo": 114,
+      "Precio": 179
+    },
+    {
+      "nombre": "Rapipap 2,5kg",
+      "codigo": 115,
+      "Precio": 229
+    },
+    {
+      "nombre": "Papas Lambweston 2,5kg",
+      "codigo": 116,
+      "Precio":299
+    },
+    {
+      "nombre": "Papas Simplot 2kg",
+      "codigo": 117,
+      "Precio": 305
+    },
+    {
+      "nombre": "Papas Crinkle 2kg",
+      "codigo": 118,
+      "Precio": 409
+    },
+    {
+      "nombre": "Helado Sinfonia 2l",
+      "codigo": 119,
+      "Precio": 479
+    },
+    {
+      "nombre": "Helado Conaprole 2l",
+      "codigo": 120,
+      "Precio": 435
+    },
+    {
+      "nombre": "Hamburguesa Burgy Roja x3",
+      "codigo": 121,
+      "Precio":35
+    },
+    {
+      "nombre": "Pack Nix 2l x6u",
+      "codigo": 122,
+      "Precio": 489
+    },
+    {
+      "nombre": "Hamburguesa Schneck XL x2",
+      "codigo": 123,
+      "Precio": 115
+    },
+    {
+      "nombre": "Hamburguesa Schneck clasica x2",
+      "codigo": 124,
+      "Precio": 88
+    },
+    {
+      "nombre": "Hamburguesa Burgy Blanca x3",
+      "codigo": 125,
+      "Precio": 37
+    },
+    {
+      "nombre": "Chorischneck x2",
+      "codigo": 126,
+      "Precio": 79
+    },
+    {
+      "nombre": "Hamburguesa Schneck clasica x12",
+      "codigo": 127,
+      "Precio": 559
+    },
+    {
+      "nombre": "Hamburguesa Veggie Schneck",
+      "codigo": 128,
+      "Precio": 112
+    },
+    {
+      "nombre": "Milanguesa Schneck",
+      "codigo": 129,
+      "Precio": 141
+    },
+    {
+      "nombre": "Ravioles Los Abuelos Verdura",
+      "codigo": 130,
+      "Precio": 449
+    },
+    {
+      "nombre": "Ravioles Los Abuelos ricota",
+      "codigo": 131,
+      "Precio": 449
+    },
+    {
+      "nombre": "Ravioles Los Abuelos 4 quesos",
+      "codigo": 132,
+      "Precio": 499
+    },
+    {
+      "nombre": "Ravioles Los Abuelos Jamon Y muzzarrella",
+      "codigo": 133,
+      "Precio": 499
+    },
+    {
+      "nombre": "Tallarines al huevo Los Abuelos",
+      "codigo": 134,
+      "Precio": 139
+    },
+    {
+      "nombre": "Tallarines verdes Los Abuelos",
+      "codigo": 135,
+      "Precio": 149
     },
     {
       "nombre": ""
