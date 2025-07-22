@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Inventory Management System</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="Sistema moderno de gestión de inventarios - Organiza tu inventario de manera eficiente">
+    <meta name="theme-color" content="#3B82F6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Inventario">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192x192.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16x16.png">
+    
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#3B82F6">
+    <meta name="msapplication-TileImage" content="/icons/icon-144x144.png">
+    <script type="module" crossorigin src="/assets/index-e-ZXo2xg.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-B6114-rA.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-BuOCF-HA.js">
+    <link rel="modulepreload" crossorigin href="/assets/supabase-CywIIHyy.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-DKmEaYgj.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- PWA Installation Script -->
+    <script>
+      // Registrar Service Worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('✅ SW registrado:', registration);
+              
+              // Verificar actualizaciones
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    // Nueva versión disponible
+                    if (confirm('Nueva versión disponible. ¿Actualizar ahora?')) {
+                      newWorker.postMessage({ type: 'SKIP_WAITING' });
+                      window.location.reload();
+                    }
+                  }
+                });
+              });
+            })
+            .catch(error => {
+              console.log('❌ SW registro falló:', error);
+            });
+        });
+      }
+      
+      // Manejar instalación de PWA
+      let deferredPrompt;
+      
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        
+        // Mostrar botón de instalación personalizado después de 30 segundos
+        setTimeout(() => {
+          if (deferredPrompt && !window.matchMedia('(display-mode: standalone)').matches) {
+            showInstallPrompt();
+          }
+        }, 30000);
+      });
+      
+      function showInstallPrompt() {
+        const installBanner = document.createElement('div');
+        installBanner.innerHTML = `
+          <div style="
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+            color: white;
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            animation: slideUp 0.3s ease-out;
+          ">
+            <div style="flex: 1;">
+              <div style="font-weight: bold; margin-bottom: 4px;">📱 Instalar App</div>
+              <div style="font-size: 14px; opacity: 0.9;">Accede más rápido desde tu pantalla de inicio</div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button onclick="installApp()" style="
+                background: rgba(255,255,255,0.2);
+                border: none;
+                color: white;
+                padding: 8px 16px;
+                border-radius: 6px;
+                font-weight: bold;
+                cursor: pointer;
+              ">Instalar</button>
+              <button onclick="this.parentElement.parentElement.parentElement.remove()" style="
+                background: rgba(255,255,255,0.1);
+                border: none;
+                color: white;
+                padding: 8px 12px;
+                border-radius: 6px;
+                cursor: pointer;
+              ">✕</button>
+            </div>
+          </div>
+        `;
+        
+        document.body.appendChild(installBanner);
+      }
+      
+      function installApp() {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+              console.log('✅ PWA instalada');
+            }
+            deferredPrompt = null;
+          });
+        }
+      }
+      
+      // Detectar si ya está instalada
+      window.addEventListener('appinstalled', (evt) => {
+        console.log('✅ PWA instalada exitosamente');
+      });
+      
+      // Agregar estilos para la animación
+      const style = document.createElement('style');
+      style.textContent = `
+        @keyframes slideUp {
+          from { transform: translateY(100%); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+        }
+      `;
+      document.head.appendChild(style);
+    </script>
+  </body>
+</html>
